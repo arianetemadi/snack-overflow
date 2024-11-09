@@ -1,6 +1,7 @@
 import os
 import spacy
 import pandas as pd
+from tqdm import tqdm
 
 
 def convert_to_conllu(df, output_file, model):
@@ -13,7 +14,7 @@ def convert_to_conllu(df, output_file, model):
     """
     conllu_data = []
 
-    for index, row in df.iterrows():
+    for index, row in tqdm(df.iterrows(), total=len(df)):
         # Extract row data
         sent_id = index + 1
         label = row["is_sarcastic"]
@@ -25,6 +26,7 @@ def convert_to_conllu(df, output_file, model):
 
         # Add sentence-level metadata
         sentence_lines = [
+            f"# text = {sentence}",
             f"# sent_id = {sent_id}",
             f"# class = {label}",
             f"# link = {link}"
@@ -33,7 +35,7 @@ def convert_to_conllu(df, output_file, model):
         # Add token-level annotations
         for i, token in enumerate(doc):
             sentence_lines.append(
-                f"{i+1}\t{token.text}\t{token.lemma_}\t{token.pos_}\t_\t_\t0\t_\t_\t_"
+                f"{i+1}\t{token.text}\t{token.lemma_}\t{token.pos_}\t_\t_\t{token.head.i}\t_\t_\t_"
             )
 
         # Add the processed sentence to the dataset
