@@ -1,3 +1,8 @@
+import os
+import spacy
+import pandas as pd
+
+
 def convert_to_conllu(df, output_file, model):
     """
     Converts a DataFrame to CoNLL-U format.
@@ -37,3 +42,12 @@ def convert_to_conllu(df, output_file, model):
     # Write the CoNLL-U data to the output file
     with open(output_file, "w", encoding="utf-8") as f:
         f.write("\n\n".join(conllu_data) + "\n")
+
+
+if __name__ == "__main__":
+    output_folder = "../Data/"
+    output_file = os.path.join("../Data", "dataset.conllu")
+    nlp = spacy.load("en_core_web_sm")
+    file_path = "../Data/Sarcasm_Headlines_Dataset.json"
+    data = pd.read_json(file_path, lines=True)
+    convert_to_conllu(data, output_file, nlp)
