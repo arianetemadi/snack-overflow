@@ -16,30 +16,34 @@ def convert_to_conllu(df, output_file, model):
 
     for index, row in tqdm(df.iterrows(), total=len(df)):
         # Extract row data
-        sent_id = index + 1
+        headline_id = index + 1
         label = row["is_sarcastic"]
-        sentence = row["headline"]
+        headline = row["headline"]
         link = row["article_link"]
 
-        # Process sentence using spaCy
-        doc = model(sentence)
+        # Process headline using spaCy
+        doc = model(headline)
 
-        # Add sentence-level metadata
-        sentence_lines = [
-            f"# text = {sentence}",
-            f"# sent_id = {sent_id}",
-            f"# class = {label}",
-            f"# link = {link}"
-        ]
+        # Process sentences (headlines can have more than one sentence)
+        for i, sentence in enumerate(doc.sents):
 
-        # Add token-level annotations
-        for i, token in enumerate(doc):
-            sentence_lines.append(
-                f"{i+1}\t{token.text}\t{token.lemma_}\t{token.pos_}\t_\t_\t{token.head.i}\t_\t_\t_"
-            )
+            # Add metadata
+            sentence_lines = [
+                f"# text = {sentence}",
+                f"# headline_id = {headline_id}",
+                f"# sent_id = {i}",
+                f"# class = {label}",
+                f"# link = {link}"
+            ]
 
-        # Add the processed sentence to the dataset
-        conllu_data.append("\n".join(sentence_lines))
+            # Add token-level annotations
+            for j, token in enumerate(sentence):
+                sentence_lines.append(
+                    f"{j+1}\t{token.text}\t{token.lemma_}\t{token.pos_}\t_\t_\t{token.head.i}\t_\t_\t_"
+                )
+
+            # Add the processed sentence to the dataset
+            conllu_data.append("\n".join(sentence_lines))
 
     # Write the CoNLL-U data to the output file
     with open(output_file, "w", encoding="utf-8") as f:
