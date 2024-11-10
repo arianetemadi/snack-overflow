@@ -51,9 +51,8 @@ def convert_to_conllu(df, output_file, model):
 
 
 if __name__ == "__main__":
-    output_folder = "../Data/"
-    output_file = os.path.join("../Data", "dataset.conllu")
+    output_file = os.path.join("../data", "dataset.conllu")
     nlp = spacy.load("en_core_web_sm")
-    file_path = "../Data/Sarcasm_Headlines_Dataset.json"
+    file_path = "../data/Sarcasm_Headlines_Dataset.json"
     data = pd.read_json(file_path, lines=True)
     convert_to_conllu(data, output_file, nlp)
