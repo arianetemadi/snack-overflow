@@ -16,7 +16,7 @@ python -m spacy download en_core_web_sm
 To install the other required packages run:
 
 ```
-pip install -r requirements_small.txt
+pip install -r requirements.txt
 ```
 
 # Milestone 1
