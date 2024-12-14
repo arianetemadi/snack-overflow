@@ -31,7 +31,7 @@ pip install -e .
 **Objective**: Implement multiple baseline solutions (DL & on-DL) to solve text classification task and provide quantitative and qualitative results discussion.
 
 ## Files
-- [`notebooks/M2-BoW.ipynb`](notebooks/M2-NaiveBayes.ipynb) - applies BoW model to solve text classification task.
+- [`notebooks/M2-NaiveBayes.ipynb`](notebooks/M2-NaiveBayes.ipynb) - applies BoW model to solve text classification task.
 - [`notebooks/M2-dBERT.ipynb`](notebooks/M2-dBERT.ipynb) - aapplies 'distilbert-base-uncased' (lightweight alternative to BERT) model to solve text classification task. 
 
 ## Milestone 2 - discussion
