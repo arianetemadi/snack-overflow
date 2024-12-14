@@ -13,6 +13,8 @@ setup(
         "conllu==6.0.0",
         "nltk==3.9.1",
         "wordfreq==3.1.1", 
+        "scikit-learn==1.6.0",
+        "torch==2.5.1"
     ],
     packages=find_packages(),
     classifiers=[

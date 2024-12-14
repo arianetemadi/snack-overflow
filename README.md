@@ -42,7 +42,7 @@ For the second milestone we decided to implement 4 different baselines:
     - Logistic Regression
 -   DL baselines:
     - DistilBERT
-    - ??
+    - Neural Network with Bag of Words
 
 ### DistilBERT results
 
