@@ -13,10 +13,10 @@ conda install -c conda-forge spacy
 python -m spacy download en_core_web_sm
 ```
 
-To install the other required packages run:
+To install, run the following in the root directory:
 
 ```
-pip install -r requirements.txt
+pip install -e .
 ```
 
 # Milestone 1
@@ -31,7 +31,7 @@ pip install -r requirements.txt
 **Objective**: Implement multiple baseline solutions (DL & on-DL) to solve text classification task and provide quantitative and qualitative results discussion.
 
 ## Files
-- [`notebooks/M2-BoW.ipynb`](notebooks/M2-BoW.ipynb) - applies BoW model to solve text classification task.
+- [`notebooks/M2-BoW.ipynb`](notebooks/M2-NaiveBayes.ipynb) - applies BoW model to solve text classification task.
 - [`notebooks/M2-dBERT.ipynb`](notebooks/M2-dBERT.ipynb) - aapplies 'distilbert-base-uncased' (lightweight alternative to BERT) model to solve text classification task. 
 
 ## Milestone 2 - discussion
