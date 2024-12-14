@@ -26,3 +26,24 @@ pip install -r requirements.txt
 - [`src/preprocessing.py`](src/preprocessing.py) - applies the pretrained `en_core_web_sm` model to tokenize, and lemmatize each of the headlines and saves the preprocessed sentences in the CoNLL format as the [preprocessed dataset](Data/dataset.conllu)
 - [`notebooks/milestone1.ipynb`](notebooks/milestone1.ipynb) - analysis of the dataset
 - [`data/`](data/) - contains the raw as well as preprocessed newspaper headlines dataset with the sarcasm class labeling
+
+# Milestone 2
+**Objective**: Implement multiple baseline solutions (DL & on-DL) to solve text classification task and provide quantitative and qualitative results discussion.
+
+## Files
+- [`notebooks/M2-BoW.ipynb`](notebooks/M2-BoW.ipynb) - applies BoW model to solve text classification task.
+- [`notebooks/M2-dBERT.ipynb`](notebooks/M2-dBERT.ipynb) - aapplies 'distilbert-base-uncased' (lightweight alternative to BERT) model to solve text classification task. 
+
+## Milestone 2 - discussion
+
+For the second milestone we decided to implement 4 different baselines:
+- Non-DL baselines:
+    - Multinomial NB (BoW model)
+    - Logistic Regression
+-   DL baselines:
+    - DistilBERT
+    - ??
+
+### DistilBERT results
+
+
