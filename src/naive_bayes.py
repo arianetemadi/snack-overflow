@@ -65,3 +65,29 @@ class NaiveBayesClassifier:
         print(classification_report(y_true, y_pred, target_names=target_names))
 
         return fp, fn
+    
+    def show_word_weights(self, doc):
+        print(('{:>14}'*4).format('word', 'sarcastic', 'non-sarcastic', 'diff'))
+        print('='*56)
+        threshold = 1
+        for sentence in doc:
+            for token in sentence:
+                if token["lemma"] in self.vectorizer.vocabulary_:
+                    neg_weight = self.model.feature_log_prob_[0][self.vectorizer.transform([[token["lemma"]]]).nonzero()[1][0]]
+                    pos_weight = self.model.feature_log_prob_[1][self.vectorizer.transform([[token["lemma"]]]).nonzero()[1][0]]
+                    diff = pos_weight - neg_weight
+                else:
+                    pos_weight, neg_weight, diff = -1, -1, 0
+                p_token = token["form"] if abs(diff) < threshold else f"*{token['form']}"
+                print(f'{p_token:>14}{pos_weight:>14.2f}{neg_weight:>14.2f}{diff:>14.2f}')
+        print()
+
+    def show_decisive_words(self, n=10):
+        ret = []
+        for word in self.vectorizer.vocabulary_:
+            neg_weight = self.model.feature_log_prob_[0][self.vectorizer.transform([[word]]).nonzero()[1][0]]
+            pos_weight = self.model.feature_log_prob_[1][self.vectorizer.transform([[word]]).nonzero()[1][0]]
+            diff = pos_weight - neg_weight
+            ret.append((diff, word))
+        ret = sorted(ret)
+        return ret[:n], ret[-n:]
