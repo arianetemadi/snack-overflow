@@ -15,9 +15,7 @@ setup(
         "wordfreq==3.1.1", 
         "scikit-learn==1.6.0",
         "torch==2.5.1",
-        "numpy==1.25.0",  
-        "scikit-learn==1.6.0"
-        
+        "numpy==1.25.0"        
     ],
     packages=find_packages(),
     classifiers=[
