@@ -33,6 +33,7 @@ pip install -e .
 ## Files
 - [`notebooks/M2-NaiveBayes.ipynb`](notebooks/M2-NaiveBayes.ipynb) - applies BoW model to solve text classification task.
 - [`notebooks/M2-dBERT.ipynb`](notebooks/M2-dBERT.ipynb) - aapplies 'distilbert-base-uncased' (lightweight alternative to BERT) model to solve text classification task. 
+- [`notebooks/M2-LR.ipynb`](notebooks/M2-LR.ipynb) - applies Logistic Regression to the headline data.
 
 ## Milestone 2 - discussion
 
