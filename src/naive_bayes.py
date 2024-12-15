@@ -9,7 +9,11 @@ class NaiveBayesClassifier:
     def __init__(self, ngram_range=(1, 1)):
         self.model = MultinomialNB()
         self.ngram_range = ngram_range
-        self.vectorizer = CountVectorizer(ngram_range=self.ngram_range, preprocessor=lambda x: x, tokenizer=lambda x: x)
+        self.vectorizer = CountVectorizer(
+            ngram_range=self.ngram_range,
+            preprocessor=lambda x: x,
+            tokenizer=lambda x: x,
+        )
 
     def fit(self, docs):
         # create a corpus for the CountVectorizer
@@ -18,7 +22,7 @@ class NaiveBayesClassifier:
             for sentence in doc:
                 words = self.extract_words(sentence)
                 corpus.append(words)
-        
+
         # fit the CountVectorizer on corpus
         self.vectorizer.fit(corpus)
 
@@ -60,33 +64,45 @@ class NaiveBayesClassifier:
                     fp.append(doc)
                 else:
                     fn.append(doc)
-            
-        target_names = ['Non-sarcastic', 'Sarcastic']
+
+        target_names = ["Non-sarcastic", "Sarcastic"]
         print(classification_report(y_true, y_pred, target_names=target_names))
 
         return fp, fn
-    
+
     def show_word_weights(self, doc):
-        print(('{:>14}'*4).format('word', 'sarcastic', 'non-sarcastic', 'diff'))
-        print('='*56)
+        print(("{:>14}" * 4).format("word", "sarcastic", "non-sarcastic", "diff"))
+        print("=" * 56)
         threshold = 1
         for sentence in doc:
             for token in sentence:
                 if token["lemma"] in self.vectorizer.vocabulary_:
-                    neg_weight = self.model.feature_log_prob_[0][self.vectorizer.transform([[token["lemma"]]]).nonzero()[1][0]]
-                    pos_weight = self.model.feature_log_prob_[1][self.vectorizer.transform([[token["lemma"]]]).nonzero()[1][0]]
+                    neg_weight = self.model.feature_log_prob_[0][
+                        self.vectorizer.transform([[token["lemma"]]]).nonzero()[1][0]
+                    ]
+                    pos_weight = self.model.feature_log_prob_[1][
+                        self.vectorizer.transform([[token["lemma"]]]).nonzero()[1][0]
+                    ]
                     diff = pos_weight - neg_weight
                 else:
                     pos_weight, neg_weight, diff = -1, -1, 0
-                p_token = token["form"] if abs(diff) < threshold else f"*{token['form']}"
-                print(f'{p_token:>14}{pos_weight:>14.2f}{neg_weight:>14.2f}{diff:>14.2f}')
+                p_token = (
+                    token["form"] if abs(diff) < threshold else f"*{token['form']}"
+                )
+                print(
+                    f"{p_token:>14}{pos_weight:>14.2f}{neg_weight:>14.2f}{diff:>14.2f}"
+                )
         print()
 
     def show_decisive_words(self, n=10):
         ret = []
         for word in self.vectorizer.vocabulary_:
-            neg_weight = self.model.feature_log_prob_[0][self.vectorizer.transform([[word]]).nonzero()[1][0]]
-            pos_weight = self.model.feature_log_prob_[1][self.vectorizer.transform([[word]]).nonzero()[1][0]]
+            neg_weight = self.model.feature_log_prob_[0][
+                self.vectorizer.transform([[word]]).nonzero()[1][0]
+            ]
+            pos_weight = self.model.feature_log_prob_[1][
+                self.vectorizer.transform([[word]]).nonzero()[1][0]
+            ]
             diff = pos_weight - neg_weight
             ret.append((diff, word))
         ret = sorted(ret)

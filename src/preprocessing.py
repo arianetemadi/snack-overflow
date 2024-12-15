@@ -7,7 +7,7 @@ from tqdm import tqdm
 def convert_to_conllu(df, output_file, model):
     """
     Converts a DataFrame to CoNLL-U format.
-    
+
     Args:
         df (pd.DataFrame): DataFrame with 'is_sarcastic', 'headline', and 'article_link' columns.
         output_file (str): File path for saving the CoNLL-U formatted data.
@@ -33,7 +33,7 @@ def convert_to_conllu(df, output_file, model):
                 f"# headline_id = {headline_id}",
                 f"# sent_id = {i}",
                 f"# class = {label}",
-                f"# link = {link}"
+                f"# link = {link}",
             ]
 
             # Add token-level annotations
