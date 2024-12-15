@@ -1,4 +1,5 @@
 import re
+import pandas as pd
 import torch
 from torch.utils.data import Dataset,DataLoader,TensorDataset
 from tqdm import tqdm  # Standard tqdm for scripts
@@ -219,7 +220,8 @@ def train_bert(model, trainloader, validationloader, device, epochs=10, patience
             print("Validation accuracy improved. Best model updated.")
             # Save best model weights to WandB
             torch.save(model.state_dict(), "best_model.pth")
-            wandb.save("best_model.pth")
+           # torch.save(model.state_dict(),"best_model.pth")
+            wandb.save("best_model.pth", policy="end")  
         else:
             no_improvement_epochs += 1
             print(f"No improvement in validation for {no_improvement_epochs} consecutive epoch(s).")
