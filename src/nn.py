@@ -153,9 +153,9 @@ class BoWNN:
 
     def training_loop(self, train_iterator, valid_iterator, epoch_number):
         # early stopping
-        prev_loss = None 
+        prev_loss = None
         curr_loss = np.inf
-        
+
         # max number of epochs
         epoch = 0
 
@@ -168,7 +168,7 @@ class BoWNN:
 
             prev_loss = curr_loss
             curr_loss = valid_loss
-            epoch +=1 
+            epoch += 1
 
             print(
                 f"\t[{epoch:2d}] Train Loss: {train_loss:.3f} | Train Prec: {train_prec*100:.2f}% | Train Rec: {train_rec*100:.2f}% | Train Fscore: {train_fscore*100:.2f}%"
