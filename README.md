@@ -31,9 +31,10 @@ pip install -e .
 **Objective**: Implement multiple baseline solutions (DL & on-DL) to solve text classification task and provide quantitative and qualitative results discussion.
 
 ## Files
-- [`notebooks/M2-NaiveBayes.ipynb`](notebooks/M2-NaiveBayes.ipynb) - applies BoW model to solve text classification task.
-- [`notebooks/M2-dBERT.ipynb`](notebooks/M2-dBERT.ipynb) - aapplies 'distilbert-base-uncased' (lightweight alternative to BERT) model to solve text classification task. 
+- [`notebooks/M2-NaiveBayes.ipynb`](notebooks/M2-NaiveBayes.ipynb) - applies the Naive Bayes model (with Bag of Words) to solve text classification task.
+- [`notebooks/M2-dBERT.ipynb`](notebooks/M2-dBERT.ipynb) - applies 'distilbert-base-uncased' (lightweight alternative to BERT) model to solve text classification task. 
 - [`notebooks/M2-LR.ipynb`](notebooks/M2-LR.ipynb) - applies Logistic Regression to the headline data.
+- [`notebooks/M2-NN.ipynb`](notebooks/M2-NN.ipynb) - applies a simple one layer Neural Network (with Bag of words) to solve text classification task.
 
 ## Milestone 2 - discussion
 
@@ -44,7 +45,6 @@ For the second milestone we decided to implement 4 different baselines:
 -   DL baselines:
     - DistilBERT
     - Neural Network with Bag of Words
-
 
 
 ### DistilBERT
@@ -115,3 +115,35 @@ Simple one linear layer NN with the log softmax activation function.
 First, looking at the false negatives, so the headlines that contain sarcasm but are not classified as containing sarcasm, we note that these headlines don't particularly contain any words that would be indicative of sarcasm but in the context of the sentence as well as the social context they can be understood as sarcastic, however using a simple bag of words representation does not suffice to capture such phenomenons. 
 
 On the other hand, the headlines marked as sarcastic but containing no sarcasm often are relatively hard to distinguish, because since we are using only a bag of words representation, the words that occur here might be more characteristic of sarcastic headlines like swear words or superlatives.  
+
+### Naive Bayes with Bag of Words
+1. Setup:
+
+The Naive Bayes model with Bag of Words.
+Supports any range of ngrams as the features to count.
+
+2. Quantitative results on the test dataset (all numbers are macro averages of the two classes):
+
+- Unigrams only:
+    - Precision: 0.84
+    - Recall: 0.84
+    - F1-score: 0.84
+
+- Bigrams only
+    - Precision: 0.80
+    - Recall: 0.79
+    - F1-score: 0.79
+
+- Unigrams, bigrams, and trigrams together:
+    - Precision: 0.85
+    - Recall: 0.85
+    - F1-score: 0.85
+
+3. Qualitative analysis:
+
+- There are certain artifacts in the dataset. Some words appear much more frequently in one class without any relation to the notion of sarcasm. For instance, the word `trump` appears way more in non-sarcastic headlines. As a result, the model has a hard time detecting sarcastic headlines that include this word.
+- There are certain patterns of joke that the sarcastic news source uses a lot. They are like templates. Therefore, certain words in these patterns are constant among many sarcastic headlines. This is not an artifact and helps our models to detect sarcasm, though only as long as we focus on this news source. It probably will not generalize as well to other sarcastic datasets. Example words include `nation`, `dad`, `study`, and `local`.
+- Then there are swear words like `shit`. Since these will almost never appear in a non-sarcastic headline, they are useful for the model.
+- There are smaller effects too. For instance, the word `three` appears noticeably more often in sarcastic headlines. We believe this is because sarcastic headlines are often fake, and we prefer to use the number three a lot when writing fake sentences. Number two would be too small, and numbers four and above might be too large. `three` is round and it is just enough. Saying `three months`, `three colors`, `three objects`, etc. sounds better compared to other numbers.
+
+For a more detailed analysis with example sentences, refer to the notebook ([`notebooks/M2-NaiveBayes.ipynb`](notebooks/M2-NaiveBayes.ipynb)).
