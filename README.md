@@ -93,3 +93,24 @@ As a part of qualitative analysis we printed out all cases of misclassification,
 * For the next milestone, we plan to focus on either improving the performance of DistilBERT or revisiting the BERT model with optimized parameter configurations to achieve high quality without overfitting.
 
 
+### Neural Network with Bag of Words
+
+1. Setup:
+
+Simple one linear layer NN with the log softmax activation function.
+* Epochs = 18 (with early stopping criteria)
+* Learning Rate = 1e-3
+* Optimizer: Adam
+* Loss function: negative log likelihood loss
+
+2. Quantitative results on the test dataset:
+
+- Precision: 0.8444
+- Recall: 0.8288
+- F1-Score: 0.8343
+
+3. Qualitative analysis:
+
+First, looking at the false negatives, so the headlines that contain sarcasm but are not classified as containing sarcasm, we note that these headlines don't particularly contain any words that would be indicative of sarcasm but in the context of the sentence as well as the social context they can be understood as sarcastic, however using a simple bag of words representation does not suffice to capture such phenomenons. 
+
+On the other hand, the headlines marked as sarcastic but containing no sarcasm often are relatively hard to distinguish, because since we are using only a bag of words representation, the words that occur here might be more characteristic of sarcastic headlines like swear words or superlatives.  
