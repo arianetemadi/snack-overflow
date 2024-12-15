@@ -59,22 +59,22 @@ For the second milestone we decided to implement 4 different baselines:
 
 2. Quantitative results on the test dataset:
 
-- Accuracy: 0.8389
-- Precision: 0.8451
-- Recall: 0.8127
-- F1-Score: 0.8286
+- Accuracy: 0.8377
+- Precision: 0.8300
+- Recall: 0.8316
+- F1-Score: 0.8308
 - Confusion Matrix: 
 
-True Negatives (TN): 1927
-False Positives (FP): 306
-False Negatives (FN): 385
-True Positives (TP): 1670
+True Negatives (TN): 1883
+False Positives (FP): 350
+False Negatives (FN): 346
+True Positives (TP): 1709
 
 * Overall model *Accuracy* on the test set is 0.84, meaning the model performs quite well. However, since the task of binary classification is relatively simple, it is not surprising that the results of a deep learning approach are comparable with simpler, non-deep learning approaches. This suggests that for this particular task, it might make sense to stick to less computationally intensive and easier-to-interpret models.
 
-* Model predicts "Sarcastic" class correctly 84.51% of the time (*precision*), and out of all the actual "Sarcastic" instances, it correctly identifies 81.27% (*recall*).
+* Model predicts "Sarcastic" class correctly 84.51% of the time (*precision*), and out of all the actual "Sarcastic" instances, it correctly identifies 83.16% (*recall*).
 
-* The model tends to make more false positives (306) than false negatives (385), indicating that it is slightly better at detecting non-sarcastic instances. However, the difference is not large, meaning the model's errors are fairly balanced. When analyzing the probability distribution for misclassified cases, we observed that the model tends to make most mistakes near the threshold boundary. Therefore, we can try to improve performance by experimenting with different thresholds.
+* The model tends to make more false positives (350) than false negatives (346), indicating that it is slightly better at detecting non-sarcastic instances. However, the difference is not large, meaning the model's errors are fairly balanced. When analyzing the probability distribution for misclassified cases, we observed that the model tends to make most mistakes near the threshold boundary. Therefore, we can try to improve performance by experimenting with different thresholds.
 
 3. Qualitative analysis:
 
