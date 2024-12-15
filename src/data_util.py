@@ -3,7 +3,7 @@ import conllu
 
 def load_data(path):
     # load the conllu dataset
-    with open(path) as f:
+    with open(path, encoding='utf-8') as f:
         data = conllu.parse(f.read())
 
     # extract headlines (since a headline can have more than one sentence)
