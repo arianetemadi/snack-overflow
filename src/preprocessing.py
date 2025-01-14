@@ -50,6 +50,48 @@ def convert_to_conllu(df, output_file, model):
         f.write("\n\n".join(conllu_data) + "\n")
 
 
+def convert_txt_to_json(input_file, output_file, link):
+    """
+    Converts headlines in input_file to JSON and writes to output_file.
+
+    Args:
+        input_file (str): File path of the txt file including the input headlines.
+            Lines containing "0" or "1" specify the label for the following headlines
+            (until another label arrives).
+            Empty lines are ignored.
+        output_file (str): File path for saving the converted JSON data.
+        link (str): Link to the source of the headlines.
+    """
+
+    # read lines from the input text file
+    headlines = []
+    labels = []
+    links = []
+    current_label = "0"
+    with open(input_file) as file:
+        for line in file:
+            line = line.strip().lower()
+            if len(line) == 0:
+                continue
+            if len(line) == 1:
+                current_label = line
+                continue
+            headlines.append(line)
+            labels.append(current_label)
+            links.append(link)
+
+    # convert to pandas dataframe
+    df = pd.DataFrame(
+        {"is_sarcastic": labels, "headline": headlines, "article_link": links}
+    )
+
+    # shuffle rows randomly
+    df = df.sample(frac=1, random_state=1234).reset_index(drop=True)
+
+    # write to file
+    df.to_json(output_file, orient="records", lines=True, force_ascii=True)
+
+
 if __name__ == "__main__":
     output_file = os.path.join("../data", "dataset.conllu")
     nlp = spacy.load("en_core_web_sm")

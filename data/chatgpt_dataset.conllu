@@ -1,0 +1,4199 @@
+# text = how to overcome negative self-talk and build self-esteem
+# headline_id = 1
+# sent_id = 0
+# class = 0
+# link = https://chatgpt.com/
+1	how	how	SCONJ	_	_	2	_	_	_
+2	to	to	PART	_	_	2	_	_	_
+3	overcome	overcome	VERB	_	_	2	_	_	_
+4	negative	negative	ADJ	_	_	6	_	_	_
+5	self	self	NOUN	_	_	6	_	_	_
+6	-	-	PUNCT	_	_	6	_	_	_
+7	talk	talk	NOUN	_	_	2	_	_	_
+8	and	and	CCONJ	_	_	2	_	_	_
+9	build	build	VERB	_	_	2	_	_	_
+10	self	self	NOUN	_	_	11	_	_	_
+11	-	-	PUNCT	_	_	11	_	_	_
+12	esteem	esteem	NOUN	_	_	8	_	_	_
+
+# text = how to manage your finances without feeling overwhelmed
+# headline_id = 2
+# sent_id = 0
+# class = 0
+# link = https://chatgpt.com/
+1	how	how	SCONJ	_	_	2	_	_	_
+2	to	to	PART	_	_	2	_	_	_
+3	manage	manage	VERB	_	_	2	_	_	_
+4	your	your	PRON	_	_	4	_	_	_
+5	finances	finance	NOUN	_	_	2	_	_	_
+6	without	without	ADP	_	_	2	_	_	_
+7	feeling	feel	VERB	_	_	5	_	_	_
+8	overwhelmed	overwhelmed	ADJ	_	_	6	_	_	_
+
+# text = instagram influencers are now declaring ‘unfiltered’ photos, but only after spending 3 hours on photoshop
+# headline_id = 3
+# sent_id = 0
+# class = 1
+# link = https://chatgpt.com/
+1	instagram	instagram	NOUN	_	_	1	_	_	_
+2	influencers	influencer	NOUN	_	_	4	_	_	_
+3	are	be	AUX	_	_	4	_	_	_
+4	now	now	ADV	_	_	4	_	_	_
+5	declaring	declare	VERB	_	_	4	_	_	_
+6	‘	'	PUNCT	_	_	8	_	_	_
+7	unfiltered	unfiltered	ADJ	_	_	8	_	_	_
+8	’	'	PUNCT	_	_	8	_	_	_
+9	photos	photo	NOUN	_	_	4	_	_	_
+10	,	,	PUNCT	_	_	4	_	_	_
+11	but	but	CCONJ	_	_	4	_	_	_
+12	only	only	ADV	_	_	12	_	_	_
+13	after	after	ADP	_	_	4	_	_	_
+14	spending	spend	VERB	_	_	12	_	_	_
+15	3	3	NUM	_	_	15	_	_	_
+16	hours	hour	NOUN	_	_	13	_	_	_
+17	on	on	ADP	_	_	13	_	_	_
+18	photoshop	photoshop	PROPN	_	_	16	_	_	_
+
+# text = city to replace public bathrooms with ‘instagrammable’ corner booths for ‘self-care moments’
+# headline_id = 4
+# sent_id = 0
+# class = 1
+# link = https://chatgpt.com/
+1	city	city	NOUN	_	_	0	_	_	_
+2	to	to	PART	_	_	2	_	_	_
+3	replace	replace	VERB	_	_	0	_	_	_
+4	public	public	ADJ	_	_	4	_	_	_
+5	bathrooms	bathroom	NOUN	_	_	2	_	_	_
+6	with	with	ADP	_	_	2	_	_	_
+7	‘	'	PUNCT	_	_	10	_	_	_
+8	instagrammable	instagrammable	ADJ	_	_	10	_	_	_
+9	’	'	PUNCT	_	_	9	_	_	_
+10	corner	corner	NOUN	_	_	10	_	_	_
+11	booths	booth	NOUN	_	_	5	_	_	_
+12	for	for	ADP	_	_	10	_	_	_
+13	‘	'	PUNCT	_	_	11	_	_	_
+14	self	self	NOUN	_	_	15	_	_	_
+15	-	-	PUNCT	_	_	15	_	_	_
+16	care	care	NOUN	_	_	16	_	_	_
+17	moments	moment	NOUN	_	_	11	_	_	_
+18	’	'	PUNCT	_	_	0	_	_	_
+
+# text = new fitness app tracks your ‘emotional reactions’ to being unable to find your headphones
+# headline_id = 5
+# sent_id = 0
+# class = 1
+# link = https://chatgpt.com/
+1	new	new	ADJ	_	_	2	_	_	_
+2	fitness	fitness	NOUN	_	_	2	_	_	_
+3	app	app	NOUN	_	_	3	_	_	_
+4	tracks	track	VERB	_	_	3	_	_	_
+5	your	your	PRON	_	_	7	_	_	_
+6	‘	'	PUNCT	_	_	7	_	_	_
+7	emotional	emotional	ADJ	_	_	7	_	_	_
+8	reactions	reaction	NOUN	_	_	3	_	_	_
+9	’	'	PUNCT	_	_	7	_	_	_
+10	to	to	ADP	_	_	3	_	_	_
+11	being	be	AUX	_	_	9	_	_	_
+12	unable	unable	ADJ	_	_	10	_	_	_
+13	to	to	PART	_	_	13	_	_	_
+14	find	find	VERB	_	_	11	_	_	_
+15	your	your	PRON	_	_	15	_	_	_
+16	headphones	headphone	NOUN	_	_	13	_	_	_
+
+# text = local man still ‘hasn’t figured out’ why he spends his sundays in bed, eating cereal with no milk
+# headline_id = 6
+# sent_id = 0
+# class = 1
+# link = https://chatgpt.com/
+1	local	local	ADJ	_	_	1	_	_	_
+2	man	man	NOUN	_	_	6	_	_	_
+3	still	still	ADV	_	_	6	_	_	_
+4	‘	'	PUNCT	_	_	6	_	_	_
+5	has	have	AUX	_	_	6	_	_	_
+6	n’t	not	PART	_	_	6	_	_	_
+7	figured	figure	VERB	_	_	6	_	_	_
+8	out	out	ADP	_	_	6	_	_	_
+9	’	'	PUNCT	_	_	6	_	_	_
+10	why	why	SCONJ	_	_	11	_	_	_
+11	he	he	PRON	_	_	11	_	_	_
+12	spends	spend	VERB	_	_	6	_	_	_
+13	his	his	PRON	_	_	13	_	_	_
+14	sundays	sunday	NOUN	_	_	11	_	_	_
+15	in	in	ADP	_	_	11	_	_	_
+16	bed	bed	NOUN	_	_	14	_	_	_
+17	,	,	PUNCT	_	_	11	_	_	_
+18	eating	eat	VERB	_	_	11	_	_	_
+19	cereal	cereal	NOUN	_	_	17	_	_	_
+20	with	with	ADP	_	_	17	_	_	_
+21	no	no	DET	_	_	21	_	_	_
+22	milk	milk	NOUN	_	_	19	_	_	_
+
+# text = woman who spent hours staring at her phone claims she’s practicing ‘mindfulness’
+# headline_id = 7
+# sent_id = 0
+# class = 1
+# link = https://chatgpt.com/
+1	woman	woman	NOUN	_	_	0	_	_	_
+2	who	who	PRON	_	_	2	_	_	_
+3	spent	spend	VERB	_	_	0	_	_	_
+4	hours	hour	NOUN	_	_	2	_	_	_
+5	staring	stare	VERB	_	_	2	_	_	_
+6	at	at	ADP	_	_	4	_	_	_
+7	her	her	PRON	_	_	8	_	_	_
+8	phone	phone	NOUN	_	_	8	_	_	_
+9	claims	claim	NOUN	_	_	5	_	_	_
+10	she	she	PRON	_	_	11	_	_	_
+11	’s	’s	AUX	_	_	11	_	_	_
+12	practicing	practice	VERB	_	_	2	_	_	_
+13	‘	'	PUNCT	_	_	13	_	_	_
+14	mindfulness	mindfulness	NOUN	_	_	11	_	_	_
+15	’	'	PUNCT	_	_	0	_	_	_
+
+# text = everyone in this group chat pretends not to see the last message, but they all do it
+# headline_id = 8
+# sent_id = 0
+# class = 1
+# link = https://chatgpt.com/
+1	everyone	everyone	PRON	_	_	5	_	_	_
+2	in	in	ADP	_	_	0	_	_	_
+3	this	this	DET	_	_	3	_	_	_
+4	group	group	NOUN	_	_	1	_	_	_
+5	chat	chat	NOUN	_	_	1	_	_	_
+6	pretends	pretend	VERB	_	_	5	_	_	_
+7	not	not	PART	_	_	8	_	_	_
+8	to	to	PART	_	_	8	_	_	_
+9	see	see	VERB	_	_	5	_	_	_
+10	the	the	DET	_	_	11	_	_	_
+11	last	last	ADJ	_	_	11	_	_	_
+12	message	message	NOUN	_	_	8	_	_	_
+13	,	,	PUNCT	_	_	5	_	_	_
+14	but	but	CCONJ	_	_	5	_	_	_
+15	they	they	PRON	_	_	16	_	_	_
+16	all	all	PRON	_	_	14	_	_	_
+17	do	do	VERB	_	_	5	_	_	_
+18	it	it	PRON	_	_	16	_	_	_
+
+# text = the truth about work-life balance that no one talks about
+# headline_id = 9
+# sent_id = 0
+# class = 0
+# link = https://chatgpt.com/
+1	the	the	DET	_	_	1	_	_	_
+2	truth	truth	NOUN	_	_	1	_	_	_
+3	about	about	ADP	_	_	1	_	_	_
+4	work	work	NOUN	_	_	5	_	_	_
+5	-	-	PUNCT	_	_	5	_	_	_
+6	life	life	NOUN	_	_	6	_	_	_
+7	balance	balance	NOUN	_	_	2	_	_	_
+8	that	that	PRON	_	_	10	_	_	_
+9	no	no	DET	_	_	9	_	_	_
+10	one	one	NOUN	_	_	10	_	_	_
+11	talks	talk	VERB	_	_	1	_	_	_
+12	about	about	ADP	_	_	10	_	_	_
+
+# text = 7 ways to make your morning routine a game-changer
+# headline_id = 10
+# sent_id = 0
+# class = 0
+# link = https://chatgpt.com/
+1	7	7	NUM	_	_	1	_	_	_
+2	ways	way	NOUN	_	_	1	_	_	_
+3	to	to	PART	_	_	3	_	_	_
+4	make	make	VERB	_	_	1	_	_	_
+5	your	your	PRON	_	_	5	_	_	_
+6	morning	morning	NOUN	_	_	6	_	_	_
+7	routine	routine	VERB	_	_	3	_	_	_
+8	a	a	DET	_	_	10	_	_	_
+9	game	game	NOUN	_	_	10	_	_	_
+10	-	-	PUNCT	_	_	10	_	_	_
+11	changer	changer	NOUN	_	_	6	_	_	_
+
+# text = 5 ways to break free from negative thinking patterns
+# headline_id = 11
+# sent_id = 0
+# class = 0
+# link = https://chatgpt.com/
+1	5	5	NUM	_	_	1	_	_	_
+2	ways	way	NOUN	_	_	1	_	_	_
+3	to	to	PART	_	_	3	_	_	_
+4	break	break	VERB	_	_	1	_	_	_
+5	free	free	ADJ	_	_	3	_	_	_
+6	from	from	ADP	_	_	3	_	_	_
+7	negative	negative	ADJ	_	_	8	_	_	_
+8	thinking	thinking	NOUN	_	_	8	_	_	_
+9	patterns	pattern	NOUN	_	_	5	_	_	_
+
+# text = area woman finally realizes she’s been following the ‘wrong dream,’ but it’s too late to change careers
+# headline_id = 12
+# sent_id = 0
+# class = 1
+# link = https://chatgpt.com/
+1	area	area	NOUN	_	_	1	_	_	_
+2	woman	woman	NOUN	_	_	3	_	_	_
+3	finally	finally	ADV	_	_	3	_	_	_
+4	realizes	realize	VERB	_	_	3	_	_	_
+5	she	she	PRON	_	_	7	_	_	_
+6	’s	’s	AUX	_	_	7	_	_	_
+7	been	be	AUX	_	_	7	_	_	_
+8	following	follow	VERB	_	_	3	_	_	_
+9	the	the	DET	_	_	11	_	_	_
+10	‘	'	PUNCT	_	_	11	_	_	_
+11	wrong	wrong	ADJ	_	_	11	_	_	_
+12	dream	dream	NOUN	_	_	7	_	_	_
+13	,	,	PUNCT	_	_	3	_	_	_
+14	’	'	PUNCT	_	_	3	_	_	_
+15	but	but	CCONJ	_	_	3	_	_	_
+16	it	it	PRON	_	_	16	_	_	_
+17	’s	’	VERB	_	_	3	_	_	_
+18	too	too	ADV	_	_	18	_	_	_
+19	late	late	ADJ	_	_	16	_	_	_
+20	to	to	PART	_	_	20	_	_	_
+21	change	change	VERB	_	_	18	_	_	_
+22	careers	career	NOUN	_	_	20	_	_	_
+
+# text = how to embrace change and thrive in uncertainty
+# headline_id = 13
+# sent_id = 0
+# class = 0
+# link = https://chatgpt.com/
+1	how	how	SCONJ	_	_	2	_	_	_
+2	to	to	PART	_	_	2	_	_	_
+3	embrace	embrace	VERB	_	_	2	_	_	_
+4	change	change	NOUN	_	_	2	_	_	_
+5	and	and	CCONJ	_	_	2	_	_	_
+6	thrive	thrive	VERB	_	_	2	_	_	_
+7	in	in	ADP	_	_	5	_	_	_
+8	uncertainty	uncertainty	NOUN	_	_	6	_	_	_
+
+# text = how to use visualization to achieve your biggest goals
+# headline_id = 14
+# sent_id = 0
+# class = 0
+# link = https://chatgpt.com/
+1	how	how	SCONJ	_	_	2	_	_	_
+2	to	to	PART	_	_	2	_	_	_
+3	use	use	VERB	_	_	2	_	_	_
+4	visualization	visualization	NOUN	_	_	2	_	_	_
+5	to	to	PART	_	_	5	_	_	_
+6	achieve	achieve	VERB	_	_	2	_	_	_
+7	your	your	PRON	_	_	8	_	_	_
+8	biggest	big	ADJ	_	_	8	_	_	_
+9	goals	goal	NOUN	_	_	5	_	_	_
+
+# text = how to set achievable goals that actually align with your values
+# headline_id = 15
+# sent_id = 0
+# class = 0
+# link = https://chatgpt.com/
+1	how	how	SCONJ	_	_	2	_	_	_
+2	to	to	PART	_	_	2	_	_	_
+3	set	set	VERB	_	_	2	_	_	_
+4	achievable	achievable	ADJ	_	_	4	_	_	_
+5	goals	goal	NOUN	_	_	2	_	_	_
+6	that	that	PRON	_	_	7	_	_	_
+7	actually	actually	ADV	_	_	7	_	_	_
+8	align	align	VERB	_	_	4	_	_	_
+9	with	with	ADP	_	_	7	_	_	_
+10	your	your	PRON	_	_	10	_	_	_
+11	values	value	NOUN	_	_	8	_	_	_
+
+# text = why you should start taking more breaks at work
+# headline_id = 16
+# sent_id = 0
+# class = 0
+# link = https://chatgpt.com/
+1	why	why	SCONJ	_	_	3	_	_	_
+2	you	you	PRON	_	_	3	_	_	_
+3	should	should	AUX	_	_	3	_	_	_
+4	start	start	VERB	_	_	3	_	_	_
+5	taking	take	VERB	_	_	3	_	_	_
+6	more	more	ADJ	_	_	6	_	_	_
+7	breaks	break	NOUN	_	_	4	_	_	_
+8	at	at	ADP	_	_	4	_	_	_
+9	work	work	NOUN	_	_	7	_	_	_
+
+# text = how to manage your time like a pro (even if you’re not a morning person)
+# headline_id = 17
+# sent_id = 0
+# class = 0
+# link = https://chatgpt.com/
+1	how	how	SCONJ	_	_	2	_	_	_
+2	to	to	PART	_	_	2	_	_	_
+3	manage	manage	VERB	_	_	2	_	_	_
+4	your	your	PRON	_	_	4	_	_	_
+5	time	time	NOUN	_	_	2	_	_	_
+6	like	like	ADP	_	_	4	_	_	_
+7	a	a	DET	_	_	7	_	_	_
+8	pro	pro	NOUN	_	_	5	_	_	_
+9	(	(	PUNCT	_	_	7	_	_	_
+10	even	even	ADV	_	_	12	_	_	_
+11	if	if	SCONJ	_	_	12	_	_	_
+12	you	you	PRON	_	_	12	_	_	_
+13	’re	’re	VERB	_	_	2	_	_	_
+14	not	not	PART	_	_	12	_	_	_
+15	a	a	DET	_	_	16	_	_	_
+16	morning	morning	NOUN	_	_	16	_	_	_
+17	person	person	NOUN	_	_	12	_	_	_
+18	)	)	PUNCT	_	_	2	_	_	_
+
+# text = americans who “love local businesses” now only buy coffee from shops that have ‘more likes than their friends’
+# headline_id = 18
+# sent_id = 0
+# class = 1
+# link = https://chatgpt.com/
+1	americans	americans	PROPN	_	_	9	_	_	_
+2	who	who	PRON	_	_	3	_	_	_
+3	“	"	PUNCT	_	_	3	_	_	_
+4	love	love	VERB	_	_	0	_	_	_
+5	local	local	ADJ	_	_	5	_	_	_
+6	businesses	business	NOUN	_	_	3	_	_	_
+7	”	"	PUNCT	_	_	3	_	_	_
+8	now	now	ADV	_	_	9	_	_	_
+9	only	only	ADV	_	_	9	_	_	_
+10	buy	buy	VERB	_	_	9	_	_	_
+11	coffee	coffee	NOUN	_	_	9	_	_	_
+12	from	from	ADP	_	_	9	_	_	_
+13	shops	shop	NOUN	_	_	11	_	_	_
+14	that	that	PRON	_	_	14	_	_	_
+15	have	have	VERB	_	_	12	_	_	_
+16	‘	'	PUNCT	_	_	14	_	_	_
+17	more	more	ADJ	_	_	17	_	_	_
+18	likes	like	NOUN	_	_	14	_	_	_
+19	than	than	ADP	_	_	17	_	_	_
+20	their	their	PRON	_	_	20	_	_	_
+21	friends	friend	NOUN	_	_	18	_	_	_
+22	’	'	PUNCT	_	_	9	_	_	_
+
+# text = man who claims ‘he hates popular music’ just accidentally downloaded every top 40 hit
+# headline_id = 19
+# sent_id = 0
+# class = 1
+# link = https://chatgpt.com/
+1	man	man	NOUN	_	_	5	_	_	_
+2	who	who	PRON	_	_	2	_	_	_
+3	claims	claim	VERB	_	_	0	_	_	_
+4	‘	'	PUNCT	_	_	5	_	_	_
+5	he	he	PRON	_	_	5	_	_	_
+6	hates	hate	VERB	_	_	5	_	_	_
+7	popular	popular	ADJ	_	_	7	_	_	_
+8	music	music	NOUN	_	_	5	_	_	_
+9	’	'	PUNCT	_	_	5	_	_	_
+10	just	just	ADV	_	_	11	_	_	_
+11	accidentally	accidentally	ADV	_	_	11	_	_	_
+12	downloaded	download	VERB	_	_	5	_	_	_
+13	every	every	DET	_	_	14	_	_	_
+14	top	top	ADJ	_	_	14	_	_	_
+15	40	40	NUM	_	_	15	_	_	_
+16	hit	hit	NOUN	_	_	5	_	_	_
+
+# text = experts say drinking coffee ‘to wake up’ is actually just a clever excuse to drink more coffee
+# headline_id = 20
+# sent_id = 0
+# class = 1
+# link = https://chatgpt.com/
+1	experts	expert	NOUN	_	_	1	_	_	_
+2	say	say	VERB	_	_	1	_	_	_
+3	drinking	drink	VERB	_	_	9	_	_	_
+4	coffee	coffee	NOUN	_	_	2	_	_	_
+5	‘	'	PUNCT	_	_	6	_	_	_
+6	to	to	PART	_	_	6	_	_	_
+7	wake	wake	VERB	_	_	2	_	_	_
+8	up	up	ADP	_	_	6	_	_	_
+9	’	'	PUNCT	_	_	6	_	_	_
+10	is	be	AUX	_	_	1	_	_	_
+11	actually	actually	ADV	_	_	9	_	_	_
+12	just	just	ADV	_	_	14	_	_	_
+13	a	a	DET	_	_	14	_	_	_
+14	clever	clever	ADJ	_	_	14	_	_	_
+15	excuse	excuse	NOUN	_	_	9	_	_	_
+16	to	to	PART	_	_	16	_	_	_
+17	drink	drink	VERB	_	_	14	_	_	_
+18	more	more	ADJ	_	_	18	_	_	_
+19	coffee	coffee	NOUN	_	_	16	_	_	_
+
+# text = the truth about procrastination and how to finally overcome it
+# headline_id = 21
+# sent_id = 0
+# class = 0
+# link = https://chatgpt.com/
+1	the	the	DET	_	_	1	_	_	_
+2	truth	truth	NOUN	_	_	1	_	_	_
+3	about	about	ADP	_	_	1	_	_	_
+4	procrastination	procrastination	NOUN	_	_	2	_	_	_
+5	and	and	CCONJ	_	_	1	_	_	_
+6	how	how	SCONJ	_	_	8	_	_	_
+7	to	to	PART	_	_	8	_	_	_
+8	finally	finally	ADV	_	_	8	_	_	_
+9	overcome	overcome	VERB	_	_	1	_	_	_
+10	it	it	PRON	_	_	8	_	_	_
+
+# text = the power of saying no: why it’s the best decision you’ll ever make
+# headline_id = 22
+# sent_id = 0
+# class = 0
+# link = https://chatgpt.com/
+1	the	the	DET	_	_	1	_	_	_
+2	power	power	NOUN	_	_	1	_	_	_
+3	of	of	ADP	_	_	1	_	_	_
+4	saying	say	VERB	_	_	2	_	_	_
+5	no	no	INTJ	_	_	3	_	_	_
+6	:	:	PUNCT	_	_	3	_	_	_
+7	why	why	SCONJ	_	_	8	_	_	_
+8	it	it	PRON	_	_	8	_	_	_
+9	’s	’	VERB	_	_	3	_	_	_
+10	the	the	DET	_	_	11	_	_	_
+11	best	good	ADJ	_	_	11	_	_	_
+12	decision	decision	NOUN	_	_	8	_	_	_
+13	you	you	PRON	_	_	15	_	_	_
+14	’ll	’ll	AUX	_	_	15	_	_	_
+15	ever	ever	ADV	_	_	15	_	_	_
+16	make	make	VERB	_	_	11	_	_	_
+
+# text = how to use your strengths to overcome challenges
+# headline_id = 23
+# sent_id = 0
+# class = 0
+# link = https://chatgpt.com/
+1	how	how	SCONJ	_	_	2	_	_	_
+2	to	to	PART	_	_	2	_	_	_
+3	use	use	VERB	_	_	2	_	_	_
+4	your	your	PRON	_	_	4	_	_	_
+5	strengths	strength	NOUN	_	_	2	_	_	_
+6	to	to	PART	_	_	6	_	_	_
+7	overcome	overcome	VERB	_	_	2	_	_	_
+8	challenges	challenge	NOUN	_	_	6	_	_	_
+
+# text = person who claims ‘i’m not really into material things’ immediately buys $500 worth of essential oils
+# headline_id = 24
+# sent_id = 0
+# class = 1
+# link = https://chatgpt.com/
+1	person	person	NOUN	_	_	5	_	_	_
+2	who	who	PRON	_	_	2	_	_	_
+3	claims	claim	VERB	_	_	0	_	_	_
+4	‘	'	PUNCT	_	_	5	_	_	_
+5	i	I	PRON	_	_	5	_	_	_
+6	’m	’m	AUX	_	_	13	_	_	_
+7	not	not	PART	_	_	5	_	_	_
+8	really	really	ADV	_	_	8	_	_	_
+9	into	into	ADP	_	_	5	_	_	_
+10	material	material	ADJ	_	_	10	_	_	_
+11	things	thing	NOUN	_	_	8	_	_	_
+12	’	'	PUNCT	_	_	5	_	_	_
+13	immediately	immediately	ADV	_	_	13	_	_	_
+14	buys	buy	VERB	_	_	13	_	_	_
+15	$	$	SYM	_	_	15	_	_	_
+16	500	500	NUM	_	_	16	_	_	_
+17	worth	worth	ADJ	_	_	13	_	_	_
+18	of	of	ADP	_	_	16	_	_	_
+19	essential	essential	ADJ	_	_	19	_	_	_
+20	oils	oil	NOUN	_	_	17	_	_	_
+
+# text = local barista who spends hours crafting latte art wonders why you’re still complaining about the wi-fi
+# headline_id = 25
+# sent_id = 0
+# class = 1
+# link = https://chatgpt.com/
+1	local	local	ADJ	_	_	1	_	_	_
+2	barista	barista	NOUN	_	_	1	_	_	_
+3	who	who	PRON	_	_	3	_	_	_
+4	spends	spend	VERB	_	_	1	_	_	_
+5	hours	hour	NOUN	_	_	3	_	_	_
+6	crafting	craft	VERB	_	_	4	_	_	_
+7	latte	latte	NOUN	_	_	8	_	_	_
+8	art	art	NOUN	_	_	8	_	_	_
+9	wonders	wonder	VERB	_	_	5	_	_	_
+10	why	why	SCONJ	_	_	13	_	_	_
+11	you	you	PRON	_	_	13	_	_	_
+12	’re	’re	AUX	_	_	13	_	_	_
+13	still	still	ADV	_	_	13	_	_	_
+14	complaining	complain	VERB	_	_	3	_	_	_
+15	about	about	ADP	_	_	13	_	_	_
+16	the	the	DET	_	_	18	_	_	_
+17	wi	wi	ADJ	_	_	18	_	_	_
+18	-	-	PUNCT	_	_	18	_	_	_
+19	fi	fi	NOUN	_	_	14	_	_	_
+
+# text = why your mental health should be your top priority in 2025
+# headline_id = 26
+# sent_id = 0
+# class = 0
+# link = https://chatgpt.com/
+1	why	why	SCONJ	_	_	5	_	_	_
+2	your	your	PRON	_	_	3	_	_	_
+3	mental	mental	ADJ	_	_	3	_	_	_
+4	health	health	NOUN	_	_	5	_	_	_
+5	should	should	AUX	_	_	5	_	_	_
+6	be	be	AUX	_	_	5	_	_	_
+7	your	your	PRON	_	_	8	_	_	_
+8	top	top	ADJ	_	_	8	_	_	_
+9	priority	priority	NOUN	_	_	5	_	_	_
+10	in	in	ADP	_	_	5	_	_	_
+11	2025	2025	NUM	_	_	9	_	_	_
+
+# text = poll finds 94% of americans think the government should be more concerned about how much they’ve spent on coffee this year
+# headline_id = 27
+# sent_id = 0
+# class = 1
+# link = https://chatgpt.com/
+1	poll	poll	NOUN	_	_	1	_	_	_
+2	finds	find	VERB	_	_	1	_	_	_
+3	94	94	NUM	_	_	3	_	_	_
+4	%	%	NOUN	_	_	6	_	_	_
+5	of	of	ADP	_	_	3	_	_	_
+6	americans	americans	PROPN	_	_	4	_	_	_
+7	think	think	VERB	_	_	1	_	_	_
+8	the	the	DET	_	_	8	_	_	_
+9	government	government	NOUN	_	_	10	_	_	_
+10	should	should	AUX	_	_	10	_	_	_
+11	be	be	AUX	_	_	6	_	_	_
+12	more	more	ADV	_	_	12	_	_	_
+13	concerned	concerned	ADJ	_	_	10	_	_	_
+14	about	about	ADP	_	_	12	_	_	_
+15	how	how	SCONJ	_	_	15	_	_	_
+16	much	much	ADV	_	_	18	_	_	_
+17	they	they	PRON	_	_	18	_	_	_
+18	’ve	’ve	AUX	_	_	18	_	_	_
+19	spent	spend	VERB	_	_	13	_	_	_
+20	on	on	ADP	_	_	18	_	_	_
+21	coffee	coffee	NOUN	_	_	19	_	_	_
+22	this	this	DET	_	_	22	_	_	_
+23	year	year	NOUN	_	_	18	_	_	_
+
+# text = why you should start saying “no” more often
+# headline_id = 28
+# sent_id = 0
+# class = 0
+# link = https://chatgpt.com/
+1	why	why	SCONJ	_	_	3	_	_	_
+2	you	you	PRON	_	_	3	_	_	_
+3	should	should	AUX	_	_	3	_	_	_
+4	start	start	VERB	_	_	3	_	_	_
+5	saying	say	VERB	_	_	3	_	_	_
+6	“	"	PUNCT	_	_	4	_	_	_
+7	no	no	INTJ	_	_	4	_	_	_
+8	”	"	PUNCT	_	_	6	_	_	_
+9	more	more	ADV	_	_	9	_	_	_
+10	often	often	ADV	_	_	4	_	_	_
+
+# text = 5 habits of highly successful people you can start today
+# headline_id = 29
+# sent_id = 0
+# class = 0
+# link = https://chatgpt.com/
+1	5	5	NUM	_	_	1	_	_	_
+2	habits	habit	NOUN	_	_	1	_	_	_
+3	of	of	ADP	_	_	1	_	_	_
+4	highly	highly	ADV	_	_	4	_	_	_
+5	successful	successful	ADJ	_	_	5	_	_	_
+6	people	people	NOUN	_	_	2	_	_	_
+7	you	you	PRON	_	_	8	_	_	_
+8	can	can	AUX	_	_	8	_	_	_
+9	start	start	VERB	_	_	1	_	_	_
+10	today	today	NOUN	_	_	8	_	_	_
+
+# text = local couple enjoys ‘spontaneous road trip,’ but only after spending 3 hours on pinterest first
+# headline_id = 30
+# sent_id = 0
+# class = 1
+# link = https://chatgpt.com/
+1	local	local	ADJ	_	_	1	_	_	_
+2	couple	couple	NOUN	_	_	2	_	_	_
+3	enjoys	enjoy	VERB	_	_	2	_	_	_
+4	‘	'	PUNCT	_	_	6	_	_	_
+5	spontaneous	spontaneous	ADJ	_	_	6	_	_	_
+6	road	road	NOUN	_	_	6	_	_	_
+7	trip	trip	NOUN	_	_	2	_	_	_
+8	,	,	PUNCT	_	_	2	_	_	_
+9	’	'	PUNCT	_	_	2	_	_	_
+10	but	but	CCONJ	_	_	2	_	_	_
+11	only	only	ADV	_	_	11	_	_	_
+12	after	after	ADP	_	_	9	_	_	_
+13	spending	spend	VERB	_	_	11	_	_	_
+14	3	3	NUM	_	_	14	_	_	_
+15	hours	hour	NOUN	_	_	12	_	_	_
+16	on	on	ADP	_	_	12	_	_	_
+17	pinterest	pinter	ADJ	_	_	15	_	_	_
+18	first	first	ADJ	_	_	12	_	_	_
+
+# text = area couple who’s been together 7 years suddenly realizes they’ve never had a single meaningful conversation
+# headline_id = 31
+# sent_id = 0
+# class = 1
+# link = https://chatgpt.com/
+1	area	area	NOUN	_	_	1	_	_	_
+2	couple	couple	NOUN	_	_	9	_	_	_
+3	who	who	PRON	_	_	4	_	_	_
+4	’s	’s	AUX	_	_	4	_	_	_
+5	been	be	AUX	_	_	1	_	_	_
+6	together	together	ADV	_	_	4	_	_	_
+7	7	7	NUM	_	_	7	_	_	_
+8	years	year	NOUN	_	_	4	_	_	_
+9	suddenly	suddenly	ADV	_	_	9	_	_	_
+10	realizes	realize	VERB	_	_	9	_	_	_
+11	they	they	PRON	_	_	13	_	_	_
+12	’ve	’ve	AUX	_	_	13	_	_	_
+13	never	never	ADV	_	_	13	_	_	_
+14	had	have	VERB	_	_	9	_	_	_
+15	a	a	DET	_	_	17	_	_	_
+16	single	single	ADJ	_	_	17	_	_	_
+17	meaningful	meaningful	ADJ	_	_	17	_	_	_
+18	conversation	conversation	NOUN	_	_	13	_	_	_
+
+# text = how to cultivate patience and trust the process
+# headline_id = 32
+# sent_id = 0
+# class = 0
+# link = https://chatgpt.com/
+1	how	how	SCONJ	_	_	2	_	_	_
+2	to	to	PART	_	_	2	_	_	_
+3	cultivate	cultivate	VERB	_	_	2	_	_	_
+4	patience	patience	NOUN	_	_	2	_	_	_
+5	and	and	CCONJ	_	_	2	_	_	_
+6	trust	trust	VERB	_	_	2	_	_	_
+7	the	the	DET	_	_	7	_	_	_
+8	process	process	NOUN	_	_	5	_	_	_
+
+# text = 7 simple steps to build a life you love
+# headline_id = 33
+# sent_id = 0
+# class = 0
+# link = https://chatgpt.com/
+1	7	7	NUM	_	_	2	_	_	_
+2	simple	simple	ADJ	_	_	2	_	_	_
+3	steps	step	NOUN	_	_	2	_	_	_
+4	to	to	PART	_	_	4	_	_	_
+5	build	build	VERB	_	_	2	_	_	_
+6	a	a	DET	_	_	6	_	_	_
+7	life	life	NOUN	_	_	4	_	_	_
+8	you	you	PRON	_	_	8	_	_	_
+9	love	love	VERB	_	_	6	_	_	_
+
+# text = why self-love is the key to healthy relationships
+# headline_id = 34
+# sent_id = 0
+# class = 0
+# link = https://chatgpt.com/
+1	why	why	SCONJ	_	_	4	_	_	_
+2	self	self	NOUN	_	_	3	_	_	_
+3	-	-	PUNCT	_	_	3	_	_	_
+4	love	love	NOUN	_	_	4	_	_	_
+5	is	be	AUX	_	_	4	_	_	_
+6	the	the	DET	_	_	6	_	_	_
+7	key	key	NOUN	_	_	4	_	_	_
+8	to	to	ADP	_	_	6	_	_	_
+9	healthy	healthy	ADJ	_	_	9	_	_	_
+10	relationships	relationship	NOUN	_	_	7	_	_	_
+
+# text = why you should stop comparing your journey to others
+# headline_id = 35
+# sent_id = 0
+# class = 0
+# link = https://chatgpt.com/
+1	why	why	SCONJ	_	_	3	_	_	_
+2	you	you	PRON	_	_	3	_	_	_
+3	should	should	AUX	_	_	3	_	_	_
+4	stop	stop	VERB	_	_	3	_	_	_
+5	comparing	compare	VERB	_	_	3	_	_	_
+6	your	your	PRON	_	_	6	_	_	_
+7	journey	journey	NOUN	_	_	4	_	_	_
+8	to	to	ADP	_	_	4	_	_	_
+9	others	other	NOUN	_	_	7	_	_	_
+
+# text = why letting go of the past is the first step to moving forward
+# headline_id = 36
+# sent_id = 0
+# class = 0
+# link = https://chatgpt.com/
+1	why	why	SCONJ	_	_	1	_	_	_
+2	letting	let	VERB	_	_	6	_	_	_
+3	go	go	VERB	_	_	1	_	_	_
+4	of	of	ADP	_	_	2	_	_	_
+5	the	the	DET	_	_	5	_	_	_
+6	past	past	NOUN	_	_	3	_	_	_
+7	is	be	AUX	_	_	6	_	_	_
+8	the	the	DET	_	_	9	_	_	_
+9	first	first	ADJ	_	_	9	_	_	_
+10	step	step	NOUN	_	_	6	_	_	_
+11	to	to	ADP	_	_	9	_	_	_
+12	moving	move	VERB	_	_	10	_	_	_
+13	forward	forward	ADV	_	_	11	_	_	_
+
+# text = experts reveal the ‘secret’ to happiness: just stop making eye contact with anyone
+# headline_id = 37
+# sent_id = 0
+# class = 1
+# link = https://chatgpt.com/
+1	experts	expert	NOUN	_	_	1	_	_	_
+2	reveal	reveal	VERB	_	_	1	_	_	_
+3	the	the	DET	_	_	4	_	_	_
+4	‘	'	PUNCT	_	_	4	_	_	_
+5	secret	secret	NOUN	_	_	1	_	_	_
+6	’	'	PUNCT	_	_	4	_	_	_
+7	to	to	ADP	_	_	4	_	_	_
+8	happiness	happiness	NOUN	_	_	6	_	_	_
+9	:	:	PUNCT	_	_	4	_	_	_
+10	just	just	ADV	_	_	10	_	_	_
+11	stop	stop	VERB	_	_	1	_	_	_
+12	making	make	VERB	_	_	10	_	_	_
+13	eye	eye	NOUN	_	_	13	_	_	_
+14	contact	contact	NOUN	_	_	11	_	_	_
+15	with	with	ADP	_	_	13	_	_	_
+16	anyone	anyone	PRON	_	_	14	_	_	_
+
+# text = how to let go of guilt and prioritize your own happiness
+# headline_id = 38
+# sent_id = 0
+# class = 0
+# link = https://chatgpt.com/
+1	how	how	SCONJ	_	_	2	_	_	_
+2	to	to	PART	_	_	2	_	_	_
+3	let	let	VERB	_	_	2	_	_	_
+4	go	go	VERB	_	_	2	_	_	_
+5	of	of	ADP	_	_	3	_	_	_
+6	guilt	guilt	NOUN	_	_	4	_	_	_
+7	and	and	CCONJ	_	_	2	_	_	_
+8	prioritize	prioritize	VERB	_	_	2	_	_	_
+9	your	your	PRON	_	_	10	_	_	_
+10	own	own	ADJ	_	_	10	_	_	_
+11	happiness	happiness	NOUN	_	_	7	_	_	_
+
+# text = how to be kinder to yourself and stop the inner critic
+# headline_id = 39
+# sent_id = 0
+# class = 0
+# link = https://chatgpt.com/
+1	how	how	SCONJ	_	_	2	_	_	_
+2	to	to	PART	_	_	2	_	_	_
+3	be	be	AUX	_	_	2	_	_	_
+4	kinder	kind	ADJ	_	_	2	_	_	_
+5	to	to	ADP	_	_	3	_	_	_
+6	yourself	yourself	PRON	_	_	4	_	_	_
+7	and	and	CCONJ	_	_	2	_	_	_
+8	stop	stop	VERB	_	_	2	_	_	_
+9	the	the	DET	_	_	10	_	_	_
+10	inner	inner	ADJ	_	_	10	_	_	_
+11	critic	critic	NOUN	_	_	7	_	_	_
+
+# text = new study shows that watching ‘one more episode’ just makes you feel worse about your life choices
+# headline_id = 40
+# sent_id = 0
+# class = 1
+# link = https://chatgpt.com/
+1	new	new	ADJ	_	_	1	_	_	_
+2	study	study	NOUN	_	_	2	_	_	_
+3	shows	show	VERB	_	_	2	_	_	_
+4	that	that	SCONJ	_	_	11	_	_	_
+5	watching	watch	VERB	_	_	11	_	_	_
+6	‘	'	PUNCT	_	_	8	_	_	_
+7	one	one	NUM	_	_	8	_	_	_
+8	more	more	ADJ	_	_	8	_	_	_
+9	episode	episode	NOUN	_	_	4	_	_	_
+10	’	'	PUNCT	_	_	4	_	_	_
+11	just	just	ADV	_	_	11	_	_	_
+12	makes	make	VERB	_	_	2	_	_	_
+13	you	you	PRON	_	_	13	_	_	_
+14	feel	feel	VERB	_	_	11	_	_	_
+15	worse	bad	ADJ	_	_	13	_	_	_
+16	about	about	ADP	_	_	14	_	_	_
+17	your	your	PRON	_	_	18	_	_	_
+18	life	life	NOUN	_	_	18	_	_	_
+19	choices	choice	NOUN	_	_	15	_	_	_
+
+# text = how to create a vision board that actually works
+# headline_id = 41
+# sent_id = 0
+# class = 0
+# link = https://chatgpt.com/
+1	how	how	SCONJ	_	_	2	_	_	_
+2	to	to	PART	_	_	2	_	_	_
+3	create	create	VERB	_	_	2	_	_	_
+4	a	a	DET	_	_	5	_	_	_
+5	vision	vision	NOUN	_	_	5	_	_	_
+6	board	board	NOUN	_	_	2	_	_	_
+7	that	that	PRON	_	_	8	_	_	_
+8	actually	actually	ADV	_	_	8	_	_	_
+9	works	work	VERB	_	_	5	_	_	_
+
+# text = survey finds most adults are just really good at pretending they don’t feel guilty about using self-checkout
+# headline_id = 42
+# sent_id = 0
+# class = 1
+# link = https://chatgpt.com/
+1	survey	survey	NOUN	_	_	1	_	_	_
+2	finds	find	VERB	_	_	1	_	_	_
+3	most	most	ADJ	_	_	3	_	_	_
+4	adults	adult	NOUN	_	_	4	_	_	_
+5	are	be	AUX	_	_	1	_	_	_
+6	just	just	ADV	_	_	4	_	_	_
+7	really	really	ADV	_	_	7	_	_	_
+8	good	good	ADJ	_	_	4	_	_	_
+9	at	at	ADP	_	_	4	_	_	_
+10	pretending	pretend	VERB	_	_	8	_	_	_
+11	they	they	PRON	_	_	13	_	_	_
+12	do	do	AUX	_	_	13	_	_	_
+13	n’t	not	PART	_	_	13	_	_	_
+14	feel	feel	VERB	_	_	9	_	_	_
+15	guilty	guilty	ADJ	_	_	13	_	_	_
+16	about	about	ADP	_	_	14	_	_	_
+17	using	use	VERB	_	_	15	_	_	_
+18	self	self	NOUN	_	_	19	_	_	_
+19	-	-	PUNCT	_	_	19	_	_	_
+20	checkout	checkout	NOUN	_	_	16	_	_	_
+
+# text = study finds ‘inspiring quotes’ are just a way to hide the fact that you still can’t find your keys
+# headline_id = 43
+# sent_id = 0
+# class = 1
+# link = https://chatgpt.com/
+1	study	study	NOUN	_	_	1	_	_	_
+2	finds	find	VERB	_	_	1	_	_	_
+3	‘	'	PUNCT	_	_	1	_	_	_
+4	inspiring	inspiring	ADJ	_	_	4	_	_	_
+5	quotes	quote	NOUN	_	_	6	_	_	_
+6	’	'	PUNCT	_	_	4	_	_	_
+7	are	be	AUX	_	_	1	_	_	_
+8	just	just	ADV	_	_	9	_	_	_
+9	a	a	DET	_	_	9	_	_	_
+10	way	way	NOUN	_	_	6	_	_	_
+11	to	to	PART	_	_	11	_	_	_
+12	hide	hide	VERB	_	_	9	_	_	_
+13	the	the	DET	_	_	13	_	_	_
+14	fact	fact	NOUN	_	_	11	_	_	_
+15	that	that	SCONJ	_	_	19	_	_	_
+16	you	you	PRON	_	_	19	_	_	_
+17	still	still	ADV	_	_	19	_	_	_
+18	ca	can	AUX	_	_	19	_	_	_
+19	n’t	not	PART	_	_	19	_	_	_
+20	find	find	VERB	_	_	13	_	_	_
+21	your	your	PRON	_	_	21	_	_	_
+22	keys	key	NOUN	_	_	19	_	_	_
+
+# text = area teen claims ‘social media is a distraction,’ but definitely still posts daily inspirational quotes
+# headline_id = 44
+# sent_id = 0
+# class = 1
+# link = https://chatgpt.com/
+1	area	area	NOUN	_	_	1	_	_	_
+2	teen	teen	NOUN	_	_	2	_	_	_
+3	claims	claim	NOUN	_	_	6	_	_	_
+4	‘	'	PUNCT	_	_	2	_	_	_
+5	social	social	ADJ	_	_	5	_	_	_
+6	media	medium	NOUN	_	_	6	_	_	_
+7	is	be	AUX	_	_	6	_	_	_
+8	a	a	DET	_	_	8	_	_	_
+9	distraction	distraction	NOUN	_	_	6	_	_	_
+10	,	,	PUNCT	_	_	6	_	_	_
+11	’	'	PUNCT	_	_	6	_	_	_
+12	but	but	CCONJ	_	_	6	_	_	_
+13	definitely	definitely	ADV	_	_	14	_	_	_
+14	still	still	ADV	_	_	14	_	_	_
+15	posts	post	VERB	_	_	6	_	_	_
+16	daily	daily	ADJ	_	_	17	_	_	_
+17	inspirational	inspirational	ADJ	_	_	17	_	_	_
+18	quotes	quote	NOUN	_	_	14	_	_	_
+
+# text = family decides to ‘disconnect’ by taking a weekend trip to a place with wi-fi
+# headline_id = 45
+# sent_id = 0
+# class = 1
+# link = https://chatgpt.com/
+1	family	family	NOUN	_	_	1	_	_	_
+2	decides	decide	VERB	_	_	1	_	_	_
+3	to	to	PART	_	_	4	_	_	_
+4	‘	'	PUNCT	_	_	4	_	_	_
+5	disconnect	disconnect	VERB	_	_	1	_	_	_
+6	’	'	PUNCT	_	_	4	_	_	_
+7	by	by	ADP	_	_	4	_	_	_
+8	taking	take	VERB	_	_	6	_	_	_
+9	a	a	DET	_	_	10	_	_	_
+10	weekend	weekend	NOUN	_	_	10	_	_	_
+11	trip	trip	NOUN	_	_	7	_	_	_
+12	to	to	ADP	_	_	7	_	_	_
+13	a	a	DET	_	_	13	_	_	_
+14	place	place	NOUN	_	_	11	_	_	_
+15	with	with	ADP	_	_	13	_	_	_
+16	wi	wi	ADJ	_	_	17	_	_	_
+17	-	-	PUNCT	_	_	15	_	_	_
+18	fi	fi	NOUN	_	_	14	_	_	_
+
+# text = science confirms: only 3% of people who claim ‘i don’t need social media’ are actually telling the truth
+# headline_id = 46
+# sent_id = 0
+# class = 1
+# link = https://chatgpt.com/
+1	science	science	NOUN	_	_	1	_	_	_
+2	confirms	confirm	VERB	_	_	1	_	_	_
+3	:	:	PUNCT	_	_	1	_	_	_
+4	only	only	ADV	_	_	4	_	_	_
+5	3	3	NUM	_	_	5	_	_	_
+6	%	%	NOUN	_	_	20	_	_	_
+7	of	of	ADP	_	_	5	_	_	_
+8	people	people	NOUN	_	_	6	_	_	_
+9	who	who	PRON	_	_	9	_	_	_
+10	claim	claim	VERB	_	_	7	_	_	_
+11	‘	'	PUNCT	_	_	9	_	_	_
+12	i	I	PRON	_	_	14	_	_	_
+13	do	do	AUX	_	_	14	_	_	_
+14	n’t	not	PART	_	_	14	_	_	_
+15	need	need	VERB	_	_	9	_	_	_
+16	social	social	ADJ	_	_	16	_	_	_
+17	media	medium	NOUN	_	_	14	_	_	_
+18	’	'	PUNCT	_	_	5	_	_	_
+19	are	be	AUX	_	_	20	_	_	_
+20	actually	actually	ADV	_	_	20	_	_	_
+21	telling	tell	VERB	_	_	1	_	_	_
+22	the	the	DET	_	_	22	_	_	_
+23	truth	truth	NOUN	_	_	20	_	_	_
+
+# text = area man explains that ‘hustle culture’ is really just him working from bed while watching youtube
+# headline_id = 47
+# sent_id = 0
+# class = 1
+# link = https://chatgpt.com/
+1	area	area	NOUN	_	_	1	_	_	_
+2	man	man	NOUN	_	_	2	_	_	_
+3	explains	explain	VERB	_	_	2	_	_	_
+4	that	that	SCONJ	_	_	8	_	_	_
+5	‘	'	PUNCT	_	_	6	_	_	_
+6	hustle	hustle	ADJ	_	_	6	_	_	_
+7	culture	culture	NOUN	_	_	8	_	_	_
+8	’	'	PUNCT	_	_	6	_	_	_
+9	is	be	AUX	_	_	2	_	_	_
+10	really	really	ADV	_	_	8	_	_	_
+11	just	just	ADV	_	_	11	_	_	_
+12	him	he	PRON	_	_	8	_	_	_
+13	working	work	VERB	_	_	11	_	_	_
+14	from	from	ADP	_	_	12	_	_	_
+15	bed	bed	NOUN	_	_	13	_	_	_
+16	while	while	SCONJ	_	_	16	_	_	_
+17	watching	watch	VERB	_	_	12	_	_	_
+18	youtube	youtube	NOUN	_	_	8	_	_	_
+
+# text = how to build resilience and bounce back from life’s setbacks
+# headline_id = 48
+# sent_id = 0
+# class = 0
+# link = https://chatgpt.com/
+1	how	how	SCONJ	_	_	2	_	_	_
+2	to	to	PART	_	_	2	_	_	_
+3	build	build	VERB	_	_	2	_	_	_
+4	resilience	resilience	NOUN	_	_	2	_	_	_
+5	and	and	CCONJ	_	_	2	_	_	_
+6	bounce	bounce	NOUN	_	_	2	_	_	_
+7	back	back	ADV	_	_	5	_	_	_
+8	from	from	ADP	_	_	6	_	_	_
+9	life	life	NOUN	_	_	10	_	_	_
+10	’s	’s	PART	_	_	8	_	_	_
+11	setbacks	setback	NOUN	_	_	7	_	_	_
+
+# text = why trusting yourself is the first step to finding success
+# headline_id = 49
+# sent_id = 0
+# class = 0
+# link = https://chatgpt.com/
+1	why	why	SCONJ	_	_	3	_	_	_
+2	trusting	trust	VERB	_	_	3	_	_	_
+3	yourself	yourself	PRON	_	_	1	_	_	_
+4	is	be	AUX	_	_	3	_	_	_
+5	the	the	DET	_	_	6	_	_	_
+6	first	first	ADJ	_	_	6	_	_	_
+7	step	step	NOUN	_	_	3	_	_	_
+8	to	to	ADP	_	_	6	_	_	_
+9	finding	find	VERB	_	_	7	_	_	_
+10	success	success	NOUN	_	_	8	_	_	_
+
+# text = 10 secrets to staying motivated when you’re feeling overwhelmed
+# headline_id = 50
+# sent_id = 0
+# class = 0
+# link = https://chatgpt.com/
+1	10	10	NUM	_	_	1	_	_	_
+2	secrets	secret	NOUN	_	_	1	_	_	_
+3	to	to	ADP	_	_	1	_	_	_
+4	staying	stay	VERB	_	_	2	_	_	_
+5	motivated	motivated	ADJ	_	_	3	_	_	_
+6	when	when	SCONJ	_	_	8	_	_	_
+7	you	you	PRON	_	_	8	_	_	_
+8	’re	’re	AUX	_	_	8	_	_	_
+9	feeling	feel	VERB	_	_	3	_	_	_
+10	overwhelmed	overwhelmed	ADJ	_	_	8	_	_	_
+
+# text = facebook’s new algorithm knows exactly how to push your buttons, and it’s using it to sell you salad
+# headline_id = 51
+# sent_id = 0
+# class = 1
+# link = https://chatgpt.com/
+1	facebook	facebook	PROPN	_	_	3	_	_	_
+2	’s	’s	PART	_	_	0	_	_	_
+3	new	new	ADJ	_	_	3	_	_	_
+4	algorithm	algorithm	PROPN	_	_	4	_	_	_
+5	knows	know	VERB	_	_	4	_	_	_
+6	exactly	exactly	ADV	_	_	6	_	_	_
+7	how	how	SCONJ	_	_	8	_	_	_
+8	to	to	PART	_	_	8	_	_	_
+9	push	push	VERB	_	_	4	_	_	_
+10	your	your	PRON	_	_	10	_	_	_
+11	buttons	button	NOUN	_	_	8	_	_	_
+12	,	,	PUNCT	_	_	4	_	_	_
+13	and	and	CCONJ	_	_	4	_	_	_
+14	it	it	PRON	_	_	15	_	_	_
+15	’s	’s	AUX	_	_	15	_	_	_
+16	using	use	VERB	_	_	4	_	_	_
+17	it	it	PRON	_	_	15	_	_	_
+18	to	to	PART	_	_	18	_	_	_
+19	sell	sell	VERB	_	_	15	_	_	_
+20	you	you	PRON	_	_	18	_	_	_
+21	salad	salad	VERB	_	_	4	_	_	_
+
+# text = experts confirm: 100% of work emails could be replaced by passive-aggressive post-its
+# headline_id = 52
+# sent_id = 0
+# class = 1
+# link = https://chatgpt.com/
+1	experts	expert	NOUN	_	_	1	_	_	_
+2	confirm	confirm	VERB	_	_	1	_	_	_
+3	:	:	PUNCT	_	_	1	_	_	_
+4	100	100	NUM	_	_	4	_	_	_
+5	%	%	NOUN	_	_	10	_	_	_
+6	of	of	ADP	_	_	4	_	_	_
+7	work	work	NOUN	_	_	7	_	_	_
+8	emails	email	NOUN	_	_	5	_	_	_
+9	could	could	AUX	_	_	10	_	_	_
+10	be	be	AUX	_	_	10	_	_	_
+11	replaced	replace	VERB	_	_	1	_	_	_
+12	by	by	ADP	_	_	10	_	_	_
+13	passive	passive	ADJ	_	_	14	_	_	_
+14	-	-	PUNCT	_	_	14	_	_	_
+15	aggressive	aggressive	ADJ	_	_	15	_	_	_
+16	post	post	ADJ	_	_	11	_	_	_
+17	-	-	ADJ	_	_	11	_	_	_
+18	its	its	PRON	_	_	11	_	_	_
+
+# text = how to start living your dream life right now
+# headline_id = 53
+# sent_id = 0
+# class = 0
+# link = https://chatgpt.com/
+1	how	how	SCONJ	_	_	2	_	_	_
+2	to	to	PART	_	_	2	_	_	_
+3	start	start	VERB	_	_	2	_	_	_
+4	living	live	VERB	_	_	2	_	_	_
+5	your	your	PRON	_	_	6	_	_	_
+6	dream	dream	NOUN	_	_	6	_	_	_
+7	life	life	NOUN	_	_	3	_	_	_
+8	right	right	ADV	_	_	8	_	_	_
+9	now	now	ADV	_	_	3	_	_	_
+
+# text = why learning to let go is the best thing you can do for your mental health
+# headline_id = 54
+# sent_id = 0
+# class = 0
+# link = https://chatgpt.com/
+1	why	why	SCONJ	_	_	1	_	_	_
+2	learning	learn	VERB	_	_	5	_	_	_
+3	to	to	PART	_	_	3	_	_	_
+4	let	let	VERB	_	_	1	_	_	_
+5	go	go	VERB	_	_	3	_	_	_
+6	is	be	AUX	_	_	5	_	_	_
+7	the	the	DET	_	_	8	_	_	_
+8	best	good	ADJ	_	_	8	_	_	_
+9	thing	thing	NOUN	_	_	5	_	_	_
+10	you	you	PRON	_	_	11	_	_	_
+11	can	can	AUX	_	_	11	_	_	_
+12	do	do	VERB	_	_	8	_	_	_
+13	for	for	ADP	_	_	11	_	_	_
+14	your	your	PRON	_	_	15	_	_	_
+15	mental	mental	ADJ	_	_	15	_	_	_
+16	health	health	NOUN	_	_	12	_	_	_
+
+# text = woman who calls herself a ‘mindful shopper’ just spent $1,000 on handcrafted coasters
+# headline_id = 55
+# sent_id = 0
+# class = 1
+# link = https://chatgpt.com/
+1	woman	woman	NOUN	_	_	10	_	_	_
+2	who	who	PRON	_	_	2	_	_	_
+3	calls	call	VERB	_	_	0	_	_	_
+4	herself	herself	PRON	_	_	2	_	_	_
+5	a	a	DET	_	_	7	_	_	_
+6	‘	'	PUNCT	_	_	7	_	_	_
+7	mindful	mindful	ADJ	_	_	7	_	_	_
+8	shopper	shopper	NOUN	_	_	2	_	_	_
+9	’	'	PUNCT	_	_	7	_	_	_
+10	just	just	ADV	_	_	10	_	_	_
+11	spent	spend	VERB	_	_	10	_	_	_
+12	$	$	SYM	_	_	12	_	_	_
+13	1,000	1,000	NUM	_	_	10	_	_	_
+14	on	on	ADP	_	_	10	_	_	_
+15	handcrafted	handcraft	VERB	_	_	15	_	_	_
+16	coasters	coaster	NOUN	_	_	13	_	_	_
+
+# text = survey finds 93% of people who say ‘i’m not a morning person’ actually just hate themselves
+# headline_id = 56
+# sent_id = 0
+# class = 1
+# link = https://chatgpt.com/
+1	survey	survey	NOUN	_	_	1	_	_	_
+2	finds	find	VERB	_	_	1	_	_	_
+3	93	93	NUM	_	_	3	_	_	_
+4	%	%	NOUN	_	_	18	_	_	_
+5	of	of	ADP	_	_	3	_	_	_
+6	people	people	NOUN	_	_	4	_	_	_
+7	who	who	PRON	_	_	7	_	_	_
+8	say	say	VERB	_	_	5	_	_	_
+9	‘	'	PUNCT	_	_	7	_	_	_
+10	i	I	PRON	_	_	10	_	_	_
+11	’m	’m	VERB	_	_	7	_	_	_
+12	not	not	PART	_	_	10	_	_	_
+13	a	a	DET	_	_	14	_	_	_
+14	morning	morning	NOUN	_	_	14	_	_	_
+15	person	person	NOUN	_	_	10	_	_	_
+16	’	'	PUNCT	_	_	3	_	_	_
+17	actually	actually	ADV	_	_	18	_	_	_
+18	just	just	ADV	_	_	18	_	_	_
+19	hate	hate	VERB	_	_	1	_	_	_
+20	themselves	themselves	PRON	_	_	18	_	_	_
+
+# text = why you should stop trying to please everyone
+# headline_id = 57
+# sent_id = 0
+# class = 0
+# link = https://chatgpt.com/
+1	why	why	SCONJ	_	_	3	_	_	_
+2	you	you	PRON	_	_	3	_	_	_
+3	should	should	AUX	_	_	3	_	_	_
+4	stop	stop	VERB	_	_	3	_	_	_
+5	trying	try	VERB	_	_	3	_	_	_
+6	to	to	PART	_	_	6	_	_	_
+7	please	please	VERB	_	_	4	_	_	_
+8	everyone	everyone	PRON	_	_	6	_	_	_
+
+# text = the surprising benefits of journaling every day
+# headline_id = 58
+# sent_id = 0
+# class = 0
+# link = https://chatgpt.com/
+1	the	the	DET	_	_	2	_	_	_
+2	surprising	surprising	ADJ	_	_	2	_	_	_
+3	benefits	benefit	NOUN	_	_	2	_	_	_
+4	of	of	ADP	_	_	2	_	_	_
+5	journaling	journale	VERB	_	_	3	_	_	_
+6	every	every	DET	_	_	6	_	_	_
+7	day	day	NOUN	_	_	2	_	_	_
+
+# text = the simple way to stay focused on what matters most
+# headline_id = 59
+# sent_id = 0
+# class = 0
+# link = https://chatgpt.com/
+1	the	the	DET	_	_	2	_	_	_
+2	simple	simple	ADJ	_	_	2	_	_	_
+3	way	way	NOUN	_	_	2	_	_	_
+4	to	to	PART	_	_	4	_	_	_
+5	stay	stay	VERB	_	_	2	_	_	_
+6	focused	focused	ADJ	_	_	4	_	_	_
+7	on	on	ADP	_	_	5	_	_	_
+8	what	what	PRON	_	_	8	_	_	_
+9	matters	matter	VERB	_	_	6	_	_	_
+10	most	most	ADV	_	_	8	_	_	_
+
+# text = new study confirms that your smart home devices are 50% more likely to listen to you than your friends
+# headline_id = 60
+# sent_id = 0
+# class = 1
+# link = https://chatgpt.com/
+1	new	new	ADJ	_	_	1	_	_	_
+2	study	study	NOUN	_	_	2	_	_	_
+3	confirms	confirm	VERB	_	_	2	_	_	_
+4	that	that	SCONJ	_	_	8	_	_	_
+5	your	your	PRON	_	_	7	_	_	_
+6	smart	smart	ADJ	_	_	7	_	_	_
+7	home	home	NOUN	_	_	7	_	_	_
+8	devices	device	NOUN	_	_	8	_	_	_
+9	are	be	AUX	_	_	2	_	_	_
+10	50	50	NUM	_	_	10	_	_	_
+11	%	%	NOUN	_	_	11	_	_	_
+12	more	more	ADV	_	_	12	_	_	_
+13	likely	likely	ADJ	_	_	8	_	_	_
+14	to	to	PART	_	_	14	_	_	_
+15	listen	listen	VERB	_	_	12	_	_	_
+16	to	to	ADP	_	_	14	_	_	_
+17	you	you	PRON	_	_	15	_	_	_
+18	than	than	ADP	_	_	14	_	_	_
+19	your	your	PRON	_	_	19	_	_	_
+20	friends	friend	NOUN	_	_	17	_	_	_
+
+# text = man who claims ‘everything’s fine’ still hasn’t replaced his broken toaster
+# headline_id = 61
+# sent_id = 0
+# class = 1
+# link = https://chatgpt.com/
+1	man	man	NOUN	_	_	11	_	_	_
+2	who	who	PRON	_	_	2	_	_	_
+3	claims	claim	VERB	_	_	0	_	_	_
+4	‘	'	PUNCT	_	_	11	_	_	_
+5	everything	everything	PRON	_	_	11	_	_	_
+6	’s	’	VERB	_	_	4	_	_	_
+7	fine	fine	ADJ	_	_	4	_	_	_
+8	’	'	PUNCT	_	_	11	_	_	_
+9	still	still	ADV	_	_	11	_	_	_
+10	has	have	AUX	_	_	11	_	_	_
+11	n’t	not	PART	_	_	11	_	_	_
+12	replaced	replace	VERB	_	_	11	_	_	_
+13	his	his	PRON	_	_	14	_	_	_
+14	broken	broken	ADJ	_	_	14	_	_	_
+15	toaster	toaster	NOUN	_	_	11	_	_	_
+
+# text = new study reveals that everyone who hates small talk actually hates conversations that don’t involve them
+# headline_id = 62
+# sent_id = 0
+# class = 1
+# link = https://chatgpt.com/
+1	new	new	ADJ	_	_	1	_	_	_
+2	study	study	NOUN	_	_	2	_	_	_
+3	reveals	reveal	VERB	_	_	2	_	_	_
+4	that	that	SCONJ	_	_	10	_	_	_
+5	everyone	everyone	PRON	_	_	10	_	_	_
+6	who	who	PRON	_	_	6	_	_	_
+7	hates	hate	VERB	_	_	4	_	_	_
+8	small	small	ADJ	_	_	8	_	_	_
+9	talk	talk	NOUN	_	_	6	_	_	_
+10	actually	actually	ADV	_	_	10	_	_	_
+11	hates	hate	VERB	_	_	2	_	_	_
+12	conversations	conversation	NOUN	_	_	10	_	_	_
+13	that	that	PRON	_	_	15	_	_	_
+14	do	do	AUX	_	_	15	_	_	_
+15	n’t	not	PART	_	_	15	_	_	_
+16	involve	involve	VERB	_	_	11	_	_	_
+17	them	they	PRON	_	_	15	_	_	_
+
+# text = the real reason you’re not reaching your goals (and how to fix it)
+# headline_id = 63
+# sent_id = 0
+# class = 0
+# link = https://chatgpt.com/
+1	the	the	DET	_	_	2	_	_	_
+2	real	real	ADJ	_	_	2	_	_	_
+3	reason	reason	NOUN	_	_	2	_	_	_
+4	you	you	PRON	_	_	6	_	_	_
+5	’re	’re	AUX	_	_	6	_	_	_
+6	not	not	PART	_	_	6	_	_	_
+7	reaching	reach	VERB	_	_	2	_	_	_
+8	your	your	PRON	_	_	8	_	_	_
+9	goals	goal	NOUN	_	_	6	_	_	_
+10	(	(	PUNCT	_	_	8	_	_	_
+11	and	and	CCONJ	_	_	8	_	_	_
+12	how	how	SCONJ	_	_	13	_	_	_
+13	to	to	PART	_	_	13	_	_	_
+14	fix	fix	VERB	_	_	2	_	_	_
+15	it	it	PRON	_	_	13	_	_	_
+16	)	)	PUNCT	_	_	2	_	_	_
+
+# text = survey finds 90% of people will tell you they don’t like ‘pretentious art’ while only talking about art
+# headline_id = 64
+# sent_id = 0
+# class = 1
+# link = https://chatgpt.com/
+1	survey	survey	NOUN	_	_	1	_	_	_
+2	finds	find	VERB	_	_	1	_	_	_
+3	90	90	NUM	_	_	3	_	_	_
+4	%	%	NOUN	_	_	7	_	_	_
+5	of	of	ADP	_	_	3	_	_	_
+6	people	people	NOUN	_	_	4	_	_	_
+7	will	will	AUX	_	_	7	_	_	_
+8	tell	tell	VERB	_	_	1	_	_	_
+9	you	you	PRON	_	_	7	_	_	_
+10	they	they	PRON	_	_	12	_	_	_
+11	do	do	AUX	_	_	12	_	_	_
+12	n’t	not	PART	_	_	12	_	_	_
+13	like	like	VERB	_	_	7	_	_	_
+14	‘	'	PUNCT	_	_	15	_	_	_
+15	pretentious	pretentious	ADJ	_	_	15	_	_	_
+16	art	art	NOUN	_	_	12	_	_	_
+17	’	'	PUNCT	_	_	12	_	_	_
+18	while	while	SCONJ	_	_	19	_	_	_
+19	only	only	ADV	_	_	19	_	_	_
+20	talking	talk	VERB	_	_	7	_	_	_
+21	about	about	ADP	_	_	19	_	_	_
+22	art	art	NOUN	_	_	20	_	_	_
+
+# text = 7 signs you’re ready for a fresh start in your career
+# headline_id = 65
+# sent_id = 0
+# class = 0
+# link = https://chatgpt.com/
+1	7	7	NUM	_	_	1	_	_	_
+2	signs	sign	NOUN	_	_	1	_	_	_
+3	you	you	PRON	_	_	3	_	_	_
+4	’re	’re	VERB	_	_	1	_	_	_
+5	ready	ready	ADJ	_	_	3	_	_	_
+6	for	for	ADP	_	_	4	_	_	_
+7	a	a	DET	_	_	8	_	_	_
+8	fresh	fresh	ADJ	_	_	8	_	_	_
+9	start	start	NOUN	_	_	5	_	_	_
+10	in	in	ADP	_	_	8	_	_	_
+11	your	your	PRON	_	_	11	_	_	_
+12	career	career	NOUN	_	_	9	_	_	_
+
+# text = experts confirm: the more ‘authentic’ your social media presence, the more you’re lying to yourself
+# headline_id = 66
+# sent_id = 0
+# class = 1
+# link = https://chatgpt.com/
+1	experts	expert	NOUN	_	_	1	_	_	_
+2	confirm	confirm	VERB	_	_	1	_	_	_
+3	:	:	PUNCT	_	_	1	_	_	_
+4	the	the	DET	_	_	11	_	_	_
+5	more	more	ADV	_	_	6	_	_	_
+6	‘	'	PUNCT	_	_	6	_	_	_
+7	authentic	authentic	ADJ	_	_	11	_	_	_
+8	’	'	PUNCT	_	_	11	_	_	_
+9	your	your	PRON	_	_	11	_	_	_
+10	social	social	ADJ	_	_	10	_	_	_
+11	media	medium	NOUN	_	_	11	_	_	_
+12	presence	presence	NOUN	_	_	17	_	_	_
+13	,	,	PUNCT	_	_	11	_	_	_
+14	the	the	PRON	_	_	14	_	_	_
+15	more	more	ADV	_	_	17	_	_	_
+16	you	you	PRON	_	_	17	_	_	_
+17	’re	’re	AUX	_	_	17	_	_	_
+18	lying	lie	VERB	_	_	1	_	_	_
+19	to	to	ADP	_	_	17	_	_	_
+20	yourself	yourself	PRON	_	_	18	_	_	_
+
+# text = area man who claims he doesn’t need validation suddenly wants everyone to know he’s been working out
+# headline_id = 67
+# sent_id = 0
+# class = 1
+# link = https://chatgpt.com/
+1	area	area	NOUN	_	_	1	_	_	_
+2	man	man	NOUN	_	_	10	_	_	_
+3	who	who	PRON	_	_	3	_	_	_
+4	claims	claim	VERB	_	_	1	_	_	_
+5	he	he	PRON	_	_	7	_	_	_
+6	does	do	AUX	_	_	7	_	_	_
+7	n’t	not	PART	_	_	7	_	_	_
+8	need	need	VERB	_	_	3	_	_	_
+9	validation	validation	NOUN	_	_	7	_	_	_
+10	suddenly	suddenly	ADV	_	_	10	_	_	_
+11	wants	want	VERB	_	_	10	_	_	_
+12	everyone	everyone	PRON	_	_	13	_	_	_
+13	to	to	PART	_	_	13	_	_	_
+14	know	know	VERB	_	_	10	_	_	_
+15	he	he	PRON	_	_	17	_	_	_
+16	’s	’s	AUX	_	_	17	_	_	_
+17	been	be	AUX	_	_	17	_	_	_
+18	working	work	VERB	_	_	13	_	_	_
+19	out	out	ADP	_	_	17	_	_	_
+
+# text = woman who claims she’s ‘not really into materialism’ spends $800 on sustainable clothing
+# headline_id = 68
+# sent_id = 0
+# class = 1
+# link = https://chatgpt.com/
+1	woman	woman	NOUN	_	_	11	_	_	_
+2	who	who	PRON	_	_	2	_	_	_
+3	claims	claim	VERB	_	_	0	_	_	_
+4	she	she	PRON	_	_	4	_	_	_
+5	’s	’	VERB	_	_	2	_	_	_
+6	‘	'	PUNCT	_	_	4	_	_	_
+7	not	not	PART	_	_	8	_	_	_
+8	really	really	ADV	_	_	8	_	_	_
+9	into	into	ADP	_	_	4	_	_	_
+10	materialism	materialism	NOUN	_	_	8	_	_	_
+11	’	'	PUNCT	_	_	8	_	_	_
+12	spends	spend	VERB	_	_	11	_	_	_
+13	$	$	SYM	_	_	13	_	_	_
+14	800	800	NUM	_	_	11	_	_	_
+15	on	on	ADP	_	_	11	_	_	_
+16	sustainable	sustainable	ADJ	_	_	16	_	_	_
+17	clothing	clothing	NOUN	_	_	14	_	_	_
+
+# text = breaking: area woman claims ‘candlelit dinners’ are the key to her marriage, though husband only brought takeout
+# headline_id = 69
+# sent_id = 0
+# class = 1
+# link = https://chatgpt.com/
+1	breaking	break	VERB	_	_	4	_	_	_
+2	:	:	PUNCT	_	_	4	_	_	_
+3	area	area	NOUN	_	_	3	_	_	_
+4	woman	woman	NOUN	_	_	4	_	_	_
+5	claims	claim	VERB	_	_	4	_	_	_
+6	‘	'	PUNCT	_	_	7	_	_	_
+7	candlelit	candlelit	ADJ	_	_	7	_	_	_
+8	dinners	dinner	NOUN	_	_	9	_	_	_
+9	’	'	PUNCT	_	_	7	_	_	_
+10	are	be	AUX	_	_	4	_	_	_
+11	the	the	DET	_	_	11	_	_	_
+12	key	key	NOUN	_	_	9	_	_	_
+13	to	to	ADP	_	_	11	_	_	_
+14	her	her	PRON	_	_	14	_	_	_
+15	marriage	marriage	NOUN	_	_	12	_	_	_
+16	,	,	PUNCT	_	_	9	_	_	_
+17	though	though	SCONJ	_	_	19	_	_	_
+18	husband	husband	NOUN	_	_	19	_	_	_
+19	only	only	ADV	_	_	19	_	_	_
+20	brought	bring	VERB	_	_	9	_	_	_
+21	takeout	takeout	ADV	_	_	19	_	_	_
+
+# text = why you should invest in yourself before anything else
+# headline_id = 70
+# sent_id = 0
+# class = 0
+# link = https://chatgpt.com/
+1	why	why	SCONJ	_	_	3	_	_	_
+2	you	you	PRON	_	_	3	_	_	_
+3	should	should	AUX	_	_	3	_	_	_
+4	invest	invest	VERB	_	_	3	_	_	_
+5	in	in	ADP	_	_	3	_	_	_
+6	yourself	yourself	PRON	_	_	4	_	_	_
+7	before	before	ADP	_	_	3	_	_	_
+8	anything	anything	PRON	_	_	6	_	_	_
+9	else	else	ADV	_	_	7	_	_	_
+
+# text = why it’s okay to be a beginner again
+# headline_id = 71
+# sent_id = 0
+# class = 0
+# link = https://chatgpt.com/
+1	why	why	SCONJ	_	_	2	_	_	_
+2	it	it	PRON	_	_	2	_	_	_
+3	’s	’	VERB	_	_	2	_	_	_
+4	okay	okay	ADJ	_	_	2	_	_	_
+5	to	to	PART	_	_	5	_	_	_
+6	be	be	AUX	_	_	2	_	_	_
+7	a	a	DET	_	_	7	_	_	_
+8	beginner	beginner	NOUN	_	_	5	_	_	_
+9	again	again	ADV	_	_	5	_	_	_
+
+# text = why you should stop chasing perfection and start embracing progress
+# headline_id = 72
+# sent_id = 0
+# class = 0
+# link = https://chatgpt.com/
+1	why	why	SCONJ	_	_	3	_	_	_
+2	you	you	PRON	_	_	3	_	_	_
+3	should	should	AUX	_	_	3	_	_	_
+4	stop	stop	VERB	_	_	3	_	_	_
+5	chasing	chase	VERB	_	_	3	_	_	_
+6	perfection	perfection	NOUN	_	_	4	_	_	_
+7	and	and	CCONJ	_	_	3	_	_	_
+8	start	start	VERB	_	_	3	_	_	_
+9	embracing	embrace	VERB	_	_	7	_	_	_
+10	progress	progress	NOUN	_	_	8	_	_	_
+
+# text = why you should stop putting everyone else’s needs before your own
+# headline_id = 73
+# sent_id = 0
+# class = 0
+# link = https://chatgpt.com/
+1	why	why	SCONJ	_	_	3	_	_	_
+2	you	you	PRON	_	_	3	_	_	_
+3	should	should	AUX	_	_	3	_	_	_
+4	stop	stop	VERB	_	_	3	_	_	_
+5	putting	put	VERB	_	_	3	_	_	_
+6	everyone	everyone	PRON	_	_	4	_	_	_
+7	else	else	ADV	_	_	5	_	_	_
+8	’s	’s	PART	_	_	3	_	_	_
+9	needs	need	VERB	_	_	3	_	_	_
+10	before	before	ADP	_	_	8	_	_	_
+11	your	your	PRON	_	_	11	_	_	_
+12	own	own	ADJ	_	_	9	_	_	_
+
+# text = area man finally settles argument with wife by ‘letting her have her own opinion,’ again
+# headline_id = 74
+# sent_id = 0
+# class = 1
+# link = https://chatgpt.com/
+1	area	area	NOUN	_	_	1	_	_	_
+2	man	man	NOUN	_	_	3	_	_	_
+3	finally	finally	ADV	_	_	3	_	_	_
+4	settles	settle	VERB	_	_	3	_	_	_
+5	argument	argument	NOUN	_	_	3	_	_	_
+6	with	with	ADP	_	_	3	_	_	_
+7	wife	wife	NOUN	_	_	5	_	_	_
+8	by	by	ADP	_	_	3	_	_	_
+9	‘	'	PUNCT	_	_	7	_	_	_
+10	letting	let	VERB	_	_	7	_	_	_
+11	her	she	PRON	_	_	11	_	_	_
+12	have	have	VERB	_	_	9	_	_	_
+13	her	her	PRON	_	_	14	_	_	_
+14	own	own	ADJ	_	_	14	_	_	_
+15	opinion	opinion	NOUN	_	_	11	_	_	_
+16	,	,	PUNCT	_	_	3	_	_	_
+17	’	'	PUNCT	_	_	3	_	_	_
+18	again	again	ADV	_	_	3	_	_	_
+
+# text = man who reads 10 books a month still can’t finish one whole chapter without checking his email
+# headline_id = 75
+# sent_id = 0
+# class = 1
+# link = https://chatgpt.com/
+1	man	man	NOUN	_	_	10	_	_	_
+2	who	who	PRON	_	_	2	_	_	_
+3	reads	read	VERB	_	_	0	_	_	_
+4	10	10	NUM	_	_	4	_	_	_
+5	books	book	NOUN	_	_	2	_	_	_
+6	a	a	DET	_	_	6	_	_	_
+7	month	month	NOUN	_	_	4	_	_	_
+8	still	still	ADV	_	_	10	_	_	_
+9	ca	can	AUX	_	_	10	_	_	_
+10	n’t	not	PART	_	_	10	_	_	_
+11	finish	finish	VERB	_	_	10	_	_	_
+12	one	one	NUM	_	_	13	_	_	_
+13	whole	whole	ADJ	_	_	13	_	_	_
+14	chapter	chapter	NOUN	_	_	10	_	_	_
+15	without	without	ADP	_	_	10	_	_	_
+16	checking	check	VERB	_	_	14	_	_	_
+17	his	his	PRON	_	_	17	_	_	_
+18	email	email	NOUN	_	_	15	_	_	_
+
+# text = area man decides to ‘simplify’ his life, immediately buys $1,000 of things to throw away later
+# headline_id = 76
+# sent_id = 0
+# class = 1
+# link = https://chatgpt.com/
+1	area	area	NOUN	_	_	1	_	_	_
+2	man	man	NOUN	_	_	2	_	_	_
+3	decides	decide	VERB	_	_	2	_	_	_
+4	to	to	PART	_	_	5	_	_	_
+5	‘	'	PUNCT	_	_	5	_	_	_
+6	simplify	simplify	VERB	_	_	2	_	_	_
+7	’	'	PUNCT	_	_	5	_	_	_
+8	his	his	PRON	_	_	8	_	_	_
+9	life	life	NOUN	_	_	5	_	_	_
+10	,	,	PUNCT	_	_	5	_	_	_
+11	immediately	immediately	ADV	_	_	11	_	_	_
+12	buys	buy	VERB	_	_	2	_	_	_
+13	$	$	SYM	_	_	13	_	_	_
+14	1,000	1,000	NUM	_	_	11	_	_	_
+15	of	of	ADP	_	_	13	_	_	_
+16	things	thing	NOUN	_	_	14	_	_	_
+17	to	to	PART	_	_	17	_	_	_
+18	throw	throw	VERB	_	_	11	_	_	_
+19	away	away	ADV	_	_	17	_	_	_
+20	later	later	ADV	_	_	17	_	_	_
+
+# text = 6 easy ways to bring more joy into your daily life
+# headline_id = 77
+# sent_id = 0
+# class = 0
+# link = https://chatgpt.com/
+1	6	6	NUM	_	_	2	_	_	_
+2	easy	easy	ADJ	_	_	2	_	_	_
+3	ways	way	NOUN	_	_	2	_	_	_
+4	to	to	PART	_	_	4	_	_	_
+5	bring	bring	VERB	_	_	2	_	_	_
+6	more	more	ADJ	_	_	6	_	_	_
+7	joy	joy	NOUN	_	_	4	_	_	_
+8	into	into	ADP	_	_	4	_	_	_
+9	your	your	PRON	_	_	10	_	_	_
+10	daily	daily	ADJ	_	_	10	_	_	_
+11	life	life	NOUN	_	_	7	_	_	_
+
+# text = local barista hopes the oat milk he just added to your latte will fix your ‘very bad day’
+# headline_id = 78
+# sent_id = 0
+# class = 1
+# link = https://chatgpt.com/
+1	local	local	ADJ	_	_	1	_	_	_
+2	barista	barista	PROPN	_	_	2	_	_	_
+3	hopes	hope	VERB	_	_	2	_	_	_
+4	the	the	DET	_	_	5	_	_	_
+5	oat	oat	NOUN	_	_	5	_	_	_
+6	milk	milk	NOUN	_	_	13	_	_	_
+7	he	he	PRON	_	_	8	_	_	_
+8	just	just	ADV	_	_	8	_	_	_
+9	added	add	VERB	_	_	5	_	_	_
+10	to	to	ADP	_	_	8	_	_	_
+11	your	your	PRON	_	_	11	_	_	_
+12	latte	latte	NOUN	_	_	9	_	_	_
+13	will	will	AUX	_	_	13	_	_	_
+14	fix	fix	VERB	_	_	2	_	_	_
+15	your	your	PRON	_	_	18	_	_	_
+16	‘	'	PUNCT	_	_	18	_	_	_
+17	very	very	ADV	_	_	17	_	_	_
+18	bad	bad	ADJ	_	_	18	_	_	_
+19	day	day	NOUN	_	_	13	_	_	_
+20	’	'	PUNCT	_	_	2	_	_	_
+
+# text = why living in the present moment is the key to true fulfillment
+# headline_id = 79
+# sent_id = 0
+# class = 0
+# link = https://chatgpt.com/
+1	why	why	SCONJ	_	_	1	_	_	_
+2	living	live	VERB	_	_	6	_	_	_
+3	in	in	ADP	_	_	1	_	_	_
+4	the	the	DET	_	_	5	_	_	_
+5	present	present	ADJ	_	_	5	_	_	_
+6	moment	moment	NOUN	_	_	2	_	_	_
+7	is	be	AUX	_	_	6	_	_	_
+8	the	the	DET	_	_	8	_	_	_
+9	key	key	NOUN	_	_	6	_	_	_
+10	to	to	ADP	_	_	8	_	_	_
+11	true	true	ADJ	_	_	11	_	_	_
+12	fulfillment	fulfillment	NOUN	_	_	9	_	_	_
+
+# text = man who declares ‘i don’t do drama’ also declares himself king of the office gossip circle
+# headline_id = 80
+# sent_id = 0
+# class = 1
+# link = https://chatgpt.com/
+1	man	man	NOUN	_	_	7	_	_	_
+2	who	who	PRON	_	_	2	_	_	_
+3	declares	declare	VERB	_	_	0	_	_	_
+4	‘	'	PUNCT	_	_	7	_	_	_
+5	i	I	PRON	_	_	7	_	_	_
+6	do	do	AUX	_	_	7	_	_	_
+7	n’t	not	PART	_	_	7	_	_	_
+8	do	do	AUX	_	_	11	_	_	_
+9	drama	drama	NOUN	_	_	7	_	_	_
+10	’	'	PUNCT	_	_	7	_	_	_
+11	also	also	ADV	_	_	11	_	_	_
+12	declares	declare	VERB	_	_	11	_	_	_
+13	himself	himself	PRON	_	_	13	_	_	_
+14	king	king	NOUN	_	_	11	_	_	_
+15	of	of	ADP	_	_	13	_	_	_
+16	the	the	DET	_	_	18	_	_	_
+17	office	office	NOUN	_	_	17	_	_	_
+18	gossip	gossip	NOUN	_	_	18	_	_	_
+19	circle	circle	NOUN	_	_	14	_	_	_
+
+# text = new study shows that people who use ‘self-deprecating humor’ are actually just too uncomfortable with themselves
+# headline_id = 81
+# sent_id = 0
+# class = 1
+# link = https://chatgpt.com/
+1	new	new	ADJ	_	_	1	_	_	_
+2	study	study	NOUN	_	_	2	_	_	_
+3	shows	show	VERB	_	_	2	_	_	_
+4	that	that	SCONJ	_	_	13	_	_	_
+5	people	people	NOUN	_	_	13	_	_	_
+6	who	who	PRON	_	_	6	_	_	_
+7	use	use	VERB	_	_	4	_	_	_
+8	‘	'	PUNCT	_	_	6	_	_	_
+9	self	self	NOUN	_	_	10	_	_	_
+10	-	-	PUNCT	_	_	10	_	_	_
+11	deprecating	deprecate	VERB	_	_	11	_	_	_
+12	humor	humor	NOUN	_	_	6	_	_	_
+13	’	'	PUNCT	_	_	11	_	_	_
+14	are	be	AUX	_	_	2	_	_	_
+15	actually	actually	ADV	_	_	13	_	_	_
+16	just	just	ADV	_	_	17	_	_	_
+17	too	too	ADV	_	_	17	_	_	_
+18	uncomfortable	uncomfortable	ADJ	_	_	13	_	_	_
+19	with	with	ADP	_	_	17	_	_	_
+20	themselves	themselves	PRON	_	_	18	_	_	_
+
+# text = area man decides to ‘live simply,’ immediately buys the most complicated desk organizer ever made
+# headline_id = 82
+# sent_id = 0
+# class = 1
+# link = https://chatgpt.com/
+1	area	area	NOUN	_	_	1	_	_	_
+2	man	man	NOUN	_	_	2	_	_	_
+3	decides	decide	VERB	_	_	2	_	_	_
+4	to	to	PART	_	_	5	_	_	_
+5	‘	'	PUNCT	_	_	5	_	_	_
+6	live	live	VERB	_	_	2	_	_	_
+7	simply	simply	ADV	_	_	5	_	_	_
+8	,	,	PUNCT	_	_	2	_	_	_
+9	’	'	PUNCT	_	_	2	_	_	_
+10	immediately	immediately	ADV	_	_	10	_	_	_
+11	buys	buy	VERB	_	_	2	_	_	_
+12	the	the	DET	_	_	15	_	_	_
+13	most	most	ADV	_	_	13	_	_	_
+14	complicated	complicated	ADJ	_	_	15	_	_	_
+15	desk	desk	NOUN	_	_	15	_	_	_
+16	organizer	organizer	NOUN	_	_	10	_	_	_
+17	ever	ever	ADV	_	_	17	_	_	_
+18	made	make	VERB	_	_	10	_	_	_
+
+# text = new study reveals that your favorite coffee shop doesn't care about you, they just want your money
+# headline_id = 83
+# sent_id = 0
+# class = 1
+# link = https://chatgpt.com/
+1	new	new	ADJ	_	_	1	_	_	_
+2	study	study	NOUN	_	_	2	_	_	_
+3	reveals	reveal	VERB	_	_	16	_	_	_
+4	that	that	SCONJ	_	_	10	_	_	_
+5	your	your	PRON	_	_	7	_	_	_
+6	favorite	favorite	ADJ	_	_	7	_	_	_
+7	coffee	coffee	NOUN	_	_	7	_	_	_
+8	shop	shop	NOUN	_	_	10	_	_	_
+9	does	do	AUX	_	_	10	_	_	_
+10	n't	not	PART	_	_	10	_	_	_
+11	care	care	VERB	_	_	2	_	_	_
+12	about	about	ADP	_	_	10	_	_	_
+13	you	you	PRON	_	_	11	_	_	_
+14	,	,	PUNCT	_	_	16	_	_	_
+15	they	they	PRON	_	_	16	_	_	_
+16	just	just	ADV	_	_	16	_	_	_
+17	want	want	VERB	_	_	16	_	_	_
+18	your	your	PRON	_	_	18	_	_	_
+19	money	money	NOUN	_	_	16	_	_	_
+
+# text = how to stay grounded when life feels chaotic
+# headline_id = 84
+# sent_id = 0
+# class = 0
+# link = https://chatgpt.com/
+1	how	how	SCONJ	_	_	2	_	_	_
+2	to	to	PART	_	_	2	_	_	_
+3	stay	stay	VERB	_	_	2	_	_	_
+4	grounded	ground	VERB	_	_	2	_	_	_
+5	when	when	SCONJ	_	_	6	_	_	_
+6	life	life	NOUN	_	_	6	_	_	_
+7	feels	feel	VERB	_	_	2	_	_	_
+8	chaotic	chaotic	ADJ	_	_	6	_	_	_
+
+# text = how to master the art of saying “no” without feeling guilty
+# headline_id = 85
+# sent_id = 0
+# class = 0
+# link = https://chatgpt.com/
+1	how	how	SCONJ	_	_	2	_	_	_
+2	to	to	PART	_	_	2	_	_	_
+3	master	master	VERB	_	_	2	_	_	_
+4	the	the	DET	_	_	4	_	_	_
+5	art	art	NOUN	_	_	2	_	_	_
+6	of	of	ADP	_	_	4	_	_	_
+7	saying	say	VERB	_	_	5	_	_	_
+8	“	"	PUNCT	_	_	6	_	_	_
+9	no	no	INTJ	_	_	6	_	_	_
+10	”	"	PUNCT	_	_	6	_	_	_
+11	without	without	ADP	_	_	6	_	_	_
+12	feeling	feel	VERB	_	_	10	_	_	_
+13	guilty	guilty	ADJ	_	_	11	_	_	_
+
+# text = how to find balance between work, life, and everything in-between
+# headline_id = 86
+# sent_id = 0
+# class = 0
+# link = https://chatgpt.com/
+1	how	how	SCONJ	_	_	2	_	_	_
+2	to	to	PART	_	_	2	_	_	_
+3	find	find	VERB	_	_	2	_	_	_
+4	balance	balance	NOUN	_	_	2	_	_	_
+5	between	between	ADP	_	_	3	_	_	_
+6	work	work	NOUN	_	_	4	_	_	_
+7	,	,	PUNCT	_	_	5	_	_	_
+8	life	life	NOUN	_	_	5	_	_	_
+9	,	,	PUNCT	_	_	7	_	_	_
+10	and	and	CCONJ	_	_	7	_	_	_
+11	everything	everything	PRON	_	_	7	_	_	_
+12	in	in	ADP	_	_	10	_	_	_
+13	-	-	PUNCT	_	_	11	_	_	_
+14	between	between	NOUN	_	_	11	_	_	_
+
+# text = the benefits of decluttering your mind (and how to do it)
+# headline_id = 87
+# sent_id = 0
+# class = 0
+# link = https://chatgpt.com/
+1	the	the	DET	_	_	1	_	_	_
+2	benefits	benefit	NOUN	_	_	1	_	_	_
+3	of	of	ADP	_	_	1	_	_	_
+4	decluttering	decluttere	VERB	_	_	2	_	_	_
+5	your	your	PRON	_	_	5	_	_	_
+6	mind	mind	NOUN	_	_	3	_	_	_
+7	(	(	PUNCT	_	_	1	_	_	_
+8	and	and	CCONJ	_	_	1	_	_	_
+9	how	how	SCONJ	_	_	10	_	_	_
+10	to	to	PART	_	_	10	_	_	_
+11	do	do	VERB	_	_	1	_	_	_
+12	it	it	PRON	_	_	10	_	_	_
+13	)	)	PUNCT	_	_	1	_	_	_
+
+# text = scientists warn that too much “self-care” is leading to unprecedented levels of doing nothing
+# headline_id = 88
+# sent_id = 0
+# class = 1
+# link = https://chatgpt.com/
+1	scientists	scientist	NOUN	_	_	1	_	_	_
+2	warn	warn	VERB	_	_	1	_	_	_
+3	that	that	SCONJ	_	_	11	_	_	_
+4	too	too	ADV	_	_	4	_	_	_
+5	much	much	ADJ	_	_	8	_	_	_
+6	“	"	PUNCT	_	_	8	_	_	_
+7	self	self	NOUN	_	_	8	_	_	_
+8	-	-	PUNCT	_	_	8	_	_	_
+9	care	care	NOUN	_	_	11	_	_	_
+10	”	"	PUNCT	_	_	8	_	_	_
+11	is	be	AUX	_	_	11	_	_	_
+12	leading	lead	VERB	_	_	1	_	_	_
+13	to	to	ADP	_	_	11	_	_	_
+14	unprecedented	unprecedented	ADJ	_	_	14	_	_	_
+15	levels	level	NOUN	_	_	12	_	_	_
+16	of	of	ADP	_	_	14	_	_	_
+17	doing	do	VERB	_	_	15	_	_	_
+18	nothing	nothing	PRON	_	_	16	_	_	_
+
+# text = scientists announce that people who say ‘i’m not here for drama’ are literally the most dramatic
+# headline_id = 89
+# sent_id = 0
+# class = 1
+# link = https://chatgpt.com/
+1	scientists	scientist	NOUN	_	_	1	_	_	_
+2	announce	announce	VERB	_	_	1	_	_	_
+3	that	that	SCONJ	_	_	14	_	_	_
+4	people	people	NOUN	_	_	14	_	_	_
+5	who	who	PRON	_	_	5	_	_	_
+6	say	say	VERB	_	_	3	_	_	_
+7	‘	'	PUNCT	_	_	5	_	_	_
+8	i	I	PRON	_	_	8	_	_	_
+9	’m	’m	VERB	_	_	5	_	_	_
+10	not	not	PART	_	_	8	_	_	_
+11	here	here	ADV	_	_	8	_	_	_
+12	for	for	ADP	_	_	8	_	_	_
+13	drama	drama	NOUN	_	_	11	_	_	_
+14	’	'	PUNCT	_	_	3	_	_	_
+15	are	be	AUX	_	_	1	_	_	_
+16	literally	literally	ADV	_	_	14	_	_	_
+17	the	the	DET	_	_	18	_	_	_
+18	most	most	ADV	_	_	18	_	_	_
+19	dramatic	dramatic	ADJ	_	_	14	_	_	_
+
+# text = area woman who is ‘so over’ her job also claims she’s ‘so over’ having any free time
+# headline_id = 90
+# sent_id = 0
+# class = 1
+# link = https://chatgpt.com/
+1	area	area	NOUN	_	_	1	_	_	_
+2	woman	woman	NOUN	_	_	11	_	_	_
+3	who	who	PRON	_	_	3	_	_	_
+4	is	be	AUX	_	_	1	_	_	_
+5	‘	'	PUNCT	_	_	3	_	_	_
+6	so	so	ADV	_	_	6	_	_	_
+7	over	over	ADP	_	_	3	_	_	_
+8	’	'	PUNCT	_	_	6	_	_	_
+9	her	her	PRON	_	_	9	_	_	_
+10	job	job	NOUN	_	_	11	_	_	_
+11	also	also	ADV	_	_	11	_	_	_
+12	claims	claim	VERB	_	_	11	_	_	_
+13	she	she	PRON	_	_	13	_	_	_
+14	’s	’	VERB	_	_	11	_	_	_
+15	‘	'	PUNCT	_	_	16	_	_	_
+16	so	so	ADV	_	_	16	_	_	_
+17	over	over	ADV	_	_	11	_	_	_
+18	’	'	PUNCT	_	_	16	_	_	_
+19	having	have	VERB	_	_	16	_	_	_
+20	any	any	DET	_	_	21	_	_	_
+21	free	free	ADJ	_	_	21	_	_	_
+22	time	time	NOUN	_	_	18	_	_	_
+
+# text = local dog announces she’s now vegan, immediately starts scowling at her owner’s dinner
+# headline_id = 91
+# sent_id = 0
+# class = 1
+# link = https://chatgpt.com/
+1	local	local	ADJ	_	_	1	_	_	_
+2	dog	dog	NOUN	_	_	2	_	_	_
+3	announces	announce	VERB	_	_	9	_	_	_
+4	she	she	PRON	_	_	4	_	_	_
+5	’s	’	VERB	_	_	2	_	_	_
+6	now	now	ADV	_	_	4	_	_	_
+7	vegan	vegan	NOUN	_	_	4	_	_	_
+8	,	,	PUNCT	_	_	2	_	_	_
+9	immediately	immediately	ADV	_	_	9	_	_	_
+10	starts	start	VERB	_	_	9	_	_	_
+11	scowling	scowl	VERB	_	_	9	_	_	_
+12	at	at	ADP	_	_	10	_	_	_
+13	her	her	PRON	_	_	13	_	_	_
+14	owner	owner	NOUN	_	_	15	_	_	_
+15	’s	’s	PART	_	_	13	_	_	_
+16	dinner	dinner	NOUN	_	_	11	_	_	_
+
+# text = the ultimate guide to practicing self-care without feeling selfish
+# headline_id = 92
+# sent_id = 0
+# class = 0
+# link = https://chatgpt.com/
+1	the	the	DET	_	_	2	_	_	_
+2	ultimate	ultimate	ADJ	_	_	2	_	_	_
+3	guide	guide	NOUN	_	_	2	_	_	_
+4	to	to	ADP	_	_	2	_	_	_
+5	practicing	practice	VERB	_	_	3	_	_	_
+6	self	self	NOUN	_	_	7	_	_	_
+7	-	-	PUNCT	_	_	7	_	_	_
+8	care	care	NOUN	_	_	4	_	_	_
+9	without	without	ADP	_	_	4	_	_	_
+10	feeling	feel	VERB	_	_	8	_	_	_
+11	selfish	selfish	ADJ	_	_	9	_	_	_
+
+# text = survey shows 82% of people who talk about ‘wellness’ still think that one cheeto will ruin their day
+# headline_id = 93
+# sent_id = 0
+# class = 1
+# link = https://chatgpt.com/
+1	survey	survey	NOUN	_	_	1	_	_	_
+2	shows	show	VERB	_	_	1	_	_	_
+3	82	82	NUM	_	_	3	_	_	_
+4	%	%	NOUN	_	_	13	_	_	_
+5	of	of	ADP	_	_	3	_	_	_
+6	people	people	NOUN	_	_	4	_	_	_
+7	who	who	PRON	_	_	7	_	_	_
+8	talk	talk	VERB	_	_	5	_	_	_
+9	about	about	ADP	_	_	7	_	_	_
+10	‘	'	PUNCT	_	_	10	_	_	_
+11	wellness	wellness	NOUN	_	_	8	_	_	_
+12	’	'	PUNCT	_	_	10	_	_	_
+13	still	still	ADV	_	_	13	_	_	_
+14	think	think	VERB	_	_	1	_	_	_
+15	that	that	SCONJ	_	_	18	_	_	_
+16	one	one	NUM	_	_	16	_	_	_
+17	cheeto	cheeto	PROPN	_	_	18	_	_	_
+18	will	will	AUX	_	_	18	_	_	_
+19	ruin	ruin	VERB	_	_	13	_	_	_
+20	their	their	PRON	_	_	20	_	_	_
+21	day	day	NOUN	_	_	18	_	_	_
+
+# text = local man who spent $50 on organic fruit immediately tosses it after seeing a banana meme
+# headline_id = 94
+# sent_id = 0
+# class = 1
+# link = https://chatgpt.com/
+1	local	local	ADJ	_	_	1	_	_	_
+2	man	man	NOUN	_	_	10	_	_	_
+3	who	who	PRON	_	_	3	_	_	_
+4	spent	spend	VERB	_	_	1	_	_	_
+5	$	$	SYM	_	_	5	_	_	_
+6	50	50	NUM	_	_	3	_	_	_
+7	on	on	ADP	_	_	3	_	_	_
+8	organic	organic	ADJ	_	_	8	_	_	_
+9	fruit	fruit	NOUN	_	_	6	_	_	_
+10	immediately	immediately	ADV	_	_	10	_	_	_
+11	tosses	toss	VERB	_	_	10	_	_	_
+12	it	it	PRON	_	_	10	_	_	_
+13	after	after	ADP	_	_	10	_	_	_
+14	seeing	see	VERB	_	_	12	_	_	_
+15	a	a	DET	_	_	16	_	_	_
+16	banana	banana	NOUN	_	_	16	_	_	_
+17	meme	meme	NOUN	_	_	13	_	_	_
+
+# text = how to achieve more by doing less (and why it works)
+# headline_id = 95
+# sent_id = 0
+# class = 0
+# link = https://chatgpt.com/
+1	how	how	SCONJ	_	_	2	_	_	_
+2	to	to	PART	_	_	2	_	_	_
+3	achieve	achieve	VERB	_	_	2	_	_	_
+4	more	more	ADJ	_	_	2	_	_	_
+5	by	by	ADP	_	_	2	_	_	_
+6	doing	do	VERB	_	_	4	_	_	_
+7	less	less	ADJ	_	_	5	_	_	_
+8	(	(	PUNCT	_	_	2	_	_	_
+9	and	and	CCONJ	_	_	2	_	_	_
+10	why	why	SCONJ	_	_	11	_	_	_
+11	it	it	PRON	_	_	11	_	_	_
+12	works	work	VERB	_	_	2	_	_	_
+13	)	)	PUNCT	_	_	11	_	_	_
+
+# text = how to build healthy boundaries without feeling guilty
+# headline_id = 96
+# sent_id = 0
+# class = 0
+# link = https://chatgpt.com/
+1	how	how	SCONJ	_	_	2	_	_	_
+2	to	to	PART	_	_	2	_	_	_
+3	build	build	VERB	_	_	2	_	_	_
+4	healthy	healthy	ADJ	_	_	4	_	_	_
+5	boundaries	boundary	NOUN	_	_	2	_	_	_
+6	without	without	ADP	_	_	2	_	_	_
+7	feeling	feel	VERB	_	_	5	_	_	_
+8	guilty	guilty	ADJ	_	_	6	_	_	_
+
+# text = why you should make time for creativity every day
+# headline_id = 97
+# sent_id = 0
+# class = 0
+# link = https://chatgpt.com/
+1	why	why	SCONJ	_	_	3	_	_	_
+2	you	you	PRON	_	_	3	_	_	_
+3	should	should	AUX	_	_	3	_	_	_
+4	make	make	VERB	_	_	3	_	_	_
+5	time	time	NOUN	_	_	3	_	_	_
+6	for	for	ADP	_	_	3	_	_	_
+7	creativity	creativity	NOUN	_	_	5	_	_	_
+8	every	every	DET	_	_	8	_	_	_
+9	day	day	NOUN	_	_	3	_	_	_
+
+# text = the importance of taking care of your mental health every day
+# headline_id = 98
+# sent_id = 0
+# class = 0
+# link = https://chatgpt.com/
+1	the	the	DET	_	_	1	_	_	_
+2	importance	importance	NOUN	_	_	1	_	_	_
+3	of	of	ADP	_	_	1	_	_	_
+4	taking	take	VERB	_	_	2	_	_	_
+5	care	care	NOUN	_	_	3	_	_	_
+6	of	of	ADP	_	_	3	_	_	_
+7	your	your	PRON	_	_	8	_	_	_
+8	mental	mental	ADJ	_	_	8	_	_	_
+9	health	health	NOUN	_	_	5	_	_	_
+10	every	every	DET	_	_	10	_	_	_
+11	day	day	NOUN	_	_	3	_	_	_
+
+# text = breaking: local cat declares himself ‘ceo’ of the household, immediately fires entire family
+# headline_id = 99
+# sent_id = 0
+# class = 1
+# link = https://chatgpt.com/
+1	breaking	break	VERB	_	_	4	_	_	_
+2	:	:	PUNCT	_	_	4	_	_	_
+3	local	local	ADJ	_	_	3	_	_	_
+4	cat	cat	NOUN	_	_	4	_	_	_
+5	declares	declare	VERB	_	_	4	_	_	_
+6	himself	himself	PRON	_	_	7	_	_	_
+7	‘	'	PUNCT	_	_	7	_	_	_
+8	ceo	ceo	NOUN	_	_	4	_	_	_
+9	’	'	PUNCT	_	_	7	_	_	_
+10	of	of	ADP	_	_	7	_	_	_
+11	the	the	DET	_	_	11	_	_	_
+12	household	household	NOUN	_	_	9	_	_	_
+13	,	,	PUNCT	_	_	4	_	_	_
+14	immediately	immediately	ADV	_	_	14	_	_	_
+15	fires	fire	VERB	_	_	4	_	_	_
+16	entire	entire	ADJ	_	_	16	_	_	_
+17	family	family	NOUN	_	_	14	_	_	_
+
+# text = breaking: area man with six unopened boxes claims he’s “not a hoarder, just very productive”
+# headline_id = 100
+# sent_id = 0
+# class = 1
+# link = https://chatgpt.com/
+1	breaking	break	VERB	_	_	8	_	_	_
+2	:	:	PUNCT	_	_	0	_	_	_
+3	area	area	NOUN	_	_	3	_	_	_
+4	man	man	NOUN	_	_	8	_	_	_
+5	with	with	ADP	_	_	3	_	_	_
+6	six	six	NUM	_	_	7	_	_	_
+7	unopened	unopened	ADJ	_	_	7	_	_	_
+8	boxes	box	NOUN	_	_	4	_	_	_
+9	claims	claim	VERB	_	_	8	_	_	_
+10	he	he	PRON	_	_	10	_	_	_
+11	’s	’	VERB	_	_	8	_	_	_
+12	“	"	PUNCT	_	_	14	_	_	_
+13	not	not	PART	_	_	14	_	_	_
+14	a	a	DET	_	_	14	_	_	_
+15	hoarder	hoarder	NOUN	_	_	10	_	_	_
+16	,	,	PUNCT	_	_	14	_	_	_
+17	just	just	ADV	_	_	18	_	_	_
+18	very	very	ADV	_	_	18	_	_	_
+19	productive	productive	ADJ	_	_	14	_	_	_
+20	”	"	PUNCT	_	_	8	_	_	_
+
+# text = 5 ways to create a life that reflects your true values
+# headline_id = 101
+# sent_id = 0
+# class = 0
+# link = https://chatgpt.com/
+1	5	5	NUM	_	_	1	_	_	_
+2	ways	way	NOUN	_	_	1	_	_	_
+3	to	to	PART	_	_	3	_	_	_
+4	create	create	VERB	_	_	1	_	_	_
+5	a	a	DET	_	_	5	_	_	_
+6	life	life	NOUN	_	_	3	_	_	_
+7	that	that	PRON	_	_	7	_	_	_
+8	reflects	reflect	VERB	_	_	5	_	_	_
+9	your	your	PRON	_	_	10	_	_	_
+10	true	true	ADJ	_	_	10	_	_	_
+11	values	value	NOUN	_	_	7	_	_	_
+
+# text = why overcoming fear is the key to living an authentic life
+# headline_id = 102
+# sent_id = 0
+# class = 0
+# link = https://chatgpt.com/
+1	why	why	SCONJ	_	_	1	_	_	_
+2	overcoming	overcome	VERB	_	_	3	_	_	_
+3	fear	fear	NOUN	_	_	1	_	_	_
+4	is	be	AUX	_	_	3	_	_	_
+5	the	the	DET	_	_	5	_	_	_
+6	key	key	NOUN	_	_	3	_	_	_
+7	to	to	ADP	_	_	5	_	_	_
+8	living	live	VERB	_	_	6	_	_	_
+9	an	an	DET	_	_	10	_	_	_
+10	authentic	authentic	ADJ	_	_	10	_	_	_
+11	life	life	NOUN	_	_	7	_	_	_
+
+# text = how to find your purpose when you feel lost
+# headline_id = 103
+# sent_id = 0
+# class = 0
+# link = https://chatgpt.com/
+1	how	how	SCONJ	_	_	2	_	_	_
+2	to	to	PART	_	_	2	_	_	_
+3	find	find	VERB	_	_	2	_	_	_
+4	your	your	PRON	_	_	4	_	_	_
+5	purpose	purpose	NOUN	_	_	2	_	_	_
+6	when	when	SCONJ	_	_	7	_	_	_
+7	you	you	PRON	_	_	7	_	_	_
+8	feel	feel	VERB	_	_	2	_	_	_
+9	lost	lose	VERB	_	_	7	_	_	_
+
+# text = world shocked to learn that influencers also have to pretend they like their jobs
+# headline_id = 104
+# sent_id = 0
+# class = 1
+# link = https://chatgpt.com/
+1	world	world	NOUN	_	_	1	_	_	_
+2	shocked	shocked	ADJ	_	_	1	_	_	_
+3	to	to	PART	_	_	3	_	_	_
+4	learn	learn	VERB	_	_	1	_	_	_
+5	that	that	SCONJ	_	_	7	_	_	_
+6	influencers	influencer	NOUN	_	_	7	_	_	_
+7	also	also	ADV	_	_	7	_	_	_
+8	have	have	VERB	_	_	3	_	_	_
+9	to	to	PART	_	_	9	_	_	_
+10	pretend	pretend	VERB	_	_	7	_	_	_
+11	they	they	PRON	_	_	11	_	_	_
+12	like	like	ADP	_	_	9	_	_	_
+13	their	their	PRON	_	_	13	_	_	_
+14	jobs	job	NOUN	_	_	11	_	_	_
+
+# text = why you should embrace your imperfections and let go of perfectionism
+# headline_id = 105
+# sent_id = 0
+# class = 0
+# link = https://chatgpt.com/
+1	why	why	SCONJ	_	_	3	_	_	_
+2	you	you	PRON	_	_	3	_	_	_
+3	should	should	AUX	_	_	3	_	_	_
+4	embrace	embrace	VERB	_	_	3	_	_	_
+5	your	your	PRON	_	_	5	_	_	_
+6	imperfections	imperfection	NOUN	_	_	3	_	_	_
+7	and	and	CCONJ	_	_	3	_	_	_
+8	let	let	VERB	_	_	3	_	_	_
+9	go	go	VERB	_	_	7	_	_	_
+10	of	of	ADP	_	_	8	_	_	_
+11	perfectionism	perfectionism	NOUN	_	_	9	_	_	_
+
+# text = why taking care of your body is the first step to achieving your goals
+# headline_id = 106
+# sent_id = 0
+# class = 0
+# link = https://chatgpt.com/
+1	why	why	SCONJ	_	_	1	_	_	_
+2	taking	take	VERB	_	_	6	_	_	_
+3	care	care	NOUN	_	_	1	_	_	_
+4	of	of	ADP	_	_	1	_	_	_
+5	your	your	PRON	_	_	5	_	_	_
+6	body	body	NOUN	_	_	3	_	_	_
+7	is	be	AUX	_	_	6	_	_	_
+8	the	the	DET	_	_	9	_	_	_
+9	first	first	ADJ	_	_	9	_	_	_
+10	step	step	NOUN	_	_	6	_	_	_
+11	to	to	ADP	_	_	9	_	_	_
+12	achieving	achieve	VERB	_	_	10	_	_	_
+13	your	your	PRON	_	_	13	_	_	_
+14	goals	goal	NOUN	_	_	11	_	_	_
+
+# text = local couple celebrates ‘first date’ by watching netflix from separate rooms, just to test the vibe
+# headline_id = 107
+# sent_id = 0
+# class = 1
+# link = https://chatgpt.com/
+1	local	local	ADJ	_	_	1	_	_	_
+2	couple	couple	NOUN	_	_	2	_	_	_
+3	celebrates	celebrate	NOUN	_	_	2	_	_	_
+4	‘	'	PUNCT	_	_	5	_	_	_
+5	first	first	ADJ	_	_	5	_	_	_
+6	date	date	NOUN	_	_	2	_	_	_
+7	’	'	PUNCT	_	_	5	_	_	_
+8	by	by	ADP	_	_	2	_	_	_
+9	watching	watch	VERB	_	_	7	_	_	_
+10	netflix	netflix	PROPN	_	_	8	_	_	_
+11	from	from	ADP	_	_	8	_	_	_
+12	separate	separate	ADJ	_	_	12	_	_	_
+13	rooms	room	NOUN	_	_	10	_	_	_
+14	,	,	PUNCT	_	_	8	_	_	_
+15	just	just	ADV	_	_	16	_	_	_
+16	to	to	PART	_	_	16	_	_	_
+17	test	test	VERB	_	_	8	_	_	_
+18	the	the	DET	_	_	18	_	_	_
+19	vibe	vibe	NOUN	_	_	16	_	_	_
+
+# text = breaking: new study reveals that 90% of emails are just to remind you that you exist
+# headline_id = 108
+# sent_id = 0
+# class = 1
+# link = https://chatgpt.com/
+1	breaking	break	VERB	_	_	4	_	_	_
+2	:	:	PUNCT	_	_	0	_	_	_
+3	new	new	ADJ	_	_	3	_	_	_
+4	study	study	NOUN	_	_	4	_	_	_
+5	reveals	reveal	VERB	_	_	4	_	_	_
+6	that	that	SCONJ	_	_	10	_	_	_
+7	90	90	NUM	_	_	7	_	_	_
+8	%	%	NOUN	_	_	10	_	_	_
+9	of	of	ADP	_	_	7	_	_	_
+10	emails	email	NOUN	_	_	8	_	_	_
+11	are	be	AUX	_	_	4	_	_	_
+12	just	just	ADV	_	_	13	_	_	_
+13	to	to	PART	_	_	13	_	_	_
+14	remind	remind	VERB	_	_	10	_	_	_
+15	you	you	PRON	_	_	13	_	_	_
+16	that	that	SCONJ	_	_	17	_	_	_
+17	you	you	PRON	_	_	17	_	_	_
+18	exist	exist	VERB	_	_	13	_	_	_
+
+# text = how to build a support system that lifts you up
+# headline_id = 109
+# sent_id = 0
+# class = 0
+# link = https://chatgpt.com/
+1	how	how	SCONJ	_	_	2	_	_	_
+2	to	to	PART	_	_	2	_	_	_
+3	build	build	VERB	_	_	2	_	_	_
+4	a	a	DET	_	_	5	_	_	_
+5	support	support	NOUN	_	_	5	_	_	_
+6	system	system	NOUN	_	_	2	_	_	_
+7	that	that	PRON	_	_	7	_	_	_
+8	lifts	lift	VERB	_	_	5	_	_	_
+9	you	you	PRON	_	_	7	_	_	_
+10	up	up	ADP	_	_	7	_	_	_
+
+# text = how to stay calm and collected during major life transitions
+# headline_id = 110
+# sent_id = 0
+# class = 0
+# link = https://chatgpt.com/
+1	how	how	SCONJ	_	_	2	_	_	_
+2	to	to	PART	_	_	2	_	_	_
+3	stay	stay	VERB	_	_	2	_	_	_
+4	calm	calm	ADJ	_	_	2	_	_	_
+5	and	and	CCONJ	_	_	2	_	_	_
+6	collected	collect	VERB	_	_	2	_	_	_
+7	during	during	ADP	_	_	5	_	_	_
+8	major	major	ADJ	_	_	9	_	_	_
+9	life	life	NOUN	_	_	9	_	_	_
+10	transitions	transition	NOUN	_	_	6	_	_	_
+
+# text = woman who claims ‘she’s just not into fashion’ spends entire paycheck on seasonal outfits
+# headline_id = 111
+# sent_id = 0
+# class = 1
+# link = https://chatgpt.com/
+1	woman	woman	NOUN	_	_	11	_	_	_
+2	who	who	PRON	_	_	2	_	_	_
+3	claims	claim	VERB	_	_	0	_	_	_
+4	‘	'	PUNCT	_	_	5	_	_	_
+5	she	she	PRON	_	_	5	_	_	_
+6	’s	’	VERB	_	_	0	_	_	_
+7	just	just	ADV	_	_	5	_	_	_
+8	not	not	PART	_	_	5	_	_	_
+9	into	into	ADP	_	_	5	_	_	_
+10	fashion	fashion	NOUN	_	_	8	_	_	_
+11	’	'	PUNCT	_	_	11	_	_	_
+12	spends	spend	VERB	_	_	11	_	_	_
+13	entire	entire	ADJ	_	_	13	_	_	_
+14	paycheck	paycheck	NOUN	_	_	11	_	_	_
+15	on	on	ADP	_	_	11	_	_	_
+16	seasonal	seasonal	ADJ	_	_	16	_	_	_
+17	outfits	outfits	NOUN	_	_	14	_	_	_
+
+# text = survey finds most people only use their “vacation time” to nap in their car
+# headline_id = 112
+# sent_id = 0
+# class = 1
+# link = https://chatgpt.com/
+1	survey	survey	NOUN	_	_	1	_	_	_
+2	finds	find	VERB	_	_	1	_	_	_
+3	most	most	ADJ	_	_	3	_	_	_
+4	people	people	NOUN	_	_	5	_	_	_
+5	only	only	ADV	_	_	5	_	_	_
+6	use	use	VERB	_	_	1	_	_	_
+7	their	their	PRON	_	_	9	_	_	_
+8	“	"	PUNCT	_	_	9	_	_	_
+9	vacation	vacation	NOUN	_	_	9	_	_	_
+10	time	time	NOUN	_	_	5	_	_	_
+11	”	"	PUNCT	_	_	9	_	_	_
+12	to	to	PART	_	_	12	_	_	_
+13	nap	nap	VERB	_	_	5	_	_	_
+14	in	in	ADP	_	_	12	_	_	_
+15	their	their	PRON	_	_	15	_	_	_
+16	car	car	NOUN	_	_	13	_	_	_
+
+# text = study finds that the only people who still use facebook are either parents or people trying to sell you amway
+# headline_id = 113
+# sent_id = 0
+# class = 1
+# link = https://chatgpt.com/
+1	study	study	NOUN	_	_	1	_	_	_
+2	finds	find	VERB	_	_	1	_	_	_
+3	that	that	SCONJ	_	_	10	_	_	_
+4	the	the	DET	_	_	5	_	_	_
+5	only	only	ADJ	_	_	5	_	_	_
+6	people	people	NOUN	_	_	10	_	_	_
+7	who	who	PRON	_	_	8	_	_	_
+8	still	still	ADV	_	_	8	_	_	_
+9	use	use	VERB	_	_	5	_	_	_
+10	facebook	facebook	NOUN	_	_	8	_	_	_
+11	are	be	AUX	_	_	1	_	_	_
+12	either	either	CCONJ	_	_	15	_	_	_
+13	parents	parent	NOUN	_	_	15	_	_	_
+14	or	or	CCONJ	_	_	12	_	_	_
+15	people	people	NOUN	_	_	12	_	_	_
+16	trying	try	VERB	_	_	10	_	_	_
+17	to	to	PART	_	_	17	_	_	_
+18	sell	sell	VERB	_	_	15	_	_	_
+19	you	you	PRON	_	_	17	_	_	_
+20	amway	amway	ADV	_	_	17	_	_	_
+
+# text = why taking risks is the key to personal growth
+# headline_id = 114
+# sent_id = 0
+# class = 0
+# link = https://chatgpt.com/
+1	why	why	SCONJ	_	_	1	_	_	_
+2	taking	take	VERB	_	_	3	_	_	_
+3	risks	risk	NOUN	_	_	1	_	_	_
+4	is	be	AUX	_	_	3	_	_	_
+5	the	the	DET	_	_	5	_	_	_
+6	key	key	NOUN	_	_	3	_	_	_
+7	to	to	ADP	_	_	5	_	_	_
+8	personal	personal	ADJ	_	_	8	_	_	_
+9	growth	growth	NOUN	_	_	6	_	_	_
+
+# text = man who always buys things he doesn’t need now claims he’s living his best ‘minimalist’ life
+# headline_id = 115
+# sent_id = 0
+# class = 1
+# link = https://chatgpt.com/
+1	man	man	NOUN	_	_	10	_	_	_
+2	who	who	PRON	_	_	3	_	_	_
+3	always	always	ADV	_	_	3	_	_	_
+4	buys	buy	VERB	_	_	0	_	_	_
+5	things	thing	NOUN	_	_	3	_	_	_
+6	he	he	PRON	_	_	8	_	_	_
+7	does	do	AUX	_	_	8	_	_	_
+8	n’t	not	PART	_	_	8	_	_	_
+9	need	need	VERB	_	_	4	_	_	_
+10	now	now	ADV	_	_	8	_	_	_
+11	claims	claim	VERB	_	_	10	_	_	_
+12	he	he	PRON	_	_	13	_	_	_
+13	’s	’s	AUX	_	_	13	_	_	_
+14	living	live	VERB	_	_	10	_	_	_
+15	his	his	PRON	_	_	19	_	_	_
+16	best	good	ADJ	_	_	19	_	_	_
+17	‘	'	PUNCT	_	_	19	_	_	_
+18	minimalist	minimalist	ADJ	_	_	19	_	_	_
+19	’	'	PUNCT	_	_	19	_	_	_
+20	life	life	NOUN	_	_	13	_	_	_
+
+# text = man claims to be ‘more of an introvert’ but still ends up in every group chat
+# headline_id = 116
+# sent_id = 0
+# class = 1
+# link = https://chatgpt.com/
+1	man	man	NOUN	_	_	1	_	_	_
+2	claims	claim	VERB	_	_	1	_	_	_
+3	to	to	PART	_	_	3	_	_	_
+4	be	be	AUX	_	_	1	_	_	_
+5	‘	'	PUNCT	_	_	3	_	_	_
+6	more	more	ADJ	_	_	3	_	_	_
+7	of	of	ADP	_	_	5	_	_	_
+8	an	an	DET	_	_	8	_	_	_
+9	introvert	introvert	NOUN	_	_	6	_	_	_
+10	’	'	PUNCT	_	_	1	_	_	_
+11	but	but	CCONJ	_	_	1	_	_	_
+12	still	still	ADV	_	_	12	_	_	_
+13	ends	end	VERB	_	_	1	_	_	_
+14	up	up	ADP	_	_	12	_	_	_
+15	in	in	ADP	_	_	12	_	_	_
+16	every	every	DET	_	_	16	_	_	_
+17	group	group	NOUN	_	_	14	_	_	_
+18	chat	chat	NOUN	_	_	1	_	_	_
+
+# text = woman who wrote a ‘self-help’ book still can’t find her phone charger
+# headline_id = 117
+# sent_id = 0
+# class = 1
+# link = https://chatgpt.com/
+1	woman	woman	NOUN	_	_	13	_	_	_
+2	who	who	PRON	_	_	2	_	_	_
+3	wrote	write	VERB	_	_	0	_	_	_
+4	a	a	DET	_	_	9	_	_	_
+5	‘	'	PUNCT	_	_	9	_	_	_
+6	self	self	NOUN	_	_	7	_	_	_
+7	-	-	PUNCT	_	_	7	_	_	_
+8	help	help	NOUN	_	_	9	_	_	_
+9	’	'	PUNCT	_	_	9	_	_	_
+10	book	book	NOUN	_	_	2	_	_	_
+11	still	still	ADV	_	_	13	_	_	_
+12	ca	can	AUX	_	_	13	_	_	_
+13	n’t	not	PART	_	_	13	_	_	_
+14	find	find	VERB	_	_	13	_	_	_
+15	her	her	PRON	_	_	16	_	_	_
+16	phone	phone	NOUN	_	_	16	_	_	_
+17	charger	charger	NOUN	_	_	13	_	_	_
+
+# text = local man not sure why he’s still getting emails from nigerian princes, but definitely wants to know more
+# headline_id = 118
+# sent_id = 0
+# class = 1
+# link = https://chatgpt.com/
+1	local	local	ADJ	_	_	1	_	_	_
+2	man	man	NOUN	_	_	1	_	_	_
+3	not	not	PART	_	_	3	_	_	_
+4	sure	sure	ADJ	_	_	1	_	_	_
+5	why	why	SCONJ	_	_	8	_	_	_
+6	he	he	PRON	_	_	8	_	_	_
+7	’s	’s	AUX	_	_	8	_	_	_
+8	still	still	ADV	_	_	8	_	_	_
+9	getting	get	VERB	_	_	3	_	_	_
+10	emails	email	NOUN	_	_	8	_	_	_
+11	from	from	ADP	_	_	9	_	_	_
+12	nigerian	nigerian	ADJ	_	_	12	_	_	_
+13	princes	prince	NOUN	_	_	10	_	_	_
+14	,	,	PUNCT	_	_	3	_	_	_
+15	but	but	CCONJ	_	_	3	_	_	_
+16	definitely	definitely	ADV	_	_	16	_	_	_
+17	wants	want	VERB	_	_	3	_	_	_
+18	to	to	PART	_	_	18	_	_	_
+19	know	know	VERB	_	_	16	_	_	_
+20	more	more	ADJ	_	_	18	_	_	_
+
+# text = what no one tells you about navigating a career change
+# headline_id = 119
+# sent_id = 0
+# class = 0
+# link = https://chatgpt.com/
+1	what	what	PRON	_	_	3	_	_	_
+2	no	no	DET	_	_	2	_	_	_
+3	one	one	NOUN	_	_	3	_	_	_
+4	tells	tell	VERB	_	_	3	_	_	_
+5	you	you	PRON	_	_	3	_	_	_
+6	about	about	ADP	_	_	3	_	_	_
+7	navigating	navigate	VERB	_	_	5	_	_	_
+8	a	a	DET	_	_	9	_	_	_
+9	career	career	NOUN	_	_	9	_	_	_
+10	change	change	NOUN	_	_	6	_	_	_
+
+# text = the real reason why most new year’s resolutions fail (and how to avoid it)
+# headline_id = 120
+# sent_id = 0
+# class = 0
+# link = https://chatgpt.com/
+1	the	the	DET	_	_	2	_	_	_
+2	real	real	ADJ	_	_	2	_	_	_
+3	reason	reason	NOUN	_	_	2	_	_	_
+4	why	why	SCONJ	_	_	9	_	_	_
+5	most	most	ADJ	_	_	6	_	_	_
+6	new	new	ADJ	_	_	6	_	_	_
+7	year	year	NOUN	_	_	8	_	_	_
+8	’s	’s	PART	_	_	6	_	_	_
+9	resolutions	resolution	NOUN	_	_	9	_	_	_
+10	fail	fail	VERB	_	_	2	_	_	_
+11	(	(	PUNCT	_	_	9	_	_	_
+12	and	and	CCONJ	_	_	9	_	_	_
+13	how	how	SCONJ	_	_	14	_	_	_
+14	to	to	PART	_	_	14	_	_	_
+15	avoid	avoid	VERB	_	_	9	_	_	_
+16	it	it	PRON	_	_	14	_	_	_
+17	)	)	PUNCT	_	_	2	_	_	_
+
+# text = the power of mindset: how to shift your perspective and achieve more
+# headline_id = 121
+# sent_id = 0
+# class = 0
+# link = https://chatgpt.com/
+1	the	the	DET	_	_	1	_	_	_
+2	power	power	NOUN	_	_	1	_	_	_
+3	of	of	ADP	_	_	1	_	_	_
+4	mindset	mindset	NOUN	_	_	2	_	_	_
+5	:	:	PUNCT	_	_	1	_	_	_
+6	how	how	SCONJ	_	_	7	_	_	_
+7	to	to	PART	_	_	7	_	_	_
+8	shift	shift	VERB	_	_	1	_	_	_
+9	your	your	PRON	_	_	9	_	_	_
+10	perspective	perspective	NOUN	_	_	7	_	_	_
+11	and	and	CCONJ	_	_	7	_	_	_
+12	achieve	achieve	VERB	_	_	7	_	_	_
+13	more	more	ADJ	_	_	11	_	_	_
+
+# text = area man unfollows everyone on instagram, claims it’s because ‘he’s too busy living his life’
+# headline_id = 122
+# sent_id = 0
+# class = 1
+# link = https://chatgpt.com/
+1	area	area	NOUN	_	_	1	_	_	_
+2	man	man	NOUN	_	_	2	_	_	_
+3	unfollows	unfollow	VERB	_	_	2	_	_	_
+4	everyone	everyone	PRON	_	_	2	_	_	_
+5	on	on	ADP	_	_	2	_	_	_
+6	instagram	instagram	NOUN	_	_	4	_	_	_
+7	,	,	PUNCT	_	_	2	_	_	_
+8	claims	claim	VERB	_	_	2	_	_	_
+9	it	it	PRON	_	_	9	_	_	_
+10	’s	’	VERB	_	_	7	_	_	_
+11	because	because	SCONJ	_	_	13	_	_	_
+12	‘	'	PUNCT	_	_	13	_	_	_
+13	he	he	PRON	_	_	13	_	_	_
+14	’s	’	VERB	_	_	7	_	_	_
+15	too	too	ADV	_	_	15	_	_	_
+16	busy	busy	ADJ	_	_	13	_	_	_
+17	living	live	VERB	_	_	15	_	_	_
+18	his	his	PRON	_	_	18	_	_	_
+19	life	life	NOUN	_	_	16	_	_	_
+20	’	'	PUNCT	_	_	2	_	_	_
+
+# text = how to turn your passion into a full-time career
+# headline_id = 123
+# sent_id = 0
+# class = 0
+# link = https://chatgpt.com/
+1	how	how	SCONJ	_	_	2	_	_	_
+2	to	to	PART	_	_	2	_	_	_
+3	turn	turn	VERB	_	_	2	_	_	_
+4	your	your	PRON	_	_	4	_	_	_
+5	passion	passion	NOUN	_	_	2	_	_	_
+6	into	into	ADP	_	_	2	_	_	_
+7	a	a	DET	_	_	10	_	_	_
+8	full	full	ADJ	_	_	9	_	_	_
+9	-	-	PUNCT	_	_	9	_	_	_
+10	time	time	NOUN	_	_	10	_	_	_
+11	career	career	NOUN	_	_	5	_	_	_
+
+# text = why self-compassion is the key to overcoming self-doubt
+# headline_id = 124
+# sent_id = 0
+# class = 0
+# link = https://chatgpt.com/
+1	why	why	SCONJ	_	_	4	_	_	_
+2	self	self	NOUN	_	_	3	_	_	_
+3	-	-	PUNCT	_	_	3	_	_	_
+4	compassion	compassion	NOUN	_	_	4	_	_	_
+5	is	be	AUX	_	_	4	_	_	_
+6	the	the	DET	_	_	6	_	_	_
+7	key	key	NOUN	_	_	4	_	_	_
+8	to	to	ADP	_	_	6	_	_	_
+9	overcoming	overcome	VERB	_	_	7	_	_	_
+10	self	self	NOUN	_	_	11	_	_	_
+11	-	-	PUNCT	_	_	11	_	_	_
+12	doubt	doubt	NOUN	_	_	8	_	_	_
+
+# text = the one habit that will make you more productive (and happier)
+# headline_id = 125
+# sent_id = 0
+# class = 0
+# link = https://chatgpt.com/
+1	the	the	DET	_	_	2	_	_	_
+2	one	one	NUM	_	_	2	_	_	_
+3	habit	habit	NOUN	_	_	2	_	_	_
+4	that	that	PRON	_	_	5	_	_	_
+5	will	will	AUX	_	_	5	_	_	_
+6	make	make	VERB	_	_	2	_	_	_
+7	you	you	PRON	_	_	8	_	_	_
+8	more	more	ADV	_	_	8	_	_	_
+9	productive	productive	ADJ	_	_	5	_	_	_
+10	(	(	PUNCT	_	_	8	_	_	_
+11	and	and	CCONJ	_	_	8	_	_	_
+12	happier	happy	ADJ	_	_	8	_	_	_
+13	)	)	PUNCT	_	_	2	_	_	_
+
+# text = local man dedicates entire weekend to finding his keys, claims it's a ‘soul-searching journey’
+# headline_id = 126
+# sent_id = 0
+# class = 1
+# link = https://chatgpt.com/
+1	local	local	ADJ	_	_	1	_	_	_
+2	man	man	NOUN	_	_	2	_	_	_
+3	dedicates	dedicate	VERB	_	_	2	_	_	_
+4	entire	entire	ADJ	_	_	4	_	_	_
+5	weekend	weekend	NOUN	_	_	2	_	_	_
+6	to	to	ADP	_	_	2	_	_	_
+7	finding	find	VERB	_	_	5	_	_	_
+8	his	his	PRON	_	_	8	_	_	_
+9	keys	key	NOUN	_	_	6	_	_	_
+10	,	,	PUNCT	_	_	2	_	_	_
+11	claims	claim	VERB	_	_	2	_	_	_
+12	it	it	PRON	_	_	12	_	_	_
+13	's	be	AUX	_	_	10	_	_	_
+14	a	a	DET	_	_	18	_	_	_
+15	‘	'	PUNCT	_	_	18	_	_	_
+16	soul	soul	NOUN	_	_	17	_	_	_
+17	-	-	PUNCT	_	_	17	_	_	_
+18	searching	search	VERB	_	_	18	_	_	_
+19	journey	journey	NOUN	_	_	12	_	_	_
+20	’	'	PUNCT	_	_	2	_	_	_
+
+# text = how to make a successful career transition without losing your sanity
+# headline_id = 127
+# sent_id = 0
+# class = 0
+# link = https://chatgpt.com/
+1	how	how	SCONJ	_	_	2	_	_	_
+2	to	to	PART	_	_	2	_	_	_
+3	make	make	VERB	_	_	2	_	_	_
+4	a	a	DET	_	_	6	_	_	_
+5	successful	successful	ADJ	_	_	6	_	_	_
+6	career	career	NOUN	_	_	6	_	_	_
+7	transition	transition	NOUN	_	_	2	_	_	_
+8	without	without	ADP	_	_	2	_	_	_
+9	losing	lose	VERB	_	_	7	_	_	_
+10	your	your	PRON	_	_	10	_	_	_
+11	sanity	sanity	NOUN	_	_	8	_	_	_
+
+# text = local influencer claims ‘it’s all about self-love,’ while also charging $200 for a 10-minute zoom consultation
+# headline_id = 128
+# sent_id = 0
+# class = 1
+# link = https://chatgpt.com/
+1	local	local	ADJ	_	_	1	_	_	_
+2	influencer	influencer	NOUN	_	_	2	_	_	_
+3	claims	claim	NOUN	_	_	2	_	_	_
+4	‘	'	PUNCT	_	_	5	_	_	_
+5	it	it	PRON	_	_	5	_	_	_
+6	’s	’	VERB	_	_	2	_	_	_
+7	all	all	ADV	_	_	5	_	_	_
+8	about	about	ADP	_	_	5	_	_	_
+9	self	self	NOUN	_	_	10	_	_	_
+10	-	-	PUNCT	_	_	10	_	_	_
+11	love	love	NOUN	_	_	7	_	_	_
+12	,	,	PUNCT	_	_	5	_	_	_
+13	’	'	PUNCT	_	_	5	_	_	_
+14	while	while	SCONJ	_	_	15	_	_	_
+15	also	also	ADV	_	_	15	_	_	_
+16	charging	charge	VERB	_	_	5	_	_	_
+17	$	$	SYM	_	_	17	_	_	_
+18	200	200	NUM	_	_	15	_	_	_
+19	for	for	ADP	_	_	15	_	_	_
+20	a	a	DET	_	_	24	_	_	_
+21	10	10	NUM	_	_	22	_	_	_
+22	-	-	PUNCT	_	_	22	_	_	_
+23	minute	minute	NOUN	_	_	23	_	_	_
+24	zoom	zoom	NOUN	_	_	24	_	_	_
+25	consultation	consultation	NOUN	_	_	18	_	_	_
+
+# text = how to turn your fear into fuel for growth
+# headline_id = 129
+# sent_id = 0
+# class = 0
+# link = https://chatgpt.com/
+1	how	how	SCONJ	_	_	2	_	_	_
+2	to	to	PART	_	_	2	_	_	_
+3	turn	turn	VERB	_	_	2	_	_	_
+4	your	your	PRON	_	_	4	_	_	_
+5	fear	fear	NOUN	_	_	2	_	_	_
+6	into	into	ADP	_	_	2	_	_	_
+7	fuel	fuel	NOUN	_	_	5	_	_	_
+8	for	for	ADP	_	_	6	_	_	_
+9	growth	growth	NOUN	_	_	7	_	_	_
+
+# text = 5 simple ways to boost your confidence right now
+# headline_id = 130
+# sent_id = 0
+# class = 0
+# link = https://chatgpt.com/
+1	5	5	NUM	_	_	2	_	_	_
+2	simple	simple	ADJ	_	_	2	_	_	_
+3	ways	way	NOUN	_	_	2	_	_	_
+4	to	to	PART	_	_	4	_	_	_
+5	boost	boost	VERB	_	_	2	_	_	_
+6	your	your	PRON	_	_	6	_	_	_
+7	confidence	confidence	NOUN	_	_	4	_	_	_
+8	right	right	ADV	_	_	8	_	_	_
+9	now	now	ADV	_	_	4	_	_	_
+
+# text = woman who just ordered a ‘big salad’ for the first time still thinks she’s a ‘healthy person’
+# headline_id = 131
+# sent_id = 0
+# class = 1
+# link = https://chatgpt.com/
+1	woman	woman	NOUN	_	_	14	_	_	_
+2	who	who	PRON	_	_	3	_	_	_
+3	just	just	ADV	_	_	3	_	_	_
+4	ordered	order	VERB	_	_	0	_	_	_
+5	a	a	DET	_	_	7	_	_	_
+6	‘	'	PUNCT	_	_	7	_	_	_
+7	big	big	ADJ	_	_	7	_	_	_
+8	salad	salad	NOUN	_	_	3	_	_	_
+9	’	'	PUNCT	_	_	7	_	_	_
+10	for	for	ADP	_	_	3	_	_	_
+11	the	the	DET	_	_	12	_	_	_
+12	first	first	ADJ	_	_	12	_	_	_
+13	time	time	NOUN	_	_	9	_	_	_
+14	still	still	ADV	_	_	14	_	_	_
+15	thinks	think	VERB	_	_	14	_	_	_
+16	she	she	PRON	_	_	16	_	_	_
+17	’s	’	VERB	_	_	14	_	_	_
+18	a	a	DET	_	_	20	_	_	_
+19	‘	'	PUNCT	_	_	20	_	_	_
+20	healthy	healthy	ADJ	_	_	20	_	_	_
+21	person	person	NOUN	_	_	16	_	_	_
+22	’	'	PUNCT	_	_	14	_	_	_
+
+# text = area man declares himself ‘out of touch’ with ‘all this internet nonsense,’ despite having 4 devices in hand
+# headline_id = 132
+# sent_id = 0
+# class = 1
+# link = https://chatgpt.com/
+1	area	area	NOUN	_	_	1	_	_	_
+2	man	man	NOUN	_	_	2	_	_	_
+3	declares	declare	VERB	_	_	2	_	_	_
+4	himself	himself	PRON	_	_	2	_	_	_
+5	‘	'	PUNCT	_	_	2	_	_	_
+6	out	out	ADP	_	_	2	_	_	_
+7	of	of	ADP	_	_	5	_	_	_
+8	touch	touch	NOUN	_	_	6	_	_	_
+9	’	'	PUNCT	_	_	5	_	_	_
+10	with	with	ADP	_	_	2	_	_	_
+11	‘	'	PUNCT	_	_	9	_	_	_
+12	all	all	DET	_	_	14	_	_	_
+13	this	this	DET	_	_	14	_	_	_
+14	internet	internet	NOUN	_	_	14	_	_	_
+15	nonsense	nonsense	NOUN	_	_	9	_	_	_
+16	,	,	PUNCT	_	_	2	_	_	_
+17	’	'	PUNCT	_	_	2	_	_	_
+18	despite	despite	SCONJ	_	_	2	_	_	_
+19	having	have	VERB	_	_	17	_	_	_
+20	4	4	NUM	_	_	20	_	_	_
+21	devices	device	NOUN	_	_	18	_	_	_
+22	in	in	ADP	_	_	20	_	_	_
+23	hand	hand	NOUN	_	_	21	_	_	_
+
+# text = survey reveals 90% of “being productive” is just finding new ways to avoid being productive
+# headline_id = 133
+# sent_id = 0
+# class = 1
+# link = https://chatgpt.com/
+1	survey	survey	NOUN	_	_	1	_	_	_
+2	reveals	reveal	VERB	_	_	1	_	_	_
+3	90	90	NUM	_	_	3	_	_	_
+4	%	%	NOUN	_	_	1	_	_	_
+5	of	of	ADP	_	_	3	_	_	_
+6	“	"	PUNCT	_	_	11	_	_	_
+7	being	be	AUX	_	_	11	_	_	_
+8	productive	productive	ADJ	_	_	6	_	_	_
+9	”	"	PUNCT	_	_	6	_	_	_
+10	is	be	AUX	_	_	11	_	_	_
+11	just	just	ADV	_	_	11	_	_	_
+12	finding	find	VERB	_	_	4	_	_	_
+13	new	new	ADJ	_	_	13	_	_	_
+14	ways	way	NOUN	_	_	11	_	_	_
+15	to	to	PART	_	_	15	_	_	_
+16	avoid	avoid	VERB	_	_	13	_	_	_
+17	being	be	AUX	_	_	15	_	_	_
+18	productive	productive	ADJ	_	_	16	_	_	_
+
+# text = new study finds 99% of people who wear ‘smart’ watches are just reminding themselves that they’re ‘still here’
+# headline_id = 134
+# sent_id = 0
+# class = 1
+# link = https://chatgpt.com/
+1	new	new	ADJ	_	_	1	_	_	_
+2	study	study	NOUN	_	_	2	_	_	_
+3	finds	find	VERB	_	_	2	_	_	_
+4	99	99	NUM	_	_	4	_	_	_
+5	%	%	NOUN	_	_	15	_	_	_
+6	of	of	ADP	_	_	4	_	_	_
+7	people	people	NOUN	_	_	5	_	_	_
+8	who	who	PRON	_	_	8	_	_	_
+9	wear	wear	VERB	_	_	4	_	_	_
+10	‘	'	PUNCT	_	_	12	_	_	_
+11	smart	smart	ADJ	_	_	12	_	_	_
+12	’	'	PUNCT	_	_	12	_	_	_
+13	watches	watch	NOUN	_	_	8	_	_	_
+14	are	be	AUX	_	_	15	_	_	_
+15	just	just	ADV	_	_	15	_	_	_
+16	reminding	remind	VERB	_	_	2	_	_	_
+17	themselves	themselves	PRON	_	_	15	_	_	_
+18	that	that	SCONJ	_	_	19	_	_	_
+19	they	they	PRON	_	_	19	_	_	_
+20	’re	’re	VERB	_	_	15	_	_	_
+21	‘	'	PUNCT	_	_	15	_	_	_
+22	still	still	ADV	_	_	15	_	_	_
+23	here	here	ADV	_	_	15	_	_	_
+24	’	'	PUNCT	_	_	2	_	_	_
+
+# text = how to build healthy habits that stick for life
+# headline_id = 135
+# sent_id = 0
+# class = 0
+# link = https://chatgpt.com/
+1	how	how	SCONJ	_	_	2	_	_	_
+2	to	to	PART	_	_	2	_	_	_
+3	build	build	VERB	_	_	2	_	_	_
+4	healthy	healthy	ADJ	_	_	4	_	_	_
+5	habits	habit	NOUN	_	_	2	_	_	_
+6	that	that	PRON	_	_	6	_	_	_
+7	stick	stick	VERB	_	_	4	_	_	_
+8	for	for	ADP	_	_	6	_	_	_
+9	life	life	NOUN	_	_	7	_	_	_
+
+# text = how to build a career you’re passionate about without sacrificing your happiness
+# headline_id = 136
+# sent_id = 0
+# class = 0
+# link = https://chatgpt.com/
+1	how	how	SCONJ	_	_	2	_	_	_
+2	to	to	PART	_	_	2	_	_	_
+3	build	build	VERB	_	_	6	_	_	_
+4	a	a	DET	_	_	4	_	_	_
+5	career	career	NOUN	_	_	2	_	_	_
+6	you	you	PRON	_	_	6	_	_	_
+7	’re	’re	VERB	_	_	6	_	_	_
+8	passionate	passionate	ADJ	_	_	6	_	_	_
+9	about	about	ADP	_	_	7	_	_	_
+10	without	without	ADP	_	_	7	_	_	_
+11	sacrificing	sacrifice	VERB	_	_	9	_	_	_
+12	your	your	PRON	_	_	12	_	_	_
+13	happiness	happiness	NOUN	_	_	10	_	_	_
+
+# text = how to stop feeling overwhelmed and take back control of your life
+# headline_id = 137
+# sent_id = 0
+# class = 0
+# link = https://chatgpt.com/
+1	how	how	SCONJ	_	_	2	_	_	_
+2	to	to	PART	_	_	2	_	_	_
+3	stop	stop	VERB	_	_	2	_	_	_
+4	feeling	feel	VERB	_	_	2	_	_	_
+5	overwhelmed	overwhelmed	ADJ	_	_	3	_	_	_
+6	and	and	CCONJ	_	_	2	_	_	_
+7	take	take	VERB	_	_	2	_	_	_
+8	back	back	ADV	_	_	6	_	_	_
+9	control	control	NOUN	_	_	6	_	_	_
+10	of	of	ADP	_	_	8	_	_	_
+11	your	your	PRON	_	_	11	_	_	_
+12	life	life	NOUN	_	_	9	_	_	_
+
+# text = the surprising link between creativity and mental well-being
+# headline_id = 138
+# sent_id = 0
+# class = 0
+# link = https://chatgpt.com/
+1	the	the	DET	_	_	2	_	_	_
+2	surprising	surprising	ADJ	_	_	2	_	_	_
+3	link	link	NOUN	_	_	2	_	_	_
+4	between	between	ADP	_	_	2	_	_	_
+5	creativity	creativity	NOUN	_	_	3	_	_	_
+6	and	and	CCONJ	_	_	4	_	_	_
+7	mental	mental	ADJ	_	_	9	_	_	_
+8	well	well	NOUN	_	_	9	_	_	_
+9	-	-	PUNCT	_	_	9	_	_	_
+10	being	being	NOUN	_	_	4	_	_	_
+
+# text = 6 ways to cultivate a positive mindset (even on your toughest days)
+# headline_id = 139
+# sent_id = 0
+# class = 0
+# link = https://chatgpt.com/
+1	6	6	NUM	_	_	1	_	_	_
+2	ways	way	NOUN	_	_	1	_	_	_
+3	to	to	PART	_	_	3	_	_	_
+4	cultivate	cultivate	VERB	_	_	1	_	_	_
+5	a	a	DET	_	_	6	_	_	_
+6	positive	positive	ADJ	_	_	6	_	_	_
+7	mindset	mindset	NOUN	_	_	3	_	_	_
+8	(	(	PUNCT	_	_	1	_	_	_
+9	even	even	ADV	_	_	9	_	_	_
+10	on	on	ADP	_	_	1	_	_	_
+11	your	your	PRON	_	_	12	_	_	_
+12	toughest	tough	ADJ	_	_	12	_	_	_
+13	days	day	NOUN	_	_	9	_	_	_
+14	)	)	PUNCT	_	_	1	_	_	_
+
+# text = why you should stop worrying about what other people think
+# headline_id = 140
+# sent_id = 0
+# class = 0
+# link = https://chatgpt.com/
+1	why	why	SCONJ	_	_	3	_	_	_
+2	you	you	PRON	_	_	3	_	_	_
+3	should	should	AUX	_	_	3	_	_	_
+4	stop	stop	VERB	_	_	3	_	_	_
+5	worrying	worry	VERB	_	_	3	_	_	_
+6	about	about	ADP	_	_	4	_	_	_
+7	what	what	PRON	_	_	9	_	_	_
+8	other	other	ADJ	_	_	8	_	_	_
+9	people	people	NOUN	_	_	9	_	_	_
+10	think	think	VERB	_	_	5	_	_	_
+
+# text = the best time to start a new habit and why it’s right now
+# headline_id = 141
+# sent_id = 0
+# class = 0
+# link = https://chatgpt.com/
+1	the	the	DET	_	_	2	_	_	_
+2	best	good	ADJ	_	_	2	_	_	_
+3	time	time	NOUN	_	_	2	_	_	_
+4	to	to	PART	_	_	4	_	_	_
+5	start	start	VERB	_	_	2	_	_	_
+6	a	a	DET	_	_	7	_	_	_
+7	new	new	ADJ	_	_	7	_	_	_
+8	habit	habit	NOUN	_	_	4	_	_	_
+9	and	and	CCONJ	_	_	2	_	_	_
+10	why	why	SCONJ	_	_	11	_	_	_
+11	it	it	PRON	_	_	11	_	_	_
+12	’s	’	VERB	_	_	2	_	_	_
+13	right	right	ADV	_	_	13	_	_	_
+14	now	now	ADV	_	_	11	_	_	_
+
+# text = why starting small is the key to big success
+# headline_id = 142
+# sent_id = 0
+# class = 0
+# link = https://chatgpt.com/
+1	why	why	SCONJ	_	_	3	_	_	_
+2	starting	start	VERB	_	_	3	_	_	_
+3	small	small	ADJ	_	_	1	_	_	_
+4	is	be	AUX	_	_	3	_	_	_
+5	the	the	DET	_	_	5	_	_	_
+6	key	key	NOUN	_	_	3	_	_	_
+7	to	to	ADP	_	_	5	_	_	_
+8	big	big	ADJ	_	_	8	_	_	_
+9	success	success	NOUN	_	_	6	_	_	_
+
+# text = survey finds 97% of people who claim ‘they don’t judge’ are just lying
+# headline_id = 143
+# sent_id = 0
+# class = 1
+# link = https://chatgpt.com/
+1	survey	survey	NOUN	_	_	1	_	_	_
+2	finds	find	VERB	_	_	1	_	_	_
+3	97	97	NUM	_	_	3	_	_	_
+4	%	%	NOUN	_	_	16	_	_	_
+5	of	of	ADP	_	_	3	_	_	_
+6	people	people	NOUN	_	_	4	_	_	_
+7	who	who	PRON	_	_	7	_	_	_
+8	claim	claim	VERB	_	_	5	_	_	_
+9	‘	'	PUNCT	_	_	12	_	_	_
+10	they	they	PRON	_	_	12	_	_	_
+11	do	do	AUX	_	_	12	_	_	_
+12	n’t	not	PART	_	_	12	_	_	_
+13	judge	judge	VERB	_	_	7	_	_	_
+14	’	'	PUNCT	_	_	7	_	_	_
+15	are	be	AUX	_	_	16	_	_	_
+16	just	just	ADV	_	_	16	_	_	_
+17	lying	lie	VERB	_	_	1	_	_	_
+
+# text = area woman who uses 17 different social media platforms claims she’s “totally not addicted”
+# headline_id = 144
+# sent_id = 0
+# class = 1
+# link = https://chatgpt.com/
+1	area	area	NOUN	_	_	1	_	_	_
+2	woman	woman	NOUN	_	_	9	_	_	_
+3	who	who	PRON	_	_	3	_	_	_
+4	uses	use	VERB	_	_	1	_	_	_
+5	17	17	NUM	_	_	8	_	_	_
+6	different	different	ADJ	_	_	8	_	_	_
+7	social	social	ADJ	_	_	7	_	_	_
+8	media	medium	NOUN	_	_	8	_	_	_
+9	platforms	platform	NOUN	_	_	3	_	_	_
+10	claims	claim	VERB	_	_	9	_	_	_
+11	she	she	PRON	_	_	11	_	_	_
+12	’s	’	VERB	_	_	9	_	_	_
+13	“	"	PUNCT	_	_	15	_	_	_
+14	totally	totally	ADV	_	_	15	_	_	_
+15	not	not	PART	_	_	15	_	_	_
+16	addicted	addicted	ADJ	_	_	11	_	_	_
+17	”	"	PUNCT	_	_	9	_	_	_
+
+# text = how to take action toward your goals, even when you’re feeling unmotivated
+# headline_id = 145
+# sent_id = 0
+# class = 0
+# link = https://chatgpt.com/
+1	how	how	SCONJ	_	_	2	_	_	_
+2	to	to	PART	_	_	2	_	_	_
+3	take	take	VERB	_	_	2	_	_	_
+4	action	action	NOUN	_	_	2	_	_	_
+5	toward	toward	ADP	_	_	2	_	_	_
+6	your	your	PRON	_	_	6	_	_	_
+7	goals	goal	NOUN	_	_	4	_	_	_
+8	,	,	PUNCT	_	_	2	_	_	_
+9	even	even	ADV	_	_	9	_	_	_
+10	when	when	SCONJ	_	_	12	_	_	_
+11	you	you	PRON	_	_	12	_	_	_
+12	’re	’re	AUX	_	_	12	_	_	_
+13	feeling	feel	VERB	_	_	2	_	_	_
+14	unmotivated	unmotivated	ADJ	_	_	12	_	_	_
+
+# text = local man claims he ‘has it all together,’ still can’t find his other shoe
+# headline_id = 146
+# sent_id = 0
+# class = 1
+# link = https://chatgpt.com/
+1	local	local	ADJ	_	_	1	_	_	_
+2	man	man	NOUN	_	_	2	_	_	_
+3	claims	claim	VERB	_	_	2	_	_	_
+4	he	he	PRON	_	_	5	_	_	_
+5	‘	'	PUNCT	_	_	5	_	_	_
+6	has	have	VERB	_	_	2	_	_	_
+7	it	it	PRON	_	_	5	_	_	_
+8	all	all	PRON	_	_	6	_	_	_
+9	together	together	ADV	_	_	5	_	_	_
+10	,	,	PUNCT	_	_	5	_	_	_
+11	’	'	PUNCT	_	_	14	_	_	_
+12	still	still	ADV	_	_	14	_	_	_
+13	ca	can	AUX	_	_	14	_	_	_
+14	n’t	not	PART	_	_	14	_	_	_
+15	find	find	VERB	_	_	2	_	_	_
+16	his	his	PRON	_	_	17	_	_	_
+17	other	other	ADJ	_	_	17	_	_	_
+18	shoe	shoe	NOUN	_	_	14	_	_	_
+
+# text = man who claims he’s ‘not into technology’ just ordered a 5g-supported hoverboard
+# headline_id = 147
+# sent_id = 0
+# class = 1
+# link = https://chatgpt.com/
+1	man	man	NOUN	_	_	11	_	_	_
+2	who	who	PRON	_	_	2	_	_	_
+3	claims	claim	VERB	_	_	0	_	_	_
+4	he	he	PRON	_	_	4	_	_	_
+5	’s	’	VERB	_	_	2	_	_	_
+6	‘	'	PUNCT	_	_	0	_	_	_
+7	not	not	PART	_	_	7	_	_	_
+8	into	into	ADP	_	_	0	_	_	_
+9	technology	technology	NOUN	_	_	7	_	_	_
+10	’	'	PUNCT	_	_	0	_	_	_
+11	just	just	ADV	_	_	11	_	_	_
+12	ordered	order	VERB	_	_	11	_	_	_
+13	a	a	DET	_	_	16	_	_	_
+14	5g	5g	NUM	_	_	15	_	_	_
+15	-	-	PUNCT	_	_	15	_	_	_
+16	supported	support	VERB	_	_	16	_	_	_
+17	hoverboard	hoverboard	NOUN	_	_	11	_	_	_
+
+# text = local vegan who claims ‘it’s a lifestyle choice’ buys leather furniture ‘because it was on sale’
+# headline_id = 148
+# sent_id = 0
+# class = 1
+# link = https://chatgpt.com/
+1	local	local	ADJ	_	_	1	_	_	_
+2	vegan	vegan	NOUN	_	_	6	_	_	_
+3	who	who	PRON	_	_	3	_	_	_
+4	claims	claim	VERB	_	_	1	_	_	_
+5	‘	'	PUNCT	_	_	6	_	_	_
+6	it	it	PRON	_	_	6	_	_	_
+7	’s	’	VERB	_	_	6	_	_	_
+8	a	a	DET	_	_	9	_	_	_
+9	lifestyle	lifestyle	NOUN	_	_	9	_	_	_
+10	choice	choice	NOUN	_	_	6	_	_	_
+11	’	'	PUNCT	_	_	9	_	_	_
+12	buys	buy	VERB	_	_	6	_	_	_
+13	leather	leather	NOUN	_	_	13	_	_	_
+14	furniture	furniture	NOUN	_	_	11	_	_	_
+15	‘	'	PUNCT	_	_	11	_	_	_
+16	because	because	SCONJ	_	_	17	_	_	_
+17	it	it	PRON	_	_	17	_	_	_
+18	was	be	AUX	_	_	11	_	_	_
+19	on	on	ADP	_	_	17	_	_	_
+20	sale	sale	NOUN	_	_	18	_	_	_
+21	’	'	PUNCT	_	_	6	_	_	_
+
+# text = survey finds that most people who use ‘i’m just being real’ are actually very good at lying
+# headline_id = 149
+# sent_id = 0
+# class = 1
+# link = https://chatgpt.com/
+1	survey	survey	NOUN	_	_	1	_	_	_
+2	finds	find	VERB	_	_	1	_	_	_
+3	that	that	SCONJ	_	_	14	_	_	_
+4	most	most	ADJ	_	_	4	_	_	_
+5	people	people	NOUN	_	_	14	_	_	_
+6	who	who	PRON	_	_	6	_	_	_
+7	use	use	VERB	_	_	4	_	_	_
+8	‘	'	PUNCT	_	_	6	_	_	_
+9	i	I	PRON	_	_	11	_	_	_
+10	’m	’m	AUX	_	_	11	_	_	_
+11	just	just	ADV	_	_	11	_	_	_
+12	being	be	AUX	_	_	6	_	_	_
+13	real	real	ADJ	_	_	11	_	_	_
+14	’	'	PUNCT	_	_	11	_	_	_
+15	are	be	AUX	_	_	1	_	_	_
+16	actually	actually	ADV	_	_	14	_	_	_
+17	very	very	ADV	_	_	17	_	_	_
+18	good	good	ADJ	_	_	14	_	_	_
+19	at	at	ADP	_	_	17	_	_	_
+20	lying	lie	VERB	_	_	18	_	_	_
+
+# text = study shows people who don’t like pizza are actually robots sent to destroy us
+# headline_id = 150
+# sent_id = 0
+# class = 1
+# link = https://chatgpt.com/
+1	study	study	NOUN	_	_	1	_	_	_
+2	shows	show	VERB	_	_	1	_	_	_
+3	people	people	NOUN	_	_	1	_	_	_
+4	who	who	PRON	_	_	6	_	_	_
+5	do	do	AUX	_	_	6	_	_	_
+6	n’t	not	PART	_	_	6	_	_	_
+7	like	like	VERB	_	_	2	_	_	_
+8	pizza	pizza	NOUN	_	_	6	_	_	_
+9	are	be	AUX	_	_	1	_	_	_
+10	actually	actually	ADV	_	_	8	_	_	_
+11	robots	robot	NOUN	_	_	8	_	_	_
+12	sent	send	VERB	_	_	10	_	_	_
+13	to	to	PART	_	_	13	_	_	_
+14	destroy	destroy	VERB	_	_	11	_	_	_
+15	us	we	PRON	_	_	13	_	_	_
+
+# text = breaking: survey reveals most people now get their news from tiktok, including the news about tiktok
+# headline_id = 151
+# sent_id = 0
+# class = 1
+# link = https://chatgpt.com/
+1	breaking	break	VERB	_	_	3	_	_	_
+2	:	:	PUNCT	_	_	0	_	_	_
+3	survey	survey	NOUN	_	_	3	_	_	_
+4	reveals	reveal	VERB	_	_	3	_	_	_
+5	most	most	ADJ	_	_	5	_	_	_
+6	people	people	NOUN	_	_	7	_	_	_
+7	now	now	ADV	_	_	7	_	_	_
+8	get	get	VERB	_	_	3	_	_	_
+9	their	their	PRON	_	_	9	_	_	_
+10	news	news	NOUN	_	_	7	_	_	_
+11	from	from	ADP	_	_	9	_	_	_
+12	tiktok	tiktok	NOUN	_	_	10	_	_	_
+13	,	,	PUNCT	_	_	9	_	_	_
+14	including	include	VERB	_	_	9	_	_	_
+15	the	the	DET	_	_	15	_	_	_
+16	news	news	NOUN	_	_	13	_	_	_
+17	about	about	ADP	_	_	15	_	_	_
+18	tiktok	tiktok	NOUN	_	_	16	_	_	_
+
+# text = breaking: experts warn that saying ‘i don’t know’ is the fastest way to lose friends
+# headline_id = 152
+# sent_id = 0
+# class = 1
+# link = https://chatgpt.com/
+1	breaking	break	VERB	_	_	3	_	_	_
+2	:	:	PUNCT	_	_	0	_	_	_
+3	experts	expert	NOUN	_	_	3	_	_	_
+4	warn	warn	VERB	_	_	3	_	_	_
+5	that	that	SCONJ	_	_	12	_	_	_
+6	saying	say	VERB	_	_	12	_	_	_
+7	‘	'	PUNCT	_	_	10	_	_	_
+8	i	I	PRON	_	_	10	_	_	_
+9	do	do	AUX	_	_	10	_	_	_
+10	n’t	not	PART	_	_	10	_	_	_
+11	know	know	VERB	_	_	5	_	_	_
+12	’	'	PUNCT	_	_	5	_	_	_
+13	is	be	AUX	_	_	3	_	_	_
+14	the	the	DET	_	_	15	_	_	_
+15	fastest	fast	ADJ	_	_	15	_	_	_
+16	way	way	NOUN	_	_	12	_	_	_
+17	to	to	PART	_	_	17	_	_	_
+18	lose	lose	VERB	_	_	15	_	_	_
+19	friends	friend	NOUN	_	_	17	_	_	_
+
+# text = survey reveals that most people who hate ‘fomo’ are just really good at avoiding social situations
+# headline_id = 153
+# sent_id = 0
+# class = 1
+# link = https://chatgpt.com/
+1	survey	survey	NOUN	_	_	1	_	_	_
+2	reveals	reveal	VERB	_	_	1	_	_	_
+3	that	that	SCONJ	_	_	10	_	_	_
+4	most	most	ADJ	_	_	4	_	_	_
+5	people	people	NOUN	_	_	10	_	_	_
+6	who	who	PRON	_	_	6	_	_	_
+7	hate	hate	VERB	_	_	4	_	_	_
+8	‘	'	PUNCT	_	_	6	_	_	_
+9	fomo	fomo	NOUN	_	_	6	_	_	_
+10	’	'	PUNCT	_	_	8	_	_	_
+11	are	be	AUX	_	_	1	_	_	_
+12	just	just	ADV	_	_	10	_	_	_
+13	really	really	ADV	_	_	13	_	_	_
+14	good	good	ADJ	_	_	10	_	_	_
+15	at	at	ADP	_	_	13	_	_	_
+16	avoiding	avoid	VERB	_	_	14	_	_	_
+17	social	social	ADJ	_	_	17	_	_	_
+18	situations	situation	NOUN	_	_	15	_	_	_
+
+# text = the one thing you should do every night for better sleep
+# headline_id = 154
+# sent_id = 0
+# class = 0
+# link = https://chatgpt.com/
+1	the	the	DET	_	_	2	_	_	_
+2	one	one	NUM	_	_	2	_	_	_
+3	thing	thing	NOUN	_	_	2	_	_	_
+4	you	you	PRON	_	_	5	_	_	_
+5	should	should	AUX	_	_	5	_	_	_
+6	do	do	VERB	_	_	2	_	_	_
+7	every	every	DET	_	_	7	_	_	_
+8	night	night	NOUN	_	_	5	_	_	_
+9	for	for	ADP	_	_	5	_	_	_
+10	better	well	ADJ	_	_	10	_	_	_
+11	sleep	sleep	NOUN	_	_	8	_	_	_
+
+# text = how to focus on what you can control (and let go of the rest)
+# headline_id = 155
+# sent_id = 0
+# class = 0
+# link = https://chatgpt.com/
+1	how	how	SCONJ	_	_	2	_	_	_
+2	to	to	PART	_	_	2	_	_	_
+3	focus	focus	VERB	_	_	2	_	_	_
+4	on	on	ADP	_	_	2	_	_	_
+5	what	what	PRON	_	_	7	_	_	_
+6	you	you	PRON	_	_	7	_	_	_
+7	can	can	AUX	_	_	7	_	_	_
+8	control	control	VERB	_	_	3	_	_	_
+9	(	(	PUNCT	_	_	2	_	_	_
+10	and	and	CCONJ	_	_	2	_	_	_
+11	let	let	VERB	_	_	2	_	_	_
+12	go	go	VERB	_	_	10	_	_	_
+13	of	of	ADP	_	_	11	_	_	_
+14	the	the	DET	_	_	14	_	_	_
+15	rest	rest	NOUN	_	_	12	_	_	_
+16	)	)	PUNCT	_	_	2	_	_	_
+
+# text = survey finds that 100% of people who say ‘you do you’ are secretly judging you
+# headline_id = 156
+# sent_id = 0
+# class = 1
+# link = https://chatgpt.com/
+1	survey	survey	NOUN	_	_	1	_	_	_
+2	finds	find	VERB	_	_	1	_	_	_
+3	that	that	SCONJ	_	_	16	_	_	_
+4	100	100	NUM	_	_	4	_	_	_
+5	%	%	NOUN	_	_	16	_	_	_
+6	of	of	ADP	_	_	4	_	_	_
+7	people	people	NOUN	_	_	5	_	_	_
+8	who	who	PRON	_	_	8	_	_	_
+9	say	say	VERB	_	_	6	_	_	_
+10	‘	'	PUNCT	_	_	8	_	_	_
+11	you	you	PRON	_	_	11	_	_	_
+12	do	do	VERB	_	_	8	_	_	_
+13	you	you	PRON	_	_	8	_	_	_
+14	’	'	PUNCT	_	_	8	_	_	_
+15	are	be	AUX	_	_	16	_	_	_
+16	secretly	secretly	ADV	_	_	16	_	_	_
+17	judging	judge	VERB	_	_	1	_	_	_
+18	you	you	PRON	_	_	16	_	_	_
+
+# text = why vulnerability is a strength, not a weakness
+# headline_id = 157
+# sent_id = 0
+# class = 0
+# link = https://chatgpt.com/
+1	why	why	SCONJ	_	_	2	_	_	_
+2	vulnerability	vulnerability	NOUN	_	_	2	_	_	_
+3	is	be	AUX	_	_	2	_	_	_
+4	a	a	DET	_	_	4	_	_	_
+5	strength	strength	NOUN	_	_	2	_	_	_
+6	,	,	PUNCT	_	_	4	_	_	_
+7	not	not	PART	_	_	4	_	_	_
+8	a	a	DET	_	_	8	_	_	_
+9	weakness	weakness	NOUN	_	_	4	_	_	_
+
+# text = nation’s parents declare no one will ever understand how ‘hard’ their childhood was, not even themselves
+# headline_id = 158
+# sent_id = 0
+# class = 1
+# link = https://chatgpt.com/
+1	nation	nation	NOUN	_	_	2	_	_	_
+2	’s	’s	PART	_	_	0	_	_	_
+3	parents	parent	NOUN	_	_	3	_	_	_
+4	declare	declare	VERB	_	_	3	_	_	_
+5	no	no	DET	_	_	5	_	_	_
+6	one	one	NOUN	_	_	8	_	_	_
+7	will	will	AUX	_	_	8	_	_	_
+8	ever	ever	ADV	_	_	8	_	_	_
+9	understand	understand	VERB	_	_	3	_	_	_
+10	how	how	SCONJ	_	_	11	_	_	_
+11	‘	'	PUNCT	_	_	11	_	_	_
+12	hard	hard	ADJ	_	_	15	_	_	_
+13	’	'	PUNCT	_	_	11	_	_	_
+14	their	their	PRON	_	_	14	_	_	_
+15	childhood	childhood	NOUN	_	_	15	_	_	_
+16	was	be	AUX	_	_	8	_	_	_
+17	,	,	PUNCT	_	_	15	_	_	_
+18	not	not	PART	_	_	15	_	_	_
+19	even	even	ADV	_	_	19	_	_	_
+20	themselves	themselves	PRON	_	_	15	_	_	_
+
+# text = man who lives for ‘mindful living’ also just purchased a $300 instant pot
+# headline_id = 159
+# sent_id = 0
+# class = 1
+# link = https://chatgpt.com/
+1	man	man	NOUN	_	_	10	_	_	_
+2	who	who	PRON	_	_	2	_	_	_
+3	lives	live	VERB	_	_	0	_	_	_
+4	for	for	ADP	_	_	2	_	_	_
+5	‘	'	PUNCT	_	_	6	_	_	_
+6	mindful	mindful	ADJ	_	_	6	_	_	_
+7	living	living	NOUN	_	_	3	_	_	_
+8	’	'	PUNCT	_	_	6	_	_	_
+9	also	also	ADV	_	_	10	_	_	_
+10	just	just	ADV	_	_	10	_	_	_
+11	purchased	purchase	VERB	_	_	10	_	_	_
+12	a	a	DET	_	_	15	_	_	_
+13	$	$	SYM	_	_	13	_	_	_
+14	300	300	NUM	_	_	15	_	_	_
+15	instant	instant	ADJ	_	_	15	_	_	_
+16	pot	pot	NOUN	_	_	10	_	_	_
+
+# text = local family that lives by ‘minimalism’ has 8 storage units full of unused stuff
+# headline_id = 160
+# sent_id = 0
+# class = 1
+# link = https://chatgpt.com/
+1	local	local	ADJ	_	_	1	_	_	_
+2	family	family	NOUN	_	_	8	_	_	_
+3	that	that	PRON	_	_	3	_	_	_
+4	lives	live	VERB	_	_	1	_	_	_
+5	by	by	ADP	_	_	3	_	_	_
+6	‘	'	PUNCT	_	_	6	_	_	_
+7	minimalism	minimalism	NOUN	_	_	4	_	_	_
+8	’	'	PUNCT	_	_	6	_	_	_
+9	has	have	VERB	_	_	8	_	_	_
+10	8	8	NUM	_	_	11	_	_	_
+11	storage	storage	NOUN	_	_	11	_	_	_
+12	units	unit	NOUN	_	_	8	_	_	_
+13	full	full	ADJ	_	_	11	_	_	_
+14	of	of	ADP	_	_	12	_	_	_
+15	unused	unused	ADJ	_	_	15	_	_	_
+16	stuff	stuff	NOUN	_	_	13	_	_	_
+
+# text = 5 reasons why taking time off is crucial for your success
+# headline_id = 161
+# sent_id = 0
+# class = 0
+# link = https://chatgpt.com/
+1	5	5	NUM	_	_	1	_	_	_
+2	reasons	reason	NOUN	_	_	1	_	_	_
+3	why	why	SCONJ	_	_	3	_	_	_
+4	taking	take	VERB	_	_	6	_	_	_
+5	time	time	NOUN	_	_	3	_	_	_
+6	off	off	ADP	_	_	3	_	_	_
+7	is	be	AUX	_	_	1	_	_	_
+8	crucial	crucial	ADJ	_	_	6	_	_	_
+9	for	for	ADP	_	_	6	_	_	_
+10	your	your	PRON	_	_	10	_	_	_
+11	success	success	NOUN	_	_	8	_	_	_
+
+# text = the power of saying “yes” to new experiences
+# headline_id = 162
+# sent_id = 0
+# class = 0
+# link = https://chatgpt.com/
+1	the	the	DET	_	_	1	_	_	_
+2	power	power	NOUN	_	_	1	_	_	_
+3	of	of	ADP	_	_	1	_	_	_
+4	saying	say	VERB	_	_	2	_	_	_
+5	“	"	PUNCT	_	_	3	_	_	_
+6	yes	yes	INTJ	_	_	3	_	_	_
+7	”	"	PUNCT	_	_	3	_	_	_
+8	to	to	ADP	_	_	3	_	_	_
+9	new	new	ADJ	_	_	9	_	_	_
+10	experiences	experience	NOUN	_	_	7	_	_	_
+
+# text = woman who claims to have ‘unplugged for the weekend’ spends 6 hours staring at her phone
+# headline_id = 163
+# sent_id = 0
+# class = 1
+# link = https://chatgpt.com/
+1	woman	woman	NOUN	_	_	11	_	_	_
+2	who	who	PRON	_	_	2	_	_	_
+3	claims	claim	VERB	_	_	0	_	_	_
+4	to	to	PART	_	_	4	_	_	_
+5	have	have	AUX	_	_	6	_	_	_
+6	‘	'	PUNCT	_	_	4	_	_	_
+7	unplugged	unplug	VERB	_	_	2	_	_	_
+8	for	for	ADP	_	_	6	_	_	_
+9	the	the	DET	_	_	9	_	_	_
+10	weekend	weekend	NOUN	_	_	7	_	_	_
+11	’	'	PUNCT	_	_	0	_	_	_
+12	spends	spend	VERB	_	_	11	_	_	_
+13	6	6	NUM	_	_	13	_	_	_
+14	hours	hour	NOUN	_	_	14	_	_	_
+15	staring	stare	VERB	_	_	11	_	_	_
+16	at	at	ADP	_	_	14	_	_	_
+17	her	her	PRON	_	_	17	_	_	_
+18	phone	phone	NOUN	_	_	15	_	_	_
+
+# text = new fitness trend claims it’s possible to ‘lose weight’ by simply looking at the gym
+# headline_id = 164
+# sent_id = 0
+# class = 1
+# link = https://chatgpt.com/
+1	new	new	ADJ	_	_	2	_	_	_
+2	fitness	fitness	NOUN	_	_	2	_	_	_
+3	trend	trend	NOUN	_	_	3	_	_	_
+4	claims	claim	VERB	_	_	3	_	_	_
+5	it	it	PRON	_	_	5	_	_	_
+6	’s	’	VERB	_	_	3	_	_	_
+7	possible	possible	ADJ	_	_	5	_	_	_
+8	to	to	PART	_	_	9	_	_	_
+9	‘	'	PUNCT	_	_	9	_	_	_
+10	lose	lose	VERB	_	_	5	_	_	_
+11	weight	weight	NOUN	_	_	9	_	_	_
+12	’	'	PUNCT	_	_	9	_	_	_
+13	by	by	ADP	_	_	3	_	_	_
+14	simply	simply	ADV	_	_	14	_	_	_
+15	looking	look	VERB	_	_	12	_	_	_
+16	at	at	ADP	_	_	14	_	_	_
+17	the	the	DET	_	_	17	_	_	_
+18	gym	gym	NOUN	_	_	15	_	_	_
+
+# text = why forgiveness is the key to unlocking your inner peace
+# headline_id = 165
+# sent_id = 0
+# class = 0
+# link = https://chatgpt.com/
+1	why	why	SCONJ	_	_	2	_	_	_
+2	forgiveness	forgiveness	NOUN	_	_	2	_	_	_
+3	is	be	AUX	_	_	2	_	_	_
+4	the	the	DET	_	_	4	_	_	_
+5	key	key	NOUN	_	_	2	_	_	_
+6	to	to	ADP	_	_	4	_	_	_
+7	unlocking	unlock	VERB	_	_	5	_	_	_
+8	your	your	PRON	_	_	9	_	_	_
+9	inner	inner	ADJ	_	_	9	_	_	_
+10	peace	peace	NOUN	_	_	6	_	_	_
+
+# text = why you should stop waiting for the “perfect moment” to start
+# headline_id = 166
+# sent_id = 0
+# class = 0
+# link = https://chatgpt.com/
+1	why	why	SCONJ	_	_	3	_	_	_
+2	you	you	PRON	_	_	3	_	_	_
+3	should	should	AUX	_	_	3	_	_	_
+4	stop	stop	VERB	_	_	3	_	_	_
+5	waiting	wait	VERB	_	_	3	_	_	_
+6	for	for	ADP	_	_	4	_	_	_
+7	the	the	DET	_	_	9	_	_	_
+8	“	"	PUNCT	_	_	9	_	_	_
+9	perfect	perfect	ADJ	_	_	9	_	_	_
+10	moment	moment	NOUN	_	_	5	_	_	_
+11	”	"	PUNCT	_	_	9	_	_	_
+12	to	to	PART	_	_	12	_	_	_
+13	start	start	VERB	_	_	3	_	_	_
+
+# text = how to turn failures into opportunities for growth
+# headline_id = 167
+# sent_id = 0
+# class = 0
+# link = https://chatgpt.com/
+1	how	how	SCONJ	_	_	2	_	_	_
+2	to	to	PART	_	_	2	_	_	_
+3	turn	turn	VERB	_	_	2	_	_	_
+4	failures	failure	NOUN	_	_	2	_	_	_
+5	into	into	ADP	_	_	2	_	_	_
+6	opportunities	opportunity	NOUN	_	_	4	_	_	_
+7	for	for	ADP	_	_	5	_	_	_
+8	growth	growth	NOUN	_	_	6	_	_	_
+
+# text = local dad finds himself in 3-day argument with google maps over whether left turn was ‘really that necessary’
+# headline_id = 168
+# sent_id = 0
+# class = 1
+# link = https://chatgpt.com/
+1	local	local	ADJ	_	_	1	_	_	_
+2	dad	dad	NOUN	_	_	2	_	_	_
+3	finds	find	VERB	_	_	2	_	_	_
+4	himself	himself	PRON	_	_	2	_	_	_
+5	in	in	ADP	_	_	2	_	_	_
+6	3	3	NUM	_	_	7	_	_	_
+7	-	-	PUNCT	_	_	7	_	_	_
+8	day	day	NOUN	_	_	8	_	_	_
+9	argument	argument	NOUN	_	_	4	_	_	_
+10	with	with	ADP	_	_	8	_	_	_
+11	google	google	PROPN	_	_	11	_	_	_
+12	maps	map	NOUN	_	_	9	_	_	_
+13	over	over	ADP	_	_	11	_	_	_
+14	whether	whether	SCONJ	_	_	14	_	_	_
+15	left	left	ADJ	_	_	15	_	_	_
+16	turn	turn	NOUN	_	_	16	_	_	_
+17	was	be	AUX	_	_	2	_	_	_
+18	‘	'	PUNCT	_	_	16	_	_	_
+19	really	really	ADV	_	_	20	_	_	_
+20	that	that	PRON	_	_	20	_	_	_
+21	necessary	necessary	ADJ	_	_	16	_	_	_
+22	’	'	PUNCT	_	_	16	_	_	_
+
+# text = congress debates bill to tax people who use too many exclamation points in emails
+# headline_id = 169
+# sent_id = 0
+# class = 1
+# link = https://chatgpt.com/
+1	congress	congress	PROPN	_	_	1	_	_	_
+2	debates	debate	VERB	_	_	1	_	_	_
+3	bill	bill	NOUN	_	_	1	_	_	_
+4	to	to	AUX	_	_	4	_	_	_
+5	tax	tax	VERB	_	_	1	_	_	_
+6	people	people	NOUN	_	_	4	_	_	_
+7	who	who	PRON	_	_	7	_	_	_
+8	use	use	VERB	_	_	5	_	_	_
+9	too	too	ADV	_	_	9	_	_	_
+10	many	many	ADJ	_	_	11	_	_	_
+11	exclamation	exclamation	NOUN	_	_	11	_	_	_
+12	points	point	NOUN	_	_	7	_	_	_
+13	in	in	ADP	_	_	7	_	_	_
+14	emails	email	NOUN	_	_	12	_	_	_
+
+# text = scientists discover that “sleeping in” is the cure for every modern illness, including having a job
+# headline_id = 170
+# sent_id = 0
+# class = 1
+# link = https://chatgpt.com/
+1	scientists	scientist	NOUN	_	_	1	_	_	_
+2	discover	discover	VERB	_	_	1	_	_	_
+3	that	that	SCONJ	_	_	7	_	_	_
+4	“	"	PUNCT	_	_	7	_	_	_
+5	sleeping	sleep	VERB	_	_	7	_	_	_
+6	in	in	ADP	_	_	4	_	_	_
+7	”	"	PUNCT	_	_	7	_	_	_
+8	is	be	AUX	_	_	1	_	_	_
+9	the	the	DET	_	_	9	_	_	_
+10	cure	cure	NOUN	_	_	7	_	_	_
+11	for	for	ADP	_	_	9	_	_	_
+12	every	every	DET	_	_	13	_	_	_
+13	modern	modern	ADJ	_	_	13	_	_	_
+14	illness	illness	NOUN	_	_	10	_	_	_
+15	,	,	PUNCT	_	_	13	_	_	_
+16	including	include	VERB	_	_	13	_	_	_
+17	having	have	VERB	_	_	15	_	_	_
+18	a	a	DET	_	_	18	_	_	_
+19	job	job	NOUN	_	_	16	_	_	_
+
+# text = how to stop being your own worst enemy and start supporting yourself
+# headline_id = 171
+# sent_id = 0
+# class = 0
+# link = https://chatgpt.com/
+1	how	how	SCONJ	_	_	2	_	_	_
+2	to	to	PART	_	_	2	_	_	_
+3	stop	stop	VERB	_	_	2	_	_	_
+4	being	be	AUX	_	_	2	_	_	_
+5	your	your	PRON	_	_	7	_	_	_
+6	own	own	ADJ	_	_	7	_	_	_
+7	worst	bad	ADJ	_	_	7	_	_	_
+8	enemy	enemy	NOUN	_	_	3	_	_	_
+9	and	and	CCONJ	_	_	2	_	_	_
+10	start	start	VERB	_	_	2	_	_	_
+11	supporting	support	VERB	_	_	9	_	_	_
+12	yourself	yourself	PRON	_	_	10	_	_	_
+
+# text = study finds 80% of people only watch tv ‘to unwind,’ but are actually just hoping someone else will do their laundry
+# headline_id = 172
+# sent_id = 0
+# class = 1
+# link = https://chatgpt.com/
+1	study	study	NOUN	_	_	1	_	_	_
+2	finds	find	VERB	_	_	1	_	_	_
+3	80	80	NUM	_	_	3	_	_	_
+4	%	%	NOUN	_	_	7	_	_	_
+5	of	of	ADP	_	_	3	_	_	_
+6	people	people	NOUN	_	_	4	_	_	_
+7	only	only	ADV	_	_	7	_	_	_
+8	watch	watch	VERB	_	_	1	_	_	_
+9	tv	tv	NOUN	_	_	7	_	_	_
+10	‘	'	PUNCT	_	_	7	_	_	_
+11	to	to	PART	_	_	11	_	_	_
+12	unwind	unwind	VERB	_	_	7	_	_	_
+13	,	,	PUNCT	_	_	7	_	_	_
+14	’	'	PUNCT	_	_	7	_	_	_
+15	but	but	CCONJ	_	_	1	_	_	_
+16	are	be	AUX	_	_	18	_	_	_
+17	actually	actually	ADV	_	_	18	_	_	_
+18	just	just	ADV	_	_	18	_	_	_
+19	hoping	hope	VERB	_	_	1	_	_	_
+20	someone	someone	PRON	_	_	22	_	_	_
+21	else	else	ADV	_	_	19	_	_	_
+22	will	will	AUX	_	_	22	_	_	_
+23	do	do	VERB	_	_	18	_	_	_
+24	their	their	PRON	_	_	24	_	_	_
+25	laundry	laundry	NOUN	_	_	22	_	_	_
+
+# text = why it’s okay to take a step back and reevaluate your priorities
+# headline_id = 173
+# sent_id = 0
+# class = 0
+# link = https://chatgpt.com/
+1	why	why	SCONJ	_	_	2	_	_	_
+2	it	it	PRON	_	_	2	_	_	_
+3	’s	’	VERB	_	_	2	_	_	_
+4	okay	okay	ADJ	_	_	2	_	_	_
+5	to	to	PART	_	_	5	_	_	_
+6	take	take	VERB	_	_	2	_	_	_
+7	a	a	DET	_	_	7	_	_	_
+8	step	step	NOUN	_	_	5	_	_	_
+9	back	back	ADV	_	_	5	_	_	_
+10	and	and	CCONJ	_	_	5	_	_	_
+11	reevaluate	reevaluate	VERB	_	_	5	_	_	_
+12	your	your	PRON	_	_	12	_	_	_
+13	priorities	priority	NOUN	_	_	10	_	_	_
+
+# text = why mindfulness is the secret to staying focused and productive
+# headline_id = 174
+# sent_id = 0
+# class = 0
+# link = https://chatgpt.com/
+1	why	why	SCONJ	_	_	2	_	_	_
+2	mindfulness	mindfulness	NOUN	_	_	2	_	_	_
+3	is	be	AUX	_	_	2	_	_	_
+4	the	the	DET	_	_	4	_	_	_
+5	secret	secret	NOUN	_	_	2	_	_	_
+6	to	to	ADP	_	_	4	_	_	_
+7	staying	stay	VERB	_	_	5	_	_	_
+8	focused	focused	ADJ	_	_	6	_	_	_
+9	and	and	CCONJ	_	_	7	_	_	_
+10	productive	productive	ADJ	_	_	7	_	_	_
+
+# text = how to stop living on autopilot and start living with intention
+# headline_id = 175
+# sent_id = 0
+# class = 0
+# link = https://chatgpt.com/
+1	how	how	SCONJ	_	_	2	_	_	_
+2	to	to	PART	_	_	2	_	_	_
+3	stop	stop	VERB	_	_	2	_	_	_
+4	living	live	VERB	_	_	2	_	_	_
+5	on	on	ADP	_	_	3	_	_	_
+6	autopilot	autopilot	NOUN	_	_	4	_	_	_
+7	and	and	CCONJ	_	_	2	_	_	_
+8	start	start	VERB	_	_	2	_	_	_
+9	living	live	VERB	_	_	7	_	_	_
+10	with	with	ADP	_	_	8	_	_	_
+11	intention	intention	NOUN	_	_	9	_	_	_
+
+# text = experts say talking about your ‘hobbies’ is just a clever disguise for “i’m really bored, please notice me”
+# headline_id = 176
+# sent_id = 0
+# class = 1
+# link = https://chatgpt.com/
+1	experts	expert	NOUN	_	_	1	_	_	_
+2	say	say	VERB	_	_	1	_	_	_
+3	talking	talk	VERB	_	_	8	_	_	_
+4	about	about	ADP	_	_	2	_	_	_
+5	your	your	PRON	_	_	6	_	_	_
+6	‘	'	PUNCT	_	_	6	_	_	_
+7	hobbies	hobby	NOUN	_	_	3	_	_	_
+8	’	'	PUNCT	_	_	6	_	_	_
+9	is	be	AUX	_	_	1	_	_	_
+10	just	just	ADV	_	_	12	_	_	_
+11	a	a	DET	_	_	12	_	_	_
+12	clever	clever	ADJ	_	_	12	_	_	_
+13	disguise	disguise	NOUN	_	_	8	_	_	_
+14	for	for	ADP	_	_	12	_	_	_
+15	“	"	PUNCT	_	_	13	_	_	_
+16	i	I	PRON	_	_	16	_	_	_
+17	’m	’m	VERB	_	_	13	_	_	_
+18	really	really	ADV	_	_	18	_	_	_
+19	bored	bored	ADJ	_	_	16	_	_	_
+20	,	,	PUNCT	_	_	21	_	_	_
+21	please	please	INTJ	_	_	21	_	_	_
+22	notice	notice	VERB	_	_	1	_	_	_
+23	me	I	PRON	_	_	21	_	_	_
+24	”	"	PUNCT	_	_	21	_	_	_
+
+# text = study finds the more you complain about your job, the more you’ll be promoted to a worse job
+# headline_id = 177
+# sent_id = 0
+# class = 1
+# link = https://chatgpt.com/
+1	study	study	NOUN	_	_	1	_	_	_
+2	finds	find	VERB	_	_	1	_	_	_
+3	the	the	DET	_	_	3	_	_	_
+4	more	more	ADJ	_	_	1	_	_	_
+5	you	you	PRON	_	_	5	_	_	_
+6	complain	complain	VERB	_	_	3	_	_	_
+7	about	about	ADP	_	_	5	_	_	_
+8	your	your	PRON	_	_	8	_	_	_
+9	job	job	NOUN	_	_	6	_	_	_
+10	,	,	PUNCT	_	_	15	_	_	_
+11	the	the	PRON	_	_	11	_	_	_
+12	more	more	ADV	_	_	15	_	_	_
+13	you	you	PRON	_	_	15	_	_	_
+14	’ll	’ll	AUX	_	_	15	_	_	_
+15	be	be	AUX	_	_	15	_	_	_
+16	promoted	promote	VERB	_	_	1	_	_	_
+17	to	to	ADP	_	_	15	_	_	_
+18	a	a	DET	_	_	19	_	_	_
+19	worse	bad	ADJ	_	_	19	_	_	_
+20	job	job	NOUN	_	_	16	_	_	_
+
+# text = area woman says her ‘guilty pleasure’ is watching tv, but has seen every episode of ‘breaking bad’ five times
+# headline_id = 178
+# sent_id = 0
+# class = 1
+# link = https://chatgpt.com/
+1	area	area	NOUN	_	_	1	_	_	_
+2	woman	woman	PROPN	_	_	2	_	_	_
+3	says	say	VERB	_	_	2	_	_	_
+4	her	she	PRON	_	_	6	_	_	_
+5	‘	'	PUNCT	_	_	6	_	_	_
+6	guilty	guilty	ADJ	_	_	6	_	_	_
+7	pleasure	pleasure	NOUN	_	_	9	_	_	_
+8	’	'	PUNCT	_	_	6	_	_	_
+9	is	be	AUX	_	_	9	_	_	_
+10	watching	watch	VERB	_	_	2	_	_	_
+11	tv	tv	NOUN	_	_	9	_	_	_
+12	,	,	PUNCT	_	_	9	_	_	_
+13	but	but	CCONJ	_	_	9	_	_	_
+14	has	have	AUX	_	_	14	_	_	_
+15	seen	see	VERB	_	_	9	_	_	_
+16	every	every	DET	_	_	16	_	_	_
+17	episode	episode	NOUN	_	_	14	_	_	_
+18	of	of	ADP	_	_	16	_	_	_
+19	‘	'	PUNCT	_	_	19	_	_	_
+20	breaking	break	VERB	_	_	17	_	_	_
+21	bad	bad	ADJ	_	_	19	_	_	_
+22	’	'	PUNCT	_	_	19	_	_	_
+23	five	five	NUM	_	_	23	_	_	_
+24	times	time	NOUN	_	_	14	_	_	_
+
+# text = local chef declares ‘cooking is about love,’ while secretly hiding store-bought ingredients
+# headline_id = 179
+# sent_id = 0
+# class = 1
+# link = https://chatgpt.com/
+1	local	local	ADJ	_	_	1	_	_	_
+2	chef	chef	NOUN	_	_	2	_	_	_
+3	declares	declare	VERB	_	_	2	_	_	_
+4	‘	'	PUNCT	_	_	2	_	_	_
+5	cooking	cooking	NOUN	_	_	5	_	_	_
+6	is	be	AUX	_	_	2	_	_	_
+7	about	about	ADP	_	_	5	_	_	_
+8	love	love	NOUN	_	_	6	_	_	_
+9	,	,	PUNCT	_	_	5	_	_	_
+10	’	'	PUNCT	_	_	2	_	_	_
+11	while	while	SCONJ	_	_	12	_	_	_
+12	secretly	secretly	ADV	_	_	12	_	_	_
+13	hiding	hide	VERB	_	_	2	_	_	_
+14	store	store	NOUN	_	_	15	_	_	_
+15	-	-	PUNCT	_	_	15	_	_	_
+16	bought	buy	VERB	_	_	16	_	_	_
+17	ingredients	ingredient	NOUN	_	_	12	_	_	_
+
+# text = the one thing you should do every day for better mental health
+# headline_id = 180
+# sent_id = 0
+# class = 0
+# link = https://chatgpt.com/
+1	the	the	DET	_	_	2	_	_	_
+2	one	one	NUM	_	_	2	_	_	_
+3	thing	thing	NOUN	_	_	2	_	_	_
+4	you	you	PRON	_	_	5	_	_	_
+5	should	should	AUX	_	_	5	_	_	_
+6	do	do	VERB	_	_	2	_	_	_
+7	every	every	DET	_	_	7	_	_	_
+8	day	day	NOUN	_	_	5	_	_	_
+9	for	for	ADP	_	_	5	_	_	_
+10	better	well	ADJ	_	_	10	_	_	_
+11	mental	mental	ADJ	_	_	11	_	_	_
+12	health	health	NOUN	_	_	8	_	_	_
+
+# text = the key to achieving your dreams lies in small, consistent actions
+# headline_id = 181
+# sent_id = 0
+# class = 0
+# link = https://chatgpt.com/
+1	the	the	DET	_	_	1	_	_	_
+2	key	key	NOUN	_	_	1	_	_	_
+3	to	to	ADP	_	_	1	_	_	_
+4	achieving	achieve	VERB	_	_	2	_	_	_
+5	your	your	PRON	_	_	5	_	_	_
+6	dreams	dream	NOUN	_	_	3	_	_	_
+7	lies	lie	VERB	_	_	3	_	_	_
+8	in	in	ADP	_	_	6	_	_	_
+9	small	small	ADJ	_	_	11	_	_	_
+10	,	,	PUNCT	_	_	11	_	_	_
+11	consistent	consistent	ADJ	_	_	11	_	_	_
+12	actions	action	NOUN	_	_	7	_	_	_
+
+# text = area man decides to ‘live with less’ and immediately buys 3 more boxes of junk
+# headline_id = 182
+# sent_id = 0
+# class = 1
+# link = https://chatgpt.com/
+1	area	area	NOUN	_	_	1	_	_	_
+2	man	man	NOUN	_	_	2	_	_	_
+3	decides	decide	VERB	_	_	2	_	_	_
+4	to	to	PART	_	_	5	_	_	_
+5	‘	'	PUNCT	_	_	5	_	_	_
+6	live	live	VERB	_	_	2	_	_	_
+7	with	with	ADP	_	_	5	_	_	_
+8	less	less	ADJ	_	_	6	_	_	_
+9	’	'	PUNCT	_	_	5	_	_	_
+10	and	and	CCONJ	_	_	5	_	_	_
+11	immediately	immediately	ADV	_	_	11	_	_	_
+12	buys	buy	VERB	_	_	5	_	_	_
+13	3	3	NUM	_	_	14	_	_	_
+14	more	more	ADJ	_	_	12	_	_	_
+15	boxes	box	NOUN	_	_	11	_	_	_
+16	of	of	ADP	_	_	14	_	_	_
+17	junk	junk	NOUN	_	_	15	_	_	_
+
+# text = breaking: local family’s christmas card is the most forced, uncomfortable piece of ‘love’ ever made
+# headline_id = 183
+# sent_id = 0
+# class = 1
+# link = https://chatgpt.com/
+1	breaking	break	VERB	_	_	7	_	_	_
+2	:	:	PUNCT	_	_	0	_	_	_
+3	local	local	ADJ	_	_	3	_	_	_
+4	family	family	NOUN	_	_	6	_	_	_
+5	’s	’s	PART	_	_	3	_	_	_
+6	christmas	christmas	PROPN	_	_	6	_	_	_
+7	card	card	NOUN	_	_	7	_	_	_
+8	is	be	AUX	_	_	7	_	_	_
+9	the	the	DET	_	_	13	_	_	_
+10	most	most	ADV	_	_	10	_	_	_
+11	forced	forced	ADJ	_	_	13	_	_	_
+12	,	,	PUNCT	_	_	13	_	_	_
+13	uncomfortable	uncomfortable	ADJ	_	_	13	_	_	_
+14	piece	piece	NOUN	_	_	7	_	_	_
+15	of	of	ADP	_	_	13	_	_	_
+16	‘	'	PUNCT	_	_	16	_	_	_
+17	love	love	NOUN	_	_	14	_	_	_
+18	’	'	PUNCT	_	_	16	_	_	_
+19	ever	ever	ADV	_	_	19	_	_	_
+20	made	make	VERB	_	_	7	_	_	_
+
+# text = how to know if you’re in a toxic friendship (and what to do about it)
+# headline_id = 184
+# sent_id = 0
+# class = 0
+# link = https://chatgpt.com/
+1	how	how	SCONJ	_	_	2	_	_	_
+2	to	to	PART	_	_	2	_	_	_
+3	know	know	VERB	_	_	2	_	_	_
+4	if	if	SCONJ	_	_	5	_	_	_
+5	you	you	PRON	_	_	5	_	_	_
+6	’re	’re	VERB	_	_	2	_	_	_
+7	in	in	ADP	_	_	5	_	_	_
+8	a	a	DET	_	_	9	_	_	_
+9	toxic	toxic	ADJ	_	_	9	_	_	_
+10	friendship	friendship	NOUN	_	_	6	_	_	_
+11	(	(	PUNCT	_	_	2	_	_	_
+12	and	and	CCONJ	_	_	2	_	_	_
+13	what	what	PRON	_	_	14	_	_	_
+14	to	to	PART	_	_	14	_	_	_
+15	do	do	VERB	_	_	2	_	_	_
+16	about	about	ADP	_	_	14	_	_	_
+17	it	it	PRON	_	_	15	_	_	_
+18	)	)	PUNCT	_	_	2	_	_	_
+
+# text = why setting boundaries is the most loving thing you can do
+# headline_id = 185
+# sent_id = 0
+# class = 0
+# link = https://chatgpt.com/
+1	why	why	SCONJ	_	_	1	_	_	_
+2	setting	set	VERB	_	_	3	_	_	_
+3	boundaries	boundary	NOUN	_	_	1	_	_	_
+4	is	be	AUX	_	_	3	_	_	_
+5	the	the	DET	_	_	7	_	_	_
+6	most	most	ADV	_	_	6	_	_	_
+7	loving	loving	ADJ	_	_	7	_	_	_
+8	thing	thing	NOUN	_	_	3	_	_	_
+9	you	you	PRON	_	_	10	_	_	_
+10	can	can	AUX	_	_	10	_	_	_
+11	do	do	VERB	_	_	7	_	_	_
+
+# text = how to stay focused when everything around you is distracting
+# headline_id = 186
+# sent_id = 0
+# class = 0
+# link = https://chatgpt.com/
+1	how	how	SCONJ	_	_	2	_	_	_
+2	to	to	PART	_	_	2	_	_	_
+3	stay	stay	VERB	_	_	2	_	_	_
+4	focused	focused	ADJ	_	_	2	_	_	_
+5	when	when	SCONJ	_	_	9	_	_	_
+6	everything	everything	PRON	_	_	9	_	_	_
+7	around	around	ADP	_	_	5	_	_	_
+8	you	you	PRON	_	_	6	_	_	_
+9	is	be	AUX	_	_	9	_	_	_
+10	distracting	distract	VERB	_	_	2	_	_	_
+
+# text = local man who was ‘just kidding’ about his 4 a.m. workout plans still feels self-righteous
+# headline_id = 187
+# sent_id = 0
+# class = 1
+# link = https://chatgpt.com/
+1	local	local	ADJ	_	_	1	_	_	_
+2	man	man	NOUN	_	_	6	_	_	_
+3	who	who	PRON	_	_	3	_	_	_
+4	was	be	AUX	_	_	6	_	_	_
+5	‘	'	PUNCT	_	_	6	_	_	_
+6	just	just	ADV	_	_	6	_	_	_
+7	kidding	kid	VERB	_	_	15	_	_	_
+8	’	'	PUNCT	_	_	6	_	_	_
+9	about	about	ADP	_	_	6	_	_	_
+10	his	his	PRON	_	_	13	_	_	_
+11	4	4	NUM	_	_	11	_	_	_
+12	a.m.	a.m.	NOUN	_	_	13	_	_	_
+13	workout	workout	NOUN	_	_	13	_	_	_
+14	plans	plan	NOUN	_	_	15	_	_	_
+15	still	still	ADV	_	_	15	_	_	_
+16	feels	feel	VERB	_	_	15	_	_	_
+17	self	self	NOUN	_	_	18	_	_	_
+18	-	-	PUNCT	_	_	18	_	_	_
+19	righteous	righteous	ADJ	_	_	15	_	_	_
+
+# text = how to develop a growth mindset that will change everything
+# headline_id = 188
+# sent_id = 0
+# class = 0
+# link = https://chatgpt.com/
+1	how	how	SCONJ	_	_	2	_	_	_
+2	to	to	PART	_	_	2	_	_	_
+3	develop	develop	VERB	_	_	2	_	_	_
+4	a	a	DET	_	_	5	_	_	_
+5	growth	growth	NOUN	_	_	5	_	_	_
+6	mindset	mindset	NOUN	_	_	2	_	_	_
+7	that	that	PRON	_	_	8	_	_	_
+8	will	will	AUX	_	_	8	_	_	_
+9	change	change	VERB	_	_	5	_	_	_
+10	everything	everything	PRON	_	_	8	_	_	_
+
+# text = the key to building confidence is embracing vulnerability
+# headline_id = 189
+# sent_id = 0
+# class = 0
+# link = https://chatgpt.com/
+1	the	the	DET	_	_	1	_	_	_
+2	key	key	NOUN	_	_	6	_	_	_
+3	to	to	ADP	_	_	1	_	_	_
+4	building	build	VERB	_	_	2	_	_	_
+5	confidence	confidence	NOUN	_	_	3	_	_	_
+6	is	be	AUX	_	_	6	_	_	_
+7	embracing	embrace	VERB	_	_	6	_	_	_
+8	vulnerability	vulnerability	NOUN	_	_	6	_	_	_
+
+# text = the best way to stay motivated after a setback
+# headline_id = 190
+# sent_id = 0
+# class = 0
+# link = https://chatgpt.com/
+1	the	the	DET	_	_	2	_	_	_
+2	best	good	ADJ	_	_	2	_	_	_
+3	way	way	NOUN	_	_	2	_	_	_
+4	to	to	PART	_	_	4	_	_	_
+5	stay	stay	VERB	_	_	2	_	_	_
+6	motivated	motivated	ADJ	_	_	4	_	_	_
+7	after	after	ADP	_	_	4	_	_	_
+8	a	a	DET	_	_	8	_	_	_
+9	setback	setback	NOUN	_	_	6	_	_	_
+
+# text = after months of therapy, local man finally realizes he’s just not that into yoga
+# headline_id = 191
+# sent_id = 0
+# class = 1
+# link = https://chatgpt.com/
+1	after	after	ADP	_	_	8	_	_	_
+2	months	month	NOUN	_	_	0	_	_	_
+3	of	of	ADP	_	_	1	_	_	_
+4	therapy	therapy	NOUN	_	_	2	_	_	_
+5	,	,	PUNCT	_	_	8	_	_	_
+6	local	local	ADJ	_	_	6	_	_	_
+7	man	man	NOUN	_	_	8	_	_	_
+8	finally	finally	ADV	_	_	8	_	_	_
+9	realizes	realize	VERB	_	_	8	_	_	_
+10	he	he	PRON	_	_	10	_	_	_
+11	’s	’	VERB	_	_	8	_	_	_
+12	just	just	ADV	_	_	10	_	_	_
+13	not	not	PART	_	_	10	_	_	_
+14	that	that	PRON	_	_	10	_	_	_
+15	into	into	ADP	_	_	10	_	_	_
+16	yoga	yoga	NOUN	_	_	14	_	_	_
+
+# text = how to create more time for yourself (even with a busy schedule)
+# headline_id = 192
+# sent_id = 0
+# class = 0
+# link = https://chatgpt.com/
+1	how	how	SCONJ	_	_	2	_	_	_
+2	to	to	PART	_	_	2	_	_	_
+3	create	create	VERB	_	_	2	_	_	_
+4	more	more	ADJ	_	_	4	_	_	_
+5	time	time	NOUN	_	_	2	_	_	_
+6	for	for	ADP	_	_	2	_	_	_
+7	yourself	yourself	PRON	_	_	5	_	_	_
+8	(	(	PUNCT	_	_	2	_	_	_
+9	even	even	ADV	_	_	9	_	_	_
+10	with	with	ADP	_	_	2	_	_	_
+11	a	a	DET	_	_	12	_	_	_
+12	busy	busy	ADJ	_	_	12	_	_	_
+13	schedule	schedule	NOUN	_	_	9	_	_	_
+14	)	)	PUNCT	_	_	2	_	_	_
+
+# text = mom claims she ‘loves to cook,’ but her family can’t remember the last time she actually made dinner
+# headline_id = 193
+# sent_id = 0
+# class = 1
+# link = https://chatgpt.com/
+1	mom	mom	NOUN	_	_	1	_	_	_
+2	claims	claim	VERB	_	_	1	_	_	_
+3	she	she	PRON	_	_	4	_	_	_
+4	‘	'	PUNCT	_	_	4	_	_	_
+5	loves	love	VERB	_	_	1	_	_	_
+6	to	to	PART	_	_	6	_	_	_
+7	cook	cook	VERB	_	_	4	_	_	_
+8	,	,	PUNCT	_	_	1	_	_	_
+9	’	'	PUNCT	_	_	1	_	_	_
+10	but	but	CCONJ	_	_	1	_	_	_
+11	her	her	PRON	_	_	11	_	_	_
+12	family	family	NOUN	_	_	14	_	_	_
+13	ca	can	AUX	_	_	14	_	_	_
+14	n’t	not	PART	_	_	14	_	_	_
+15	remember	remember	VERB	_	_	1	_	_	_
+16	the	the	DET	_	_	17	_	_	_
+17	last	last	ADJ	_	_	17	_	_	_
+18	time	time	NOUN	_	_	14	_	_	_
+19	she	she	PRON	_	_	20	_	_	_
+20	actually	actually	ADV	_	_	20	_	_	_
+21	made	make	VERB	_	_	17	_	_	_
+22	dinner	dinner	NOUN	_	_	20	_	_	_
+
+# text = how to make peace with your past and move forward
+# headline_id = 194
+# sent_id = 0
+# class = 0
+# link = https://chatgpt.com/
+1	how	how	SCONJ	_	_	2	_	_	_
+2	to	to	PART	_	_	2	_	_	_
+3	make	make	VERB	_	_	2	_	_	_
+4	peace	peace	NOUN	_	_	2	_	_	_
+5	with	with	ADP	_	_	2	_	_	_
+6	your	your	PRON	_	_	6	_	_	_
+7	past	past	NOUN	_	_	4	_	_	_
+8	and	and	CCONJ	_	_	2	_	_	_
+9	move	move	VERB	_	_	2	_	_	_
+10	forward	forward	ADV	_	_	8	_	_	_
+
+# text = the power of gratitude: how practicing it daily can change your life
+# headline_id = 195
+# sent_id = 0
+# class = 0
+# link = https://chatgpt.com/
+1	the	the	DET	_	_	1	_	_	_
+2	power	power	NOUN	_	_	10	_	_	_
+3	of	of	ADP	_	_	1	_	_	_
+4	gratitude	gratitude	NOUN	_	_	2	_	_	_
+5	:	:	PUNCT	_	_	10	_	_	_
+6	how	how	SCONJ	_	_	10	_	_	_
+7	practicing	practice	VERB	_	_	10	_	_	_
+8	it	it	PRON	_	_	6	_	_	_
+9	daily	daily	ADV	_	_	6	_	_	_
+10	can	can	AUX	_	_	10	_	_	_
+11	change	change	VERB	_	_	10	_	_	_
+12	your	your	PRON	_	_	12	_	_	_
+13	life	life	NOUN	_	_	10	_	_	_
+
+# text = how to make the most of your time without burning out
+# headline_id = 196
+# sent_id = 0
+# class = 0
+# link = https://chatgpt.com/
+1	how	how	SCONJ	_	_	2	_	_	_
+2	to	to	PART	_	_	2	_	_	_
+3	make	make	VERB	_	_	2	_	_	_
+4	the	the	DET	_	_	4	_	_	_
+5	most	most	ADJ	_	_	2	_	_	_
+6	of	of	ADP	_	_	4	_	_	_
+7	your	your	PRON	_	_	7	_	_	_
+8	time	time	NOUN	_	_	5	_	_	_
+9	without	without	ADP	_	_	2	_	_	_
+10	burning	burn	VERB	_	_	8	_	_	_
+11	out	out	ADP	_	_	9	_	_	_
+
+# text = how to deal with stress in the most effective way possible
+# headline_id = 197
+# sent_id = 0
+# class = 0
+# link = https://chatgpt.com/
+1	how	how	SCONJ	_	_	2	_	_	_
+2	to	to	PART	_	_	2	_	_	_
+3	deal	deal	VERB	_	_	2	_	_	_
+4	with	with	ADP	_	_	2	_	_	_
+5	stress	stress	NOUN	_	_	3	_	_	_
+6	in	in	ADP	_	_	2	_	_	_
+7	the	the	DET	_	_	9	_	_	_
+8	most	most	ADV	_	_	8	_	_	_
+9	effective	effective	ADJ	_	_	9	_	_	_
+10	way	way	NOUN	_	_	5	_	_	_
+11	possible	possible	ADJ	_	_	9	_	_	_
+
+# text = man who spends 4 hours reading product reviews now thinks he’s an expert on everything
+# headline_id = 198
+# sent_id = 0
+# class = 1
+# link = https://chatgpt.com/
+1	man	man	NOUN	_	_	9	_	_	_
+2	who	who	PRON	_	_	2	_	_	_
+3	spends	spend	VERB	_	_	0	_	_	_
+4	4	4	NUM	_	_	4	_	_	_
+5	hours	hour	NOUN	_	_	7	_	_	_
+6	reading	reading	NOUN	_	_	7	_	_	_
+7	product	product	NOUN	_	_	7	_	_	_
+8	reviews	review	NOUN	_	_	2	_	_	_
+9	now	now	ADV	_	_	9	_	_	_
+10	thinks	think	VERB	_	_	9	_	_	_
+11	he	he	PRON	_	_	11	_	_	_
+12	’s	’	VERB	_	_	9	_	_	_
+13	an	an	DET	_	_	13	_	_	_
+14	expert	expert	NOUN	_	_	11	_	_	_
+15	on	on	ADP	_	_	13	_	_	_
+16	everything	everything	PRON	_	_	14	_	_	_
+
+# text = parents say their kids are ‘so lucky’ they’re not allowed to have cellphones, just like they were at their age
+# headline_id = 199
+# sent_id = 0
+# class = 1
+# link = https://chatgpt.com/
+1	parents	parent	NOUN	_	_	1	_	_	_
+2	say	say	VERB	_	_	1	_	_	_
+3	their	their	PRON	_	_	3	_	_	_
+4	kids	kid	NOUN	_	_	4	_	_	_
+5	are	be	AUX	_	_	1	_	_	_
+6	‘	'	PUNCT	_	_	4	_	_	_
+7	so	so	ADV	_	_	7	_	_	_
+8	lucky	lucky	ADJ	_	_	4	_	_	_
+9	’	'	PUNCT	_	_	12	_	_	_
+10	they	they	PRON	_	_	12	_	_	_
+11	’re	’re	AUX	_	_	12	_	_	_
+12	not	not	PART	_	_	12	_	_	_
+13	allowed	allow	VERB	_	_	1	_	_	_
+14	to	to	PART	_	_	14	_	_	_
+15	have	have	VERB	_	_	12	_	_	_
+16	cellphones	cellphone	NOUN	_	_	14	_	_	_
+17	,	,	PUNCT	_	_	12	_	_	_
+18	just	just	ADV	_	_	20	_	_	_
+19	like	like	SCONJ	_	_	20	_	_	_
+20	they	they	PRON	_	_	20	_	_	_
+21	were	be	AUX	_	_	12	_	_	_
+22	at	at	ADP	_	_	20	_	_	_
+23	their	their	PRON	_	_	23	_	_	_
+24	age	age	NOUN	_	_	21	_	_	_
+
+# text = local yoga instructor’s new book reveals how 10,000 crunches can’t fix your inner peace
+# headline_id = 200
+# sent_id = 0
+# class = 1
+# link = https://chatgpt.com/
+1	local	local	ADJ	_	_	2	_	_	_
+2	yoga	yoga	NOUN	_	_	2	_	_	_
+3	instructor	instructor	NOUN	_	_	5	_	_	_
+4	’s	’s	PART	_	_	2	_	_	_
+5	new	new	ADJ	_	_	5	_	_	_
+6	book	book	NOUN	_	_	6	_	_	_
+7	reveals	reveal	VERB	_	_	6	_	_	_
+8	how	how	SCONJ	_	_	12	_	_	_
+9	10,000	10,000	NUM	_	_	9	_	_	_
+10	crunches	crunch	NOUN	_	_	12	_	_	_
+11	ca	can	AUX	_	_	12	_	_	_
+12	n’t	not	PART	_	_	12	_	_	_
+13	fix	fix	VERB	_	_	6	_	_	_
+14	your	your	PRON	_	_	15	_	_	_
+15	inner	inner	ADJ	_	_	15	_	_	_
+16	peace	peace	NOUN	_	_	12	_	_	_
