@@ -217,13 +217,13 @@ df = add_syntactic_features(df)
 df = calculate_surprisingness_features(df)
 
 
-# where the JSON file will be saved
+# where the CSV file will be saved
 path = r"C:\Users\MSC\OneDrive - Fraunhofer Austria Research GmbH\Desktop\NLP\data"  
 
 # Ensure directory exists
 os.makedirs(path, exist_ok=True)
 
-file_path = os.path.join(path, "trans_prob_temp.json")
-df.to_json(file_path, orient="records", lines=True)
+file_path = os.path.join(path, "trans_prob_temp.csv")
+df.to_csv(file_path, index=False)
 
-print(f"DataFrame saved as JSON at: {file_path}")
+print(f"DataFrame saved as CSV at: {file_path}")
