@@ -70,7 +70,7 @@ def convert_txt_to_json(input_file, output_file, link):
     current_label = "0"
     with open(input_file) as file:
         for line in file:
-            line = line.strip().strip('"”“').strip().lower()
+            line = line.strip().strip('"”“.').strip().lower()
             if len(line) == 0:
                 continue
             if len(line) == 1:
