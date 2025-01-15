@@ -2,6 +2,9 @@ import os
 import spacy
 import pandas as pd
 from tqdm import tqdm
+import sys
+import re
+import json
 
 
 def convert_to_conllu(df, output_file, model):
@@ -92,9 +95,33 @@ def convert_txt_to_json(input_file, output_file, link):
     df.to_json(output_file, orient="records", lines=True, force_ascii=True)
 
 
+def preprocess_tweets(csv_path, out_path):
+    """
+    Convert the dataset of tweets into json format
+    comparible with the headlines dataset. Sanitize
+    the tweets by removing user names (@-tags) and
+    unnecessary whitespaces.
+
+    Args:
+        csv_path(str): location of the source csv file with tweets
+        out_path(str): where to store the output json
+    """
+    data = pd.read_csv(csv_path)
+    tweets = [re.sub(r"@\w+", "", str(tweet).replace("\n", "")) for tweet in data["tweet"]]
+    labels = data["sarcastic"]
+    
+    with open(out_path, "w") as f:
+        for label, tweet in zip(labels, tweets):
+            f.write(json.dumps({"is_sarcastic": label, "headline": tweet, "article_link": ""}) + "\n")
+
+
 if __name__ == "__main__":
-    output_file = os.path.join("../data", "dataset.conllu")
+    if len(sys.argv) != 3:
+        print("Usage: python preprocessing.py <input_filename> <output_filename>")
+        sys.exit(1)
+
+    output_file = os.path.join("../data", sys.argv[2])
     nlp = spacy.load("en_core_web_sm")
-    file_path = "../data/Sarcasm_Headlines_Dataset.json"
+    file_path = os.path.join("../data", sys.argv[1])
     data = pd.read_json(file_path, lines=True)
     convert_to_conllu(data, output_file, nlp)
