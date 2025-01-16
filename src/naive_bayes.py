@@ -107,3 +107,27 @@ class NaiveBayesClassifier:
             ret.append((diff, word))
         ret = sorted(ret)
         return ret[:n], ret[-n:]
+    
+    def predict(self, docs):
+        y_pred = []
+        for doc in tqdm(docs):
+            words = self.extract_words(doc[0])
+            X = self.vectorizer.transform([words])
+            for sentence in doc[1:]:
+                words = self.extract_words(sentence)
+                X += self.vectorizer.transform([words])
+            y_pred.append(self.model.predict(X)[0])
+
+        return y_pred
+
+    def predict_proba(self, docs):
+        y_prob = []
+        for doc in tqdm(docs):
+            words = self.extract_words(doc[0])
+            X = self.vectorizer.transform([words])
+            for sentence in doc[1:]:
+                words = self.extract_words(sentence)
+                X += self.vectorizer.transform([words])
+            y_prob.append(self.model.predict_proba(X)[0])
+
+        return y_prob

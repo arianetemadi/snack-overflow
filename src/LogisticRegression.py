@@ -1,26 +1,26 @@
-# imports
-from sklearn.model_selection import train_test_split as split
-from src.data_util import load_data
-from src.naive_bayes import NaiveBayesClassifier
+from sklearn.base import BaseEstimator, ClassifierMixin
+from sklearn.linear_model import LogisticRegression, SGDClassifier
+from sklearn.feature_extraction.text import CountVectorizer, TfidfVectorizer
+from sklearn.metrics import accuracy_score, classification_report, confusion_matrix
 import pandas as pd
 import numpy as np
-from sklearn.linear_model import LogisticRegression
 import matplotlib.pyplot as plt
 import seaborn as sns
-from sklearn.feature_extraction.text import CountVectorizer, TfidfVectorizer
-from sklearn.metrics import classification_report, confusion_matrix
 import random
+from tqdm import tqdm
 
 
-class LRClassifier:
-    def __init__(self, train_data, val_data, use_tfidf=False, remove_stopwords=False):
-        self.train_data = train_data
-        self.val_data = val_data
+class LRClassifier(BaseEstimator, ClassifierMixin):
+    def __init__(self, use_tfidf=False, remove_stopwords=False):
         self.use_tfidf = use_tfidf
         self.remove_stopwords = remove_stopwords
         stop_words = 'english' if remove_stopwords else None
-        self.vectorizer = TfidfVectorizer(stop_words=stop_words) if use_tfidf else CountVectorizer(stop_words=stop_words)
-        self.model = LogisticRegression(random_state=42)
+        self.vectorizer = TfidfVectorizer(stop_words=stop_words) if use_tfidf else CountVectorizer(
+            ngram_range=(1, 1),
+            preprocessor=lambda x: x,
+            tokenizer=lambda x: x,
+        )
+        self.model = SGDClassifier(loss='log_loss', random_state=42)
 
     def preprocess(self, data):
         """Extracts headlines and their labels from the data."""
@@ -29,38 +29,100 @@ class LRClassifier:
         for headline_group in data:
             full_headline = " ".join([sentence.metadata['text'] for sentence in headline_group])
             headlines.append(full_headline)
-            labels.append(int(headline_group[0].metadata['class'])) 
+            labels.append(int(headline_group[0].metadata['class']))
         return headlines, labels
 
-    def fit(self):
-        """Fits the logistic regression model on the training data."""
-        train_headlines, train_labels = self.preprocess(self.train_data)
-        train_features = self.vectorizer.fit_transform(train_headlines)
-        self.model.fit(train_features, train_labels)
+    def fit(self, docs):
+        # create a corpus for the CountVectorizer
+        corpus = []
+        for doc in docs:
+            for sentence in doc:
+                words = self.extract_words(sentence)
+                corpus.append(words)
 
-    def predict(self):
-        """Predicts the labels for the validation data."""
-        # preprocess validation data
-        val_headlines, val_labels = self.preprocess(self.val_data)
+        # fit the CountVectorizer on corpus
+        self.vectorizer.fit(corpus)
 
-        # vectorize validation headlines
-        val_features = self.vectorizer.transform(val_headlines)
+        # fit the model on input docs
+        classes = [0, 1]
+        for doc in tqdm(docs):
+            # create feature vectors
+            words = self.extract_words(doc[0])
+            self.X = self.vectorizer.transform([words])
+            for sentence in doc[1:]:
+                words = self.extract_words(sentence)
+                self.X += self.vectorizer.transform([words])
+            self.y = np.array([int(doc[0].metadata["class"])])
 
-        # predict labels and probabilities
-        predictions = self.model.predict(val_features)
-        probabilities = self.model.predict_proba(val_features)[:, 1] 
-        return val_headlines, val_labels, predictions, probabilities
+            self.model.partial_fit(self.X.reshape(1, -1), self.y, classes)
+        return self
+    
+    def extract_words(self, sentence):
+        return [token["lemma"] for token in sentence if token["upos"] != "PUNCT"]
 
-    def evaluate(self, show_confusion_matrix=False):
+    # def predict(self):
+    #     """Predicts the labels for the given data."""
+    #     # Vectorize the input data
+    #     X_features = self.vectorizer.transform(self.X)
+    #     return self.model.predict(X_features)
+
+    # def predict_proba(self):
+    #     """Predicts probabilities for the given data."""
+    #     X_features = self.vectorizer.transform(self.X)
+    #     return self.model.predict_proba(X_features)
+    
+    def predict(self, docs):
+        y_pred = []
+        y_true = []
+        for doc in tqdm(docs):
+            words = self.extract_words(doc[0])
+            X = self.vectorizer.transform([words])
+            for sentence in doc[1:]:
+                words = self.extract_words(sentence)
+                X += self.vectorizer.transform([words])
+            y_pred.append(self.model.predict(X)[0])
+
+        return y_pred
+
+    def predict_proba(self, docs):
+        y_prob = []
+        for doc in tqdm(docs):
+            words = self.extract_words(doc[0])
+            X = self.vectorizer.transform([words])
+            for sentence in doc[1:]:
+                words = self.extract_words(sentence)
+                X += self.vectorizer.transform([words])
+            y_prob.append(self.model.predict_proba(X)[0])
+            
+
+        return y_prob
+
+    def score(self):
+        """Calculates the accuracy score on the given data."""
+        predictions = self.predict(self.X)
+        return accuracy_score(self.y, predictions)
+
+    def evaluate(self,docs, show_confusion_matrix=False):
         """Evaluates the model and stores false positives and negatives."""
-        val_headlines, val_labels, predictions, probabilities = self.predict()
 
-        # classification report
+        # fit the model on input docs
+        headlines = []
+        y_val_truth = []
+        for doc in tqdm(docs):
+            # create feature vectors
+            words = self.extract_words(doc[0])
+            headlines.append(" ".join(words))
+            y_val_truth.append(int(doc[0].metadata["class"]))
+        # Predictions and probabilities
+        predictions = self.predict(docs)
+        probabilities = self.predict_proba(docs)
+
+        # Classification report
         print("Classification Report:")
-        print(classification_report(val_labels, predictions))
+        print(classification_report(y_val_truth, predictions))
 
         if show_confusion_matrix:
-            cm = confusion_matrix(val_labels, predictions)
+            cm = confusion_matrix(y_val_truth, predictions)
             random_cmap = random.choice(["Blues", "Reds", "Greens", "YlOrBr"])
             plt.figure(figsize=(8, 6))
             sns.heatmap(cm, annot=True, fmt="d", cmap=random_cmap,
@@ -71,31 +133,31 @@ class LRClassifier:
             plt.xlabel("Predicted Label")
             plt.show()
 
-        # store false positives and false negatives
-        val_labels = np.array(val_labels)
+        # Store false positives and false negatives
+        self.y = np.array(y_val_truth)
         predictions = np.array(predictions)
         probabilities = np.array(probabilities)
 
         false_positives = [
             {
                 "Index": i,
-                "Headline": val_headlines[i],
-                "True Class": val_labels[i],
+                "Headline": headlines[i],
+                "True Class": y_val_truth[i],
                 "Predicted Class": predictions[i],
                 "Probability": probabilities[i],
             }
-            for i in range(len(val_labels)) if predictions[i] == 1 and val_labels[i] == 0
+            for i in range(len(self.y)) if predictions[i] == 1 and y_val_truth[i] == 0
         ]
 
         false_negatives = [
             {
                 "Index": i,
-                "Headline": val_headlines[i],
-                "True Class": val_labels[i],
+                "Headline": headlines[i],
+                "True Class": y_val_truth[i],
                 "Predicted Class": predictions[i],
                 "Probability": probabilities[i],
             }
-            for i in range(len(val_labels)) if predictions[i] == 0 and val_labels[i] == 1
+            for i in range(len(y_val_truth)) if predictions[i] == 0 and y_val_truth[i] == 1
         ]
 
         self.false_positives_df = pd.DataFrame(false_positives)
@@ -107,19 +169,19 @@ class LRClassifier:
         """
         Interprets the Logistic Regression model by displaying the most important features (words)
         and their corresponding coefficients in a DataFrame.
-        
+
         Args:
         - n_top_features: Number of top features to display (default is 20).
         """
-        # get feature names (words)
+        # Get feature names (words)
         feature_names = np.array(self.vectorizer.get_feature_names_out())
 
-        # get the coefficients
+        # Get the coefficients
         coefficients = self.model.coef_.flatten()
-        top_positive_idx = coefficients.argsort()[-n_top_features:][::-1] 
-        top_negative_idx = coefficients.argsort()[:n_top_features] 
+        top_positive_idx = coefficients.argsort()[-n_top_features:][::-1]
+        top_negative_idx = coefficients.argsort()[:n_top_features]
 
-        #positive and negative coefficients
+        # Positive and negative coefficients
         top_positive_words = feature_names[top_positive_idx]
         top_positive_coeffs = coefficients[top_positive_idx]
         top_negative_words = feature_names[top_negative_idx]
@@ -133,12 +195,12 @@ class LRClassifier:
         })
         display(top_features)
 
-        # plot
+        # Plot
         plt.figure(figsize=(10, 6))
         plt.barh(top_positive_words, top_positive_coeffs, color='green', alpha=0.7, label='Positive (Sarcastic)')
         plt.barh(top_negative_words, top_negative_coeffs, color='red', alpha=0.7, label='Negative (Non-sarcastic)')
         plt.xlabel('Coefficient Value')
         plt.title('Top Features Learned by Logistic Regression')
         plt.legend()
-        plt.gca().invert_yaxis() 
+        plt.gca().invert_yaxis()
         plt.show()
