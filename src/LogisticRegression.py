@@ -15,11 +15,12 @@ class LRClassifier(BaseEstimator, ClassifierMixin):
         self.use_tfidf = use_tfidf
         self.remove_stopwords = remove_stopwords
         stop_words = 'english' if remove_stopwords else None
-        self.vectorizer = TfidfVectorizer(stop_words=stop_words) if use_tfidf else CountVectorizer(
-            ngram_range=(1, 1),
-            preprocessor=lambda x: x,
-            tokenizer=lambda x: x,
-        )
+        self.vectorizer = TfidfVectorizer(stop_words=stop_words,
+                                          ngram_range=(1, 1),
+                                          preprocessor=lambda x: x,
+                                          tokenizer=lambda x: x) if use_tfidf else CountVectorizer(ngram_range=(1, 1),
+                                                                                                  preprocessor=lambda x: x,
+                                                                                                  tokenizer=lambda x: x,)
         self.model = SGDClassifier(loss='log_loss', random_state=42)
 
     def preprocess(self, data):
