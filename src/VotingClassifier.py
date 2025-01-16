@@ -10,9 +10,15 @@ from sklearn.metrics import confusion_matrix, classification_report
 
 
 class VotingClassifier:
-    def __init__(self, conllu_path, csv_path):
+    def __init__(self, conllu_path=r"C:\Users\MSC\OneDrive - Fraunhofer Austria Research GmbH\Desktop\NLP\data\dataset.conllu",
+                  csv_path=r"C:\Users\MSC\OneDrive - Fraunhofer Austria Research GmbH\Desktop\NLP\data\trans_prob_temp.csv",
+                    other_data = None):
+
+    
         self.conllu_path = conllu_path
         self.csv_path = csv_path
+        self.new_data = False
+        self.other_data_path = other_data
         headlines = load_data(conllu_path)
         data = pd.read_csv(csv_path)
         data = data.drop(columns=['pos_tags', 'syntax_tree'])
@@ -26,6 +32,18 @@ class VotingClassifier:
         self.val_headlines, self.test_headlines = split(other_headlines, test_size=0.5, random_state=SEED)
         self.train_data, other_data = split(data, test_size=0.3, random_state=SEED)
         self.val_data, self.test_data = split(other_data, test_size=0.5, random_state=SEED)
+
+        # if other_data is not None:
+        #     self.other_conllu = other_data[0]
+        #     self.other_csv = other_data[1]
+        #     self.val_headlines = load_data(self.other_conllu)
+        #     temp = data = pd.read_csv(csv_path)
+        #     temp = temp.drop(columns=['pos_tags', 'syntax_tree'])
+        #     self.y_val = temp['is_sarcastic']
+        #     self.X_syn_val = temp.drop(columns=['headline', 'is_sarcastic'])
+        #     self.val_data = self.X_syn_val
+
+        
 
     def fit_modles(self):
         ############################## Naive Bayes ##############################
@@ -70,14 +88,30 @@ class VotingClassifier:
         self.random_forest_syn_rf.fit(X_syn_rf, y_train)
 
 
-    def predict(self):
-        
-        self.predictions = {
-            'naive_bayes': self.naive_bayes.predict(self.val_headlines),
-            'logistic_regression_syn_lr': self.logistic_regression_syn_lr.predict(self.val_data[self.top_features_lr]),
-            'random_forest_syn_rf': self.random_forest_syn_rf.predict(self.val_data[self.top_features_rf])
-        }
-        return self.predictions
+    def predict(self, new_data=None):
+        if new_data is not None:
+
+            self.new_data=True
+            self.val_headlines = load_data(new_data[0])
+            temp = pd.read_csv(new_data[1])
+            temp = temp.drop(columns=['pos_tags', 'syntax_tree'])
+            self.y_val = temp['is_sarcastic']
+            self.X_syn_val = temp.drop(columns=['headline', 'is_sarcastic'])
+            self.val_data = self.X_syn_val
+
+            self.predictions = {
+                'naive_bayes': self.naive_bayes.predict(self.val_headlines),
+                'logistic_regression_syn_lr': self.logistic_regression_syn_lr.predict(self.val_data[self.top_features_lr]),
+                'random_forest_syn_rf': self.random_forest_syn_rf.predict(self.val_data[self.top_features_rf])
+            }
+            return self.predictions
+        else:
+            self.predictions = {
+                'naive_bayes': self.naive_bayes.predict(self.val_headlines),
+                'logistic_regression_syn_lr': self.logistic_regression_syn_lr.predict(self.val_data[self.top_features_lr]),
+                'random_forest_syn_rf': self.random_forest_syn_rf.predict(self.val_data[self.top_features_rf])
+            }
+            return self.predictions
 
     def evaluate(self):
         models = {
@@ -85,14 +119,19 @@ class VotingClassifier:
             'logistic_regression_syn_lr': self.logistic_regression_syn_lr,
             'random_forest_syn_rf': self.random_forest_syn_rf
         }
+        if self.new_data:
+            for model in models:
+                print(f"Evaluating {model}")
+                print(classification_report(self.y_val, self.predictions[model]))
+                print("Confusion Matrix:")
+                print(confusion_matrix(self.y_val, self.predictions[model])) 
 
-        self.y_val = self.val_data['is_sarcastic']
-
-        for model in models:
-            print(f"Evaluating {model}")
-            print(classification_report(self.y_val, self.predictions[model]))
-            print("Confusion Matrix:")
-            print(confusion_matrix(self.y_val, self.predictions[model])) 
+        else:
+            for model in models:
+                print(f"Evaluating {model}")
+                print(classification_report(self.val_data['is_sarcastic'], self.predictions[model]))
+                print("Confusion Matrix:")
+                print(confusion_matrix(self.val_data['is_sarcastic'], self.predictions[model]))
 
     def voting(self):
         self.voting_predictions = []
@@ -105,9 +144,15 @@ class VotingClassifier:
         return self.voting_predictions
     
     def eval_voting(self):
-        print("Evaluating Voting Classifier")
-        print(classification_report(self.y_val, self.voting_predictions))
-        print("Confusion Matrix:")
-        print(confusion_matrix(self.y_val, self.voting_predictions))
+        if self.new_data:
+            print("Evaluating Voting Classifier")
+            print(classification_report(self.y_val, self.voting_predictions))
+            print("Confusion Matrix:")
+            print(confusion_matrix(self.y_val, self.voting_predictions))
+        else:
+            print("Evaluating Voting Classifier")
+            print(classification_report(self.val_data['is_sarcastic'], self.voting_predictions))
+            print("Confusion Matrix:")
+            print(confusion_matrix(self.val_data['is_sarcastic'], self.voting_predictions))
 
     

@@ -4,8 +4,8 @@ from pathlib import Path
 
 nlp = spacy.load("en_core_web_sm")
 
-input_file = "data\Sarcasm_Headlines_Dataset.json"
-output_file = "data\headlines_depency_parsed.json"
+input_file = r"C:\Users\MSC\OneDrive - Fraunhofer Austria Research GmbH\Desktop\NLP\data\chatgpt_dataset_generic.json"
+output_file = r"C:\Users\MSC\OneDrive - Fraunhofer Austria Research GmbH\Desktop\NLP\data\chatgpt_generic_depency_parsed.json"
 
 def parse_data(input_file, output_file):
     parsed_data = []

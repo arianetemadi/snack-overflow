@@ -12,7 +12,7 @@ import os
 # Load language model 
 nlp = spacy.load("en_core_web_sm") 
 
-parsed_file = r"C:\Users\MSC\OneDrive - Fraunhofer Austria Research GmbH\Desktop\NLP\data\headlines_depency_parsed.json"  # Replace with your actual file path
+parsed_file = r"C:\Users\MSC\OneDrive - Fraunhofer Austria Research GmbH\Desktop\NLP\data\chatgpt_generic_depency_parsed.json"  # Replace with your actual file path
 
 with open(parsed_file, "r", encoding="utf-8") as f:
     data = json.load(f)
@@ -54,10 +54,10 @@ def visualize_literal_tree(text, pos_tags=True):
     # Render
     G.layout(prog="dot")
     
-    # Display the tree
-    output_path = r"C:\Users\MSC\OneDrive - Fraunhofer Austria Research GmbH\Desktop\NLP\tmp\dependency_tree.png"
-    G.draw(output_path)
-    display(Image(output_path))
+    # # Display the tree
+    # output_path = r"C:\Users\MSC\OneDrive - Fraunhofer Austria Research GmbH\Desktop\NLP\tmp\dependency_tree.png"
+    # G.draw(output_path)
+    # display(Image(output_path))
 
 def feature_engineering(df):
     # list of functional words (POS tags)
@@ -196,11 +196,15 @@ def calculate_surprisingness_features(df):
         
         word_probabilities = get_word_probabilities(headline)
         
-        most_surprising_word = max(word_probabilities, key=word_probabilities.get)
-        most_surprising_probability = word_probabilities[most_surprising_word]
-        reversed_probability = 1 - most_surprising_probability
-        
-        avg_surprisingness = sum([1 - prob for prob in word_probabilities.values()]) / len(word_probabilities)
+        if word_probabilities:
+            most_surprising_word = max(word_probabilities, key=word_probabilities.get)
+            most_surprising_probability = word_probabilities[most_surprising_word]
+            reversed_probability = 1 - most_surprising_probability
+            
+            avg_surprisingness = sum([1 - prob for prob in word_probabilities.values()]) / len(word_probabilities)
+        else:
+            reversed_probability = 0
+            avg_surprisingness = 0
         
         reversed_probabilities.append(reversed_probability)
         average_surprisingness.append(avg_surprisingness)
@@ -223,7 +227,7 @@ path = r"C:\Users\MSC\OneDrive - Fraunhofer Austria Research GmbH\Desktop\NLP\da
 # Ensure directory exists
 os.makedirs(path, exist_ok=True)
 
-file_path = os.path.join(path, "trans_prob_temp.csv")
+file_path = os.path.join(path, "chatgpt_generic_syn_features.csv")
 df.to_csv(file_path, index=False)
 
 print(f"DataFrame saved as CSV at: {file_path}")
