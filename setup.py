@@ -16,7 +16,8 @@ setup(
         "scikit-learn==1.6.0",
         "torch==2.5.1",
         "numpy==1.25.0",
-        "spacy==3.5.2"        
+        "spacy==3.5.2",
+        "gensim==4.3.3",        
     ],
     packages=find_packages(),
     classifiers=[
