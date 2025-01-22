@@ -18,7 +18,8 @@ Each headline is annotated with a binary class label indicating whether it is sa
 This folder contains the output of preprocessing applied to the raw data stored in the [headlines.conllu](headline_data/headlines.conllu) file, produced by the following script:
 
 ```bash
-python src/preprocessing.py Sarcasm_Headlines_Dataset.json headlines.conllu
+export DATA_DIR=data/headline_data
+python src/preprocessing.py $DATA_DIR/Sarcasm_Headlines_Dataset.json $DATA_DIR/headlines.conllu
 ```
 
 ## 2. Tweets Dataset
@@ -37,7 +38,8 @@ This dataset contains tweets annotated for sarcasm detection, indicating whether
 The data was preprocessed using the script [preprocessing.py](../src/preprocessing.py) with the following command:
 
 ```bash
-python src/preprocessing.py tweets.json tweets.conllu
+export DATA_DIR=data/tweets_data
+python src/preprocessing.py $DATA_DIR/tweets.json $DATA_DIR/tweets.conllu
 ```
 
 ---
