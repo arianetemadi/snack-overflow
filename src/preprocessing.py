@@ -120,8 +120,10 @@ if __name__ == "__main__":
         print("Usage: python preprocessing.py <input_filename> <output_filename>")
         sys.exit(1)
 
-    output_file = os.path.join("../data", sys.argv[2])
+    #output_file = os.path.join("..\data", sys.argv[2])
+    output_file = sys.argv[2]
     nlp = spacy.load("en_core_web_sm")
-    file_path = os.path.join("../data", sys.argv[1])
+    #file_path = os.path.join("..\data", sys.argv[1])
+    file_path = sys.argv[1]
     data = pd.read_json(file_path, lines=True)
     convert_to_conllu(data, output_file, nlp)

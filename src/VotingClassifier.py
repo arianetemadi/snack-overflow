@@ -1,3 +1,6 @@
+# We will use the VotingClassifier to combine the predictions of the Naive Bayes,
+#  Logistic Regression and Random Forest models
+
 import pandas as pd
 import conllu
 from src.data_util import load_data
@@ -33,15 +36,6 @@ class VotingClassifier:
         self.train_data, other_data = split(data, test_size=0.3, random_state=SEED)
         self.val_data, self.test_data = split(other_data, test_size=0.5, random_state=SEED)
 
-        # if other_data is not None:
-        #     self.other_conllu = other_data[0]
-        #     self.other_csv = other_data[1]
-        #     self.val_headlines = load_data(self.other_conllu)
-        #     temp = data = pd.read_csv(csv_path)
-        #     temp = temp.drop(columns=['pos_tags', 'syntax_tree'])
-        #     self.y_val = temp['is_sarcastic']
-        #     self.X_syn_val = temp.drop(columns=['headline', 'is_sarcastic'])
-        #     self.val_data = self.X_syn_val
 
         
 
@@ -51,16 +45,7 @@ class VotingClassifier:
         # fit the Naive Bayes Bag of Word model to training data
         self.naive_bayes = NaiveBayesClassifier(ngram_range=(1, 1))
         self.naive_bayes.fit(self.train_headlines)
-        # nb_predictions = naive_bayes.predict(self.val_headlines)
-        # nb_probabilities = naive_bayes.predict_proba(self.val_headlines)
-
-        # ############################## Logistic Regression ##############################
-
-        # # fit the Logistic Regression model to training data
-        # self.logistic_regression = LRClassifier(use_tfidf=False, remove_stopwords=False)
-        # self.logistic_regression.fit(self.train_headlines)
-        # # lr_predictions = logistic_regression.predict(self.val_headlines)
-        # # lr_probabilities = logistic_regression.predict_proba(self.val_headlines)
+        
 
         ############################## Syntactic Logistic regression ##############################
 
@@ -89,6 +74,7 @@ class VotingClassifier:
 
 
     def predict(self, new_data=None):
+        """Predicts the labels of the given data."""
         if new_data is not None:
 
             self.new_data=True
@@ -114,6 +100,7 @@ class VotingClassifier:
             return self.predictions
 
     def evaluate(self):
+        """Evaluates the models on the validation set."""
         models = {
             'naive_bayes': self.naive_bayes,
             'logistic_regression_syn_lr': self.logistic_regression_syn_lr,
@@ -134,6 +121,7 @@ class VotingClassifier:
                 print(confusion_matrix(self.val_data['is_sarcastic'], self.predictions[model]))
 
     def voting(self):
+        """Voting Classifier"""
         self.voting_predictions = []
         for i in range(len(self.val_data)):
             vote_sum = sum(self.predictions[model][i] for model in self.predictions)
@@ -144,6 +132,7 @@ class VotingClassifier:
         return self.voting_predictions
     
     def eval_voting(self):
+        """Evaluates the Voting Classifier"""
         if self.new_data:
             print("Evaluating Voting Classifier")
             print(classification_report(self.y_val, self.voting_predictions))

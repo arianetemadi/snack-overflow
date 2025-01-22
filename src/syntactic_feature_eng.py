@@ -1,3 +1,7 @@
+# Description: This script contains functions for syntactic feature engineering,
+#  including visualizing dependency trees, calculating syntactic complexity,
+#  and using a pre-trained language model to calculate word probabilities.
+
 import pandas as pd
 import json
 import spacy
@@ -8,17 +12,9 @@ import matplotlib.pyplot as plt
 from transformers import GPT2LMHeadModel, GPT2Tokenizer
 import torch
 import os
+import sys
 
-# Load language model 
 nlp = spacy.load("en_core_web_sm") 
-
-parsed_file = r"C:\Users\MSC\OneDrive - Fraunhofer Austria Research GmbH\Desktop\NLP\data\chatgpt_generic_depency_parsed.json"  # Replace with your actual file path
-
-with open(parsed_file, "r", encoding="utf-8") as f:
-    data = json.load(f)
-
-df = pd.DataFrame(data)
-df = df.drop(columns=["article_link"])
 
 def visualize_dependency_tree(text):
     """
@@ -53,13 +49,10 @@ def visualize_literal_tree(text, pos_tags=True):
 
     # Render
     G.layout(prog="dot")
-    
-    # # Display the tree
-    # output_path = r"C:\Users\MSC\OneDrive - Fraunhofer Austria Research GmbH\Desktop\NLP\tmp\dependency_tree.png"
-    # G.draw(output_path)
-    # display(Image(output_path))
+
 
 def feature_engineering(df):
+    """create new features based on the headline text"""
     # list of functional words (POS tags)
     func_pos_tags = ['ADP', 'AUX', 'CCONJ', 'DET', 'PART', 'PUNCT', 'SCONJ']
     
@@ -104,7 +97,6 @@ def feature_engineering(df):
     df['length'] = lengths
     df['pos_repetitions'] = pos_repetitions
 
-    # Add the POS tag ratios to the dataframe
     for pos_tag in common_pos_tags:
         df[f'ratio_{pos_tag.lower()}'] = pos_tag_ratios[pos_tag]
 
@@ -134,15 +126,13 @@ def calculate_syntactic_complexity(doc):
     num_non_leaf_nodes = sum(1 for token in doc if len([child for child in token.children]) > 0)
     average_branching_factor = total_children / num_non_leaf_nodes if num_non_leaf_nodes > 0 else 0
     
-    # Return the calculated features (including depth and branching factor)
     return tree_depth, average_branching_factor
 
 
 def add_syntactic_features(df):
+    """add syntactic features to the dataframe"""
     depths = []
     branching_factors = []
-    normalized_depths = []
-    normalized_branching_factors = []
 
     for _, row in df.iterrows():
         headline = row['headline']
@@ -163,9 +153,8 @@ model_name = 'gpt2'
 tokenizer = GPT2Tokenizer.from_pretrained(model_name)
 model = GPT2LMHeadModel.from_pretrained(model_name)
 
-# Function to calculate the probability of a word in context using GPT-2
 def get_word_probabilities(sentence):
-    # Tokenize the input sentence
+    """Function to calculate the probability of each word in a sentence using GPT-2 model."""
     tokens = tokenizer.encode(sentence, return_tensors="pt")
     
     # Get the model's output (logits) for the sentence
@@ -187,7 +176,9 @@ def get_word_probabilities(sentence):
     
     return word_probabilities
 
+
 def calculate_surprisingness_features(df):
+    """Calculate the reversed probability (most surprising word) and average surprisingness for each headline."""
     reversed_probabilities = []
     average_surprisingness = []
     
@@ -215,19 +206,22 @@ def calculate_surprisingness_features(df):
     return df
 
 
+if __name__ == "__main__":
+    if len(sys.argv) != 3:
+        print("Usage: python syntactic_feature_eng.py <input_json_path> <output_csv_path>")
+        sys.exit(1)
 
-df = feature_engineering(df)
-df = add_syntactic_features(df)
-df = calculate_surprisingness_features(df)
+    input_path = os.path.normpath(sys.argv[1])
+    output_path = os.path.normpath(sys.argv[2])
 
+    os.makedirs(os.path.dirname(output_path), exist_ok=True)
 
-# where the CSV file will be saved
-path = r"C:\Users\MSC\OneDrive - Fraunhofer Austria Research GmbH\Desktop\NLP\data"  
+    df = pd.read_json(input_path)
 
-# Ensure directory exists
-os.makedirs(path, exist_ok=True)
+    df = feature_engineering(df)
+    df = add_syntactic_features(df)
+    df = calculate_surprisingness_features(df)
 
-file_path = os.path.join(path, "chatgpt_generic_syn_features.csv")
-df.to_csv(file_path, index=False)
+    df.to_csv(output_path, index=False)
 
-print(f"DataFrame saved as CSV at: {file_path}")
+    print(f"DataFrame saved as CSV at: {output_path}")

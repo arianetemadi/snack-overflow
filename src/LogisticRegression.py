@@ -1,5 +1,5 @@
 from sklearn.base import BaseEstimator, ClassifierMixin
-from sklearn.linear_model import LogisticRegression, SGDClassifier
+from sklearn.linear_model import SGDClassifier
 from sklearn.feature_extraction.text import CountVectorizer, TfidfVectorizer
 from sklearn.metrics import accuracy_score, classification_report, confusion_matrix
 import pandas as pd
@@ -34,6 +34,7 @@ class LRClassifier(BaseEstimator, ClassifierMixin):
         return headlines, labels
 
     def fit(self, docs):
+        """Fits the Logistic Regression model on the given data."""
         # create a corpus for the CountVectorizer
         corpus = []
         for doc in docs:
@@ -41,7 +42,7 @@ class LRClassifier(BaseEstimator, ClassifierMixin):
                 words = self.extract_words(sentence)
                 corpus.append(words)
 
-        # fit the CountVectorizer on corpus
+        # fit vectorizer on corpus
         self.vectorizer.fit(corpus)
 
         # fit the model on input docs
@@ -59,20 +60,12 @@ class LRClassifier(BaseEstimator, ClassifierMixin):
         return self
     
     def extract_words(self, sentence):
+        """Extracts words from a sentence."""
         return [token["lemma"] for token in sentence if token["upos"] != "PUNCT"]
 
-    # def predict(self):
-    #     """Predicts the labels for the given data."""
-    #     # Vectorize the input data
-    #     X_features = self.vectorizer.transform(self.X)
-    #     return self.model.predict(X_features)
-
-    # def predict_proba(self):
-    #     """Predicts probabilities for the given data."""
-    #     X_features = self.vectorizer.transform(self.X)
-    #     return self.model.predict_proba(X_features)
     
     def predict(self, docs):
+        """Predicts the labels of the given data."""
         y_pred = []
         y_true = []
         for doc in tqdm(docs):
@@ -86,6 +79,7 @@ class LRClassifier(BaseEstimator, ClassifierMixin):
         return y_pred
 
     def predict_proba(self, docs):
+        """Predicts the probabilities of the given data."""
         y_prob = []
         for doc in tqdm(docs):
             words = self.extract_words(doc[0])
