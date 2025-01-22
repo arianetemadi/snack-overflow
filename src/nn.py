@@ -178,8 +178,8 @@ class BoWNN:
             )
 
 
-def main(n_epochs=50):
-    data = load_data("../data/dataset.conllu")
+def main(data_path, n_epochs=50):
+    data = load_data(data_path)
     headlines = list(
         map(lambda line: "".join(list(map(lambda x: x.metadata["text"], line))), data)
     )
@@ -212,4 +212,4 @@ def main(n_epochs=50):
 
 
 if __name__ == "__main__":
-    main()
+    main("../data/headline_data/headlines.conllu")
