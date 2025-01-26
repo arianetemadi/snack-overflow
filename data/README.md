@@ -53,10 +53,26 @@ In addition to the datasets mentioned above, the following two datasets were gen
 
 **File**: [chatgpt_onionstyle.json](chatgpt_onionstyle_data/chatgpt_onionstyle.json)
 
+### Preprocessing
+The data was preprocessed using the script [preprocessing.py](../src/preprocessing.py) with the following command:
+
+```bash
+export DATA_DIR=data/chatgpt_onionstyle_data
+python src/preprocessing.py $DATA_DIR/chatgpt_onionstyle.json $DATA_DIR/chatgpt_onionstyle.conllu
+```
+
 ### 3.2. Generic Sarcastic and Real Headlines (Control Data)
 **Purpose**: This dataset consists of a balanced mix of generic sarcastic and real headlines, and functions as a control group for studies involving sarcasm detection. It is designed to provide a broader range of sarcastic and non-sarcastic data for comparison.
 
 **File**: [chatgpt_generic.json](chatgpt_generic_data/chatgpt_generic.json)
+
+### Preprocessing
+The data was preprocessed using the script [preprocessing.py](../src/preprocessing.py) with the following command:
+
+```bash
+export DATA_DIR=data/chatgpt_generic_data
+python src/preprocessing.py $DATA_DIR/chatgpt_generic.json $DATA_DIR/chatgpt_generic.conllu
+```
 
 ## 4 Data Formats and Processing
 All four datasets—**Sarcasm_Headlines_Dataset**, **Tweets**, **Imitated_Sarcasm_Headlines**, and **Control_Sarcasm_Headlines**—are stored in both **CONLL-U** and **JSON** formats. These datasets have been dependency parsed, and syntactic features were extracted from the parsed data. Both the dependency parsed data and the syntactic features are stored. The source files for each conversion can be found in the `src` folder:
