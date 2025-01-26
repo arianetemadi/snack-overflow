@@ -17,7 +17,14 @@ setup(
         "torch==2.5.1",
         "numpy==1.25.0",
         "spacy==3.5.2",
-        "gensim==4.3.3",        
+        "gensim==4.3.3", 
+        "transformers_interpret==0.10.0",
+        "transformers==4.48.1",
+        "tqdm==4.66.4",
+        "absl_py==2.1.0",
+        "wandb==0.18.7",
+        "networkx==3.4.2",
+        "pygraphviz==1.14.0"  
     ],
     packages=find_packages(),
     classifiers=[
