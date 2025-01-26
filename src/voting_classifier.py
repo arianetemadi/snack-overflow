@@ -5,7 +5,7 @@ import pandas as pd
 import conllu
 from src.data_util import load_data
 from src.naive_bayes import NaiveBayesClassifier
-from src.LogisticRegression import LRClassifier
+from src.logistic_regression import LRClassifier
 from sklearn.model_selection import train_test_split as split
 from sklearn.linear_model import LogisticRegression
 from sklearn.ensemble import RandomForestClassifier
