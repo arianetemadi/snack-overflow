@@ -79,7 +79,7 @@ True Positives (TP): 1709
 
 3. Qualitative analysis:
 
-As a part of qualitative analysis we printed out all cases of misclassification, additionally, using 'transformers-interpret' library for incorrectly classified sarcastic sentences we pribnted out scores for each tokens to get more insight into how model makes predictions. We observed that:
+As a part of qualitative analysis we printed out all cases of misclassification, additionally, using 'transformers-interpret' library for incorrectly classified sarcastic sentences we printed out scores for each tokens to get more insight into how model makes predictions. We observed that:
 
 * Tokens like new, man, woman, people, local, and social show up in the negative list. These words may often appear in factual or neutral contexts, causing the model to predict "non-sarcastic."
 
@@ -142,7 +142,7 @@ Supports any range of ngrams as the features to count.
 3. Qualitative analysis:
 
 - There are certain artifacts in the dataset. Some words appear much more frequently in one class without any relation to the notion of sarcasm. For instance, the word `trump` appears way more in non-sarcastic headlines. As a result, the model has a hard time detecting sarcastic headlines that include this word.
-- There are certain patterns of joke that the sarcastic news source uses a lot. They are like templates. Therefore, certain words in these patterns are constant among many sarcastic headlines. This is not an artifact and helps our models to detect sarcasm, though only as long as we focus on this news source. It probably will not generalize as well to other sarcastic datasets. Example words include `nation`, `dad`, `study`, and `local`.
+- There are certain patterns of jokes that the sarcastic news source uses a lot. They are like templates. Therefore, certain words in these patterns are constant among many sarcastic headlines. This is not an artifact and helps our models to detect sarcasm, though only as long as we focus on this news source. It probably will not generalize as well to other sarcastic datasets. Example words include `nation`, `dad`, `study`, and `local`.
 - Then there are swear words like `shit`. Since these will almost never appear in a non-sarcastic headline, they are useful for the model.
 - There are smaller effects too. For instance, the word `three` appears noticeably more often in sarcastic headlines. We believe this is because sarcastic headlines are often fake, and we prefer to use the number three a lot when writing fake sentences. Number two would be too small, and numbers four and above might be too large. `three` is round and it is just enough. Saying `three months`, `three colors`, `three objects`, etc. sounds better compared to other numbers.
 
@@ -150,7 +150,7 @@ For a more detailed analysis with example sentences, refer to the notebook ([`no
 
 # Milestone 3 
 
-**Objective**: Apply more advanced approaches to improve the performance over the baselines. The approaches included adding more data and extarcting feastures from syntactic analysis to build an ensamble model.
+**Objective**: Apply more advanced approaches to improve the performance over the baselines. The approaches included adding more data and extracting features from syntactic analysis to build an ensemble model.
 
 ## Files
 - [`notebooks/M3-analysis_tweets.ipynb`](notebooks/M3-analysis_tweets.ipynb) - analyzes the performance of the Naive Bayes baseline on new unseen data - tweets.
